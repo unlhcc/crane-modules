@@ -7,7 +7,7 @@ help(help_message,"\n")
 whatis("Name: ATK")
 whatis("Keywords: Application, Chemistry")
 
-#load("compiler/pgi/13","openmpi/1.6")
+--load("compiler/pgi/13","openmpi/1.6")
 
 setenv("QUANTUM_LICENSE_PATH", "6200@dmol4b.unl.edu")
 setenv("LMX_LICENSE_PATH", "6200@dmol4b.unl.edu")
