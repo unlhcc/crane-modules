@@ -14,7 +14,14 @@ If you've already cloned it, do a pull to make sure you're up to date:
 
 `git pull`
 
-Make whatever changes you need to. Commit them to your local repo:
+Make whatever changes you need to. 
+
+If you are adding a new modulefile, you must add it to git before committing:
+
+`git add <modulefile>`
+
+After you have added the new modulefile, or if you are just editing exising files,
+commit the changes to your local repo:
 
 `git commit -a`
 
