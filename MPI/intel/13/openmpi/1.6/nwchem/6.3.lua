@@ -14,6 +14,6 @@ whatis("Category: library, runtime support")
 whatis("Keywords: Applications, Chemistry")
 whatis("URL: http://www.nwchem-sw.org/index.php/Main_Page")
 
-prepend_path("PATH","http://www.nwchem-sw.org/index.php/Main_Page")
+prepend_path("PATH","/util/opt/nwchem/6.3/bin/LINUX64")
 
 family("nwchem")
