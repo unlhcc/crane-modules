@@ -14,7 +14,10 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.wrf-model.org/index.php")
 
-load("compiler/pgi/13","openmpi/1.6","NCL/6.1","NCO/4.4","udunits2/2.1","szip/2.1","netcdf/4.2","hdf5/1.8","hdf4/4.2")
+-- netcdf must be loaded last to make sure its 'ncdump' is first in the path (and not the hdf4 version).
+-- lmod 5.4 has support for priorities for a prepend_path statement, so it's probably better to tweak the
+-- netcdf module to use that once Crane is upgraded to 5.4.
+load("compiler/pgi/13","openmpi/1.6","NCL/6.1","NCO/4.4","udunits2/2.1","szip/2.1","hdf5/1.8","hdf4/4.2","netcdf/4.2")
 setenv("WRFIO_NCD_LARGE_FILE_SUPPORT", "1")
 setenv("JASPERINC", "/util/opt/jasper/1.900.1/pgi/13/include")
 setenv("JASPERLIB", "/util/opt/jasper/1.900.1/pgi/13/lib")
