@@ -1,6 +1,9 @@
 help(
 [[
 The qiime module file defines the following environment variables:
+QIIME_HOME for the install location.
+QIIME_CONFIG_FP for the configuration file.
+PATH for the location of executables.
 
 Version 1.8
 ]]
@@ -30,12 +33,6 @@ prepend_path("PATH",		"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/bin")
 prepend_path("PATH",		"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/Scripts")
 prepend_path("PATH",		"/util/opt/qiime/1.8/gcc/4.4/deps/blat-34/bin")
 
--- Lmod only allows one version of a module to be loaded at a time, so
--- prepend the usearch paths directly instead of loading modules.
--- The binaries are named differently, so there's no collision.
-prepend_path("PATH",		"/util/opt/usearch/5.2/bin")
-prepend_path("PATH",            "/util/opt/usearch/6.1/bin")
-
 setenv("RDP_JAR_PATH",		"/util/opt/qiime/1.8/gcc/4.4/deps/rdp_classifier_2.2/rdp_classifier-2.2.jar")
 prepend_path("PYTHONPATH",	"/util/opt/qiime/1.8/gcc/4.4/lib/python2.7/site-packages")
 prepend_path("PYTHONPATH",	"/util/opt/qiime/1.8/gcc/4.4/deps/gdata-2.0.17/lib/python2.7/site-packages")
@@ -44,4 +41,4 @@ setenv("PYRO_LOOKUP_FILE",	"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/
 setenv("SEQ_LOOKUP_FILE",	"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/Data/Tran.dat")
 
 
-load("compiler/gcc/4.8","openmpi/1.6","python/2.7","R/3.0","bwa/0.7","tax2tree/1.0","clearcut/1.0","muscle/3.8","pplacer/1.1","parsinsert/1.04","mafft/7.149")
+load("compiler/gcc/4.8","openmpi/1.6","python/2.7","R/3.0","bwa/0.7","tax2tree/1.0","clearcut/1.0","muscle/3.8","pplacer/1.1","parsinsert/1.04","mafft/7.149","usearch/5.2")
