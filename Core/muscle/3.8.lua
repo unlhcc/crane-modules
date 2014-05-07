@@ -15,5 +15,5 @@ whatis("Keywords: Biology, Genomics, Alignment, Sequencing")
 whatis("URL: http://www.drive5.com/muscle/")
 whatis("Description: Popular multiple alignment software")
 
-prepend_path("PATH"       ,"/util/opt/muscle/3.8/gcc/4.4/bin")
+prepend_path("PATH"       ,"/util/opt/muscle/3.8/bin")
 
