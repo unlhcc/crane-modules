@@ -13,6 +13,6 @@ whatis("Category: mixture modeling for taxonomic analysis of metagenomes")
 whatis("Keywords: ")
 whatis("URL: http://gobics.de/TaxyPro/")
 
-load("matlab/r2013b)
+load("matlab/r2013b")
 prepend_path("MATLABPATH","/util/opt/taxytoolbox/1.0")
 
