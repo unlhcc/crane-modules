@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2014-06-20T21:51:13Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2014-06-20T22:09:34Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -25,6 +25,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>blast-legacy/2.2.26</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>repeatmasker</Name>
+      <Description>RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.</Description>
+      <Flavor>4.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>repeatmasker/4.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
