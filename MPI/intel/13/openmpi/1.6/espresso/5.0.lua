@@ -1,7 +1,7 @@
 local help_message = [[
 Quantum Espresso 5.0
 
-This module loads the Quantum Espresso environment, built with the GCC
+This module loads the Quantum Espresso environment, built with the Intel
 compilers.
 
 ]]
