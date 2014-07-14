@@ -17,4 +17,5 @@ whatis("Description: SHRiMP is a software package for aligning genomic reads aga
 
 
 prepend_path("PATH",              "/util/opt/shrimp/2.2/gcc/4.4/bin")
+prepend_path("PATH",              "/util/opt/shrimp/2.2/gcc/4.4/utils")
 setenv("SHRIMP_FOLDER",	  	  "/util/opt/shrimp/2.2/gcc/4.4")
