@@ -16,3 +16,4 @@ whatis("Description: MOSAIK is a reference-guided aligner for next-generation se
 
 
 prepend_path("PATH",              "/util/opt/mosaik/2.2/gcc/4.4/bin")
+setenv("MOSAIK_HOME",		  "/util/opt/mosaik/2.2/gcc/4.4")
