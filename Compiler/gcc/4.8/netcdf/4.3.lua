@@ -15,7 +15,7 @@ whatis("Keywords: System, Library")
 whatis("URL: http://www.unidata.ucar.edu/downloads/netcdf/index.jsp")
 
 prepend_path("NETCDF",              "/util/opt/netcdf/4.3/gcc/4.8")
-prepend_path("PATH",                "/util/opt/netcdf/4.3/gcc/4.8/bin")
+prepend_path{"PATH",                "/util/opt/netcdf/4.3/gcc/4.8/bin",priority=100}
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/netcdf/4.3/gcc/4.8/lib")
 prepend_path("MANPATH",             "/util/opt/netcdf/4.3/gcc/4.8/share/man")
 prepend_path("INCLUDE",             "/util/opt/netcdf/4.3/gcc/4.8/include")
