@@ -1,7 +1,7 @@
 local help_message = [[
 udunits 2.1
 
-This module loads the udunits2 package, built with the Intel
+This module loads the udunits2 package, built with the PGI
 compilers.
 
 ]]
