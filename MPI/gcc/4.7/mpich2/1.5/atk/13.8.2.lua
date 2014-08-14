@@ -18,4 +18,8 @@ setenv("LMX_LICENSE_PATH", "6200@dmol4b.unl.edu")
 
 prepend_path("PATH","/util/opt/atk/13.8.2/vnl/bin:/util/opt/atk/13.8.2/atkpython/bin:/util/opt/atk/13.8.2/license")
 
+-- Workaround for RHEL 6.5 upgrade
+-- See http://quantumwise.com/forum/index.php?topic=2564.15#.U-zVMlb9O0s
+setenv("LD_PRELOAD",	"libstdc++.so.6")
+
 family("atk")
