@@ -39,6 +39,6 @@ prepend_path("PYTHONPATH",	"/util/opt/qiime/1.8/gcc/4.4/deps/gdata-2.0.17/lib/py
 setenv("BLASTMAT", 		"/util/opt/qiime/1.8/gcc/4.4/deps/blast-2.2.22/data")
 setenv("PYRO_LOOKUP_FILE",	"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/Data/LookUp_E123.dat")
 setenv("SEQ_LOOKUP_FILE",	"/util/opt/qiime/1.8/gcc/4.4/deps/AmpliconNoiseV1.27/Data/Tran.dat")
-
+setenv("SOURCETRACKER_PATH",	"/util/opt/qiime/1.8/gcc/4.4/deps/sourcetracker-0.9.5")
 
 load("compiler/gcc/4.8","openmpi/1.6","python/2.7","R/3.0","bwa/0.7","tax2tree/1.0","clearcut/1.0","muscle/3.8","pplacer/1.1","parsinsert/1.04","mafft/7.149","usearch/5.2")
