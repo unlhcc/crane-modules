@@ -12,6 +12,6 @@ whatis("Keywords: Biology, Genomics, Sequencing")
 whatis("Description: Cutadapt removes adapter sequences from DNA high-throughput sequencing data.")
 whatis("URL: http://code.google.com/p/cutadapt")
 
-prepend_path{"PATH"		,"/util/opt/anaconda/2.0.1/envs/cutadapt-1.4.2/bin",priority=100}
+prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/cutadapt-1.4.2/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"cutadapt-1.4.2")
 prereq("python/2.7")
