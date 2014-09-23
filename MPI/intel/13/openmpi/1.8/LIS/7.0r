@@ -1,7 +1,7 @@
 local help_message = [[
 Land Information System 7.0r
 
-This module loads the Land Information System (LIS) 7.0r  environment, built with the Intel
+This module loads the Land Information System -LIS- 7.0r  environment, built with the Intel
 compiler version 13 and OpenMPI 1.8.
 
 ]]
