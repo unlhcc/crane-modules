@@ -14,3 +14,4 @@ whatis("URL: https://pypi.python.org/pypi/pyfasta")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/pyfasta-0.5.2/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"pyfasta-0.5.2")
+family("anaconda")

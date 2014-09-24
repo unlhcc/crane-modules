@@ -15,3 +15,4 @@ whatis("URL: http://code.google.com/p/cutadapt")
 prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/cutadapt-1.4.2/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"cutadapt-1.4.2")
 prereq("python/2.7")
+family("anaconda")

@@ -15,3 +15,4 @@ prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/tax2tree-1.0/bin",priority=10
 pushenv("CONDA_DEFAULT_ENV"	,"tax2tree-1.0")
 
 prereq("python/2.7")
+family("anaconda")
