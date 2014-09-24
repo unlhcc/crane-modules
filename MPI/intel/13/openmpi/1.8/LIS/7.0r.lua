@@ -14,6 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: Applications, Geography, GIS ")
 whatis("URL: http://lis.gsfc.nasa.gov/")
 
+prepend_path("LIS_ARCH","linux_lfc");
 prepend_path("PATH","/util/opt/LIS/7.0r/exec")
 prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/netcdf-4.3.0/lib")
 prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/jasper-1.900.1/lib")
