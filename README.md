@@ -32,6 +32,16 @@ script as:
 
 `/util/admin/bin/create_module_xmlfile.sh ~/crane-modules/Core > ~/crane-modules/crane_modules.xml`
 
+It's a good idea to test out the new/edited modules before committing them.
+To do this, change the directory Lmod is using from the system-wide one to your
+local repo:
+
+`module unuse /util/opt/modulefiles/Core`
+
+`module use ~/crane-modules/Core`
+
+Now you can test out any changes local to your account.
+
 Then commit the changes to your local repo:
 
 `git commit -a`
@@ -43,3 +53,36 @@ Then push the changes back up:
 As root on Crane login under `/util/opt/modulefiles`, do a pull to update the production files:
 
 `git pull`
+
+Adding BCRF modules:
+-------------------
+
+The workflow is similar to above, except there is `bcrf` branch to add modules into that
+will then later get merged into the master branch.
+
+If you don't have a copy of the repo, clone it first:
+
+`git clone git@git.unl.edu:hcc/crane-modules.git`
+
+If you've already cloned it, do a pull to make sure you're up to date:
+
+`git pull`
+
+Next, switch to using the `bcrf` branch and do a pull do make sure
+it's up to date:
+
+`git checkout bcrf`
+
+`git pull`
+
+Follow the instructions above for adding any new files, testing any changes,
+and running the helper script to update the XML file listings.  Then commit your changes
+to your local repo as above, and push the changes to the `bcrf` branch back up:
+
+`git push origin bcrf`
+
+On the https://git.unl.edu/hcc/crane-modules page, create a Merge Request from
+the `bcrf` branch to the `master` branch.
+
+Once the Merge Request is done, the production files will get updated and the new
+module(s) should show up.
