@@ -1,7 +1,7 @@
 local help_message = [[
 cdo 1.6
 
-This module loads the cdo, built with the PGI
+This module loads the CDO package, built with the PGI
 compilers.
 
 ]]
