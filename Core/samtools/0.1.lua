@@ -15,7 +15,6 @@ whatis("URL: http://samtools.sourceforge.net/")
 whatis("Description: SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format.")
 
 
-prepend_path("PATH",              "/util/opt/samtools/0.1/gcc/4.4")
-prepend_path("PATH",              "/util/opt/samtools/0.1/gcc/4.4/bcftools")
-prepend_path("PATH",              "/util/opt/samtools/0.1/gcc/4.4/misc")
-
+prepend_path("PATH",              "/util/opt/samtools/0.1/gcc/4.4/bin")
+prepend_path("LD_LIBRARY_PATH",	  "/util/opt/samtools/0.1/gcc/4.4/lib")
+prepend_path("MANPATH",		  "/util/opt/samtools/0.1/gcc/4.4/share")
