@@ -25,9 +25,9 @@ whatis("Keywords: Biology, Genomics, Annotation, Functional analysis")
 whatis("Description: Scans a range of protein signatures against your sequences and provides protein functional analysis.")
 whatis("URL: https://code.google.com/p/interproscan/wiki/HowToRun")
 
-prepend_path("PATH"       ,"/util/opt/BCRF/interproscan/5")
+prepend_path("PATH"       ,"/util/opt/BCRF/interproscan/5.8")
 
-pushenv("TEST_PROT"	, "/util/opt/BCRF/interproscan/5/test_proteins.fasta")
+pushenv("TEST_PROT"	, "/util/opt/BCRF/interproscan/5.8/test_proteins.fasta")
 
 
 
