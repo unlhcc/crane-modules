@@ -4,7 +4,7 @@ The signalp module file defines the following environment variables:
 PATH for the location of the signalp distribution executables.
 MANPATH for the location of the signalp man pages.
 
-Version 1.2
+Version 4.1
 ]]
 )
 
@@ -15,5 +15,5 @@ whatis("Keywords: Biology, Genomics, Sequencing")
 whatis("URL: http://www.cbs.dtu.dk/services/SignalP")
 whatis("Description: signalp  predicts  the presence and location of signal peptide cleavage sites in amino acid sequences from different  organisms:  Gram-positive bacteria,  Gram-negative  bacteria, and eukaryotes.")
 
-prepend_path("PATH",              "/util/opt/signalp/4.1/bin")
-prepend_path("MANPATH",		  "/util/opt/signalp/4.1/man")
+prepend_path("PATH",              "/util/opt/BCRF/signalp/4.1:/util/opt/BCRF/signalp/4.1/bin")
+prepend_path("MANPATH",		  "/util/opt/BCRF/signalp/4.1/man")
