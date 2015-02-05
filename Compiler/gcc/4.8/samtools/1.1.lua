@@ -14,4 +14,3 @@ whatis("Description: SAM Tools - a generic tool for the sam format alignments.")
  
  
 prepend_path("PATH",              "/util/opt/BCRF/samtools/1.1/gcc/4.8/bin")
-prepend_path("MANPATH",           "/util/opt/BCRF/samtools/1.1/gcc/4.8/README")
