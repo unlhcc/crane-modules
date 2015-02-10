@@ -46,11 +46,11 @@ setenv("HDF5_INCLUDE",  "/util/opt/hdf5/1.8.7/intel/13/include")
 setenv("HDF5_LIB",      "/util/opt/hdf5/1.8.7/intel/13/lib")
 
 --HDFEOS
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdfeos/hdfeos/hdfeos2/lib")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdfeos/hdfeos/lib")
 setenv("HDFEOS",	"/util/opt/hdfeos/hdfeos/")
 setenv("HDFEOS_PATH",	"/util/opt/hdfeos/hdfeos/")
 setenv("HDFEOS_INCLUDE","/util/opt/hdfeos/hdfeos/include")
-setenv("HDFEOS_LIB",	"/util/opt/hdfeos/hdfeos/hdfeos2/lib")
+setenv("HDFEOS_LIB",	"/util/opt/hdfeos/hdfeos/lib")
 
 --Other Environment Variables
 setenv("WRFIO_NCD_LARGE_FILE_SUPPORT", "1")
