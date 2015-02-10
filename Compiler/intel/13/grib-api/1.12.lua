@@ -22,4 +22,4 @@ setenv("GRIBAPI", "/util/opt/grib-api/1.12/intel/13")
 setenv("GRIBAPI_INCLUDE", "/util/opt/grib-api/1.12/intel/13/include")
 setenv("GRIBAPI_LIB", "/util/opt/grib-api/1.12/intel/13/lib")
 
-family("grib-api")
+family("gribapi")

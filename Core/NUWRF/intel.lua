@@ -6,7 +6,7 @@ compilers.
 
 ]]
 
-help(help_message,"\n")
+--help(help_message,"\n")
 
 whatis("Name: NUWRF")
 whatis("Version: NUWRF")
