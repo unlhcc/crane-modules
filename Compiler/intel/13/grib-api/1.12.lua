@@ -14,12 +14,12 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://software.ecmwf.int/wiki/display/GRIB/Home")
 
-prepend_path{"PATH",                "/util/opt/grib-api/1.12.3/intel/13/bin",priority=100}
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/grib-api/1.12.3/intel/13/lib")
-prepend_path("MANPATH",             "/util/opt/grib-api/1.12.3/intel/13/share/grib_api")
-prepend_path("INCLUDE",             "/util/opt/grib-api/1.12.3/intel/13/include")
-setenv("GRIBAPI", "/util/opt/grib-api/1.12.3/intel/13") 
-setenv("GRIBAPI_INCLUDE", "/util/opt/grib-api/1.12.3/intel/13/include")
-setenv("GRIBAPI_LIB", "/util/opt/grib-api/1.12.3/intel/13/lib")
+prepend_path{"PATH",                "/util/opt/grib-api/1.12/intel/13/bin",priority=100}
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/grib-api/1.12/intel/13/lib")
+prepend_path("MANPATH",             "/util/opt/grib-api/1.12/intel/13/share/grib_api")
+prepend_path("INCLUDE",             "/util/opt/grib-api/1.12/intel/13/include")
+setenv("GRIBAPI", "/util/opt/grib-api/1.12/intel/13") 
+setenv("GRIBAPI_INCLUDE", "/util/opt/grib-api/1.12/intel/13/include")
+setenv("GRIBAPI_LIB", "/util/opt/grib-api/1.12/intel/13/lib")
 
 family("grib-api")
