@@ -14,7 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.earthsystemmodeling.org/")
 
-prepend_path{"PATH",                "/util/opt/ESMF/5.2/intel/13/bin",priority=100}
+prepend_path("PATH",                "/util/opt/ESMF/5.2/intel/13/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/ESMF/5.2/intel/13/lib")
 prepend_path("MANPATH",             "/util/opt/ESMF/5.2/intel/13/doc")
 prepend_path("INCLUDE",             "/util/opt/ESMF/5.2/intel/13/include")

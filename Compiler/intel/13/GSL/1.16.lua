@@ -14,7 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://mirrors.kernel.org/gnu/gsl/")
 
-prepend_path{"PATH",                "/util/opt/GSL/1.16/intel/13/bin",priority=100}
+prepend_path("PATH",                "/util/opt/GSL/1.16/intel/13/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/GSL/1.16/intel/13/lib")
 prepend_path("MANPATH",             "/util/opt/GSL/1.16/intel/13/share")
 prepend_path("INCLUDE",             "/util/opt/GSL/1.16/intel/13/include")
