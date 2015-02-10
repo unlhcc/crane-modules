@@ -18,7 +18,7 @@ whatis("URL: http://cloud.gsfc.nasa.gov/index.php?section=13")
 -- the PATH variable ensures that the netcdf 'ncdump' is first in
 -- the path instead of the hdf4 one.
 -- See RT #7945.
-load("compiler/intel/13","openmpi/1.6","esmf/5.2","pesmf/5.2","grib-api/1.12","GSL/1.16",NCL/6.0,PNG/1.2,netcdf/4.1)
+load("compiler/intel/13","openmpi/1.6","esmf/5.2","pesmf/5.2","grib-api/1.12","GSL/1.16","NCL/6.0","PNG/1.2","netcdf/4.1")
 
 --Zlib 1.2.5
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/zlib/1.2.5/intel/13/lib")
