@@ -15,6 +15,7 @@ whatis("Keywords: System, Library")
 whatis("URL: http://www.fftw.org/index.html")
 
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw2/2.1/gcc/4.8/lib")
+prepend_path("LIBRARY_PATH",     "/util/opt/fftw2/2.1/gcc/4.8/lib")
 prepend_path("MANPATH",             "/util/opt/fftw2/2.1/gcc/4.8/info")
 prepend_path("INCLUDE",             "/util/opt/fftw2/2.1/gcc/4.8/include")
 

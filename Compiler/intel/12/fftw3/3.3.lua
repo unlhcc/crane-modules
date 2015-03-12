@@ -16,6 +16,7 @@ whatis("URL: http://www.fftw.org/index.html")
 
 prepend_path("PATH",                "/util/opt/fftw3/3.3/intel/12/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw3/3.3/intel/12/lib")
+prepend_path("LIBRARY_PATH",	    "/util/opt/fftw3/3.3/intel/12/lib")
 prepend_path("MANPATH",             "/util/opt/fftw3/3.3/intel/12/share/man")
 prepend_path("INCLUDE",             "/util/opt/fftw3/3.3/intel/12/include")
 
