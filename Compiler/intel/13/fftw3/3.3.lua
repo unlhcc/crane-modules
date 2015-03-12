@@ -18,6 +18,6 @@ prepend_path("PATH",                "/util/opt/fftw3/3.3/intel/13/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw3/3.3/intel/13/lib")
 prepend_path("LIBRARY_PATH",        "/util/opt/fftw3/3.3/intel/13/lib")
 prepend_path("MANPATH",             "/util/opt/fftw3/3.3/intel/13/share/man")
-prepend_path("INCLUDE",             "/util/opt/fftw3/3.3/intel/13/include")
+setenv("FFTW3_INCLUDE",       	    "/util/opt/fftw3/3.3/intel/13/include")
 
 family("fftw3")
