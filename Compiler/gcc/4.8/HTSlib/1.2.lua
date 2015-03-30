@@ -17,4 +17,4 @@ whatis("URL: http://samtools.sourceforge.net")
 whatis("Description: HTSlib - the core library used by samtools and bcftools.")
 
 prepend_path("PATH",              "/util/opt/BCRF/htslib/1.2/gcc/4.8/bin")
-prepend_path("HELP_SAMTOOLS",	  "/util/opt/BCRF/htslib/1.2/gcc/4.8/README")
+prepend_path("HELP_HTSlib",	  "/util/opt/BCRF/htslib/1.2/gcc/4.8/README")
