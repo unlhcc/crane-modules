@@ -17,7 +17,7 @@ whatis("URL: http://mirrors.kernel.org/gnu/gsl/")
 prepend_path("PATH",                "/util/opt/GSL/1.16/gcc/4.9/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/GSL/1.16/gcc/4.9/lib")
 prepend_path("MANPATH",             "/util/opt/GSL/1.16/gcc/4.9/share")
-prepend_path("INCLUDE",             "/util/opt/GSL/1.16/gcc/4.9/include")
+setenv("GSL_INCLUDE",             "/util/opt/GSL/1.16/gcc/4.9/include")
 setenv("GSL", "/util/opt/GSL/1.16/gcc/4.9") 
 
 family("gsl")
