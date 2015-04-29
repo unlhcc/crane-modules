@@ -16,6 +16,7 @@ whatis("Description: RepeatMasker is a program that screens DNA sequences for in
 
 
 prepend_path("PATH",              "/util/opt/repeatmasker/4.0/gcc/4.4/RepeatMasker")
+prepend_path("PATH",		  "/util/opt/repeatmasker/4.0/gcc/4.4/RepeatMasker/util")
 prepend_path("PATH",		  "/util/opt/repeatmasker/4.0/gcc/4.4/bin")
 prepend_path("PATH",              "/util/opt/repeatmasker/4.0/gcc/4.4/ncbi-rmblastn-2.2.28/bin")
 
