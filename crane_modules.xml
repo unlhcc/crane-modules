@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2015-05-06T17:15:54Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2015-05-07T20:31:40Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -234,7 +234,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf4/4.2</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -247,7 +247,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf4/4.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -520,7 +520,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf5/1.8</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -546,7 +546,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf5/1.8</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -748,13 +748,13 @@
       <Domain>runtime support</Domain>
       <Name>R</Name>
       <Description />
-      <Flavor>3.1</Flavor>
+      <Flavor>3.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>R/3.1</HandleKey>
+        <HandleKey>R/3.0</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -787,13 +787,26 @@
       <Domain>runtime support</Domain>
       <Name>R</Name>
       <Description />
-      <Flavor>3.0</Flavor>
+      <Flavor>3.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>R/3.0</HandleKey>
+        <HandleKey>R/3.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>R</Name>
+      <Description />
+      <Flavor>3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>R/3.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1186,30 +1199,160 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>htseq</Name>
-      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
-      <Flavor>0.6.1p1</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>htseq/0.6.1p1</HandleKey>
+        <HandleKey>NCO/4.4</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>htseq</Name>
-      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
-      <Flavor>0.5.4p5</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>htseq/0.5.4p5</HandleKey>
+        <HandleKey>NCO/4.3</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1437,32 +1580,6 @@
       <Domain>runtime support</Domain>
       <Name>netcdf</Name>
       <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>netcdf/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>netcdf</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>netcdf/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>netcdf</Name>
-      <Description />
       <Flavor>4.2</Flavor>
       <Default>no</Default>
       <Handle>
@@ -1483,6 +1600,32 @@
         <HandleKey>netcdf/4.3</HandleKey>
       </Handle>
       <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>netcdf</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>netcdf/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>netcdf</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>netcdf/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1677,7 +1820,7 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1690,7 +1833,7 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2033,13 +2176,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>bwa</Name>
-      <Description>bwa - Burrows-Wheeler Alignment Tool</Description>
-      <Flavor>0.7</Flavor>
+      <Name>prodigal</Name>
+      <Description>Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program developed at Oak Ridge National Laboratory and the University of Tennessee.</Description>
+      <Flavor>2.60</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>bwa/0.7</HandleKey>
+        <HandleKey>prodigal/2.60</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2072,13 +2215,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>pplacer</Name>
-      <Description>Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.</Description>
-      <Flavor>1.1</Flavor>
+      <Name>bwa</Name>
+      <Description>bwa - Burrows-Wheeler Alignment Tool</Description>
+      <Flavor>0.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>pplacer/1.1</HandleKey>
+        <HandleKey>bwa/0.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2163,93 +2306,41 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Name>WRF</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>WRF</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>WRF/WRF</HandleKey>
       </Handle>
-      <Context>compiler/pgi/13</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Name>WRF</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>intel</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>WRF/intel</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Name>WRF</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>pgi</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>WRF/pgi</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/14</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2317,6 +2408,110 @@
       <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/14</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>szip</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>szip/2.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>biology</Domain>
+      <Name>mafft</Name>
+      <Description>Multiple alignment program for amino acid or nucleotide sequences</Description>
+      <Flavor>7.149</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mafft/7.149</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>application</Type>
       <Domain>mixture modeling for taxonomic analysis of metagenomes</Domain>
       <Name>taxytoolbox</Name>
@@ -2331,14 +2526,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>biology</Domain>
-      <Name>mafft</Name>
-      <Description>Multiple alignment program for amino acid or nucleotide sequences</Description>
-      <Flavor>7.149</Flavor>
+      <Domain>Applications</Domain>
+      <Name>sas</Name>
+      <Description>SAS is a software suite developed by SAS Institute for advanced analytics, business intelligence, data management, and predictive analytics.</Description>
+      <Flavor>9.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mafft/7.149</HandleKey>
+        <HandleKey>sas/9.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2382,32 +2577,6 @@
       <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Applications</Domain>
-      <Name>sas</Name>
-      <Description>SAS is a software suite developed by SAS Institute for advanced analytics, business intelligence, data management, and predictive analytics.</Description>
-      <Flavor>9.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>sas/9.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>prodigal</Name>
-      <Description>Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program developed at Oak Ridge National Laboratory and the University of Tennessee.</Description>
-      <Flavor>2.60</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>prodigal/2.60</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>udunits2</Name>
@@ -2431,7 +2600,7 @@
         <HandleType>module</HandleType>
         <HandleKey>udunits2/2.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2457,7 +2626,7 @@
         <HandleType>module</HandleType>
         <HandleKey>udunits2/2.1</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2486,6 +2655,45 @@
       <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>pplacer</Name>
+      <Description>Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.</Description>
+      <Flavor>1.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>pplacer/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>htseq</Name>
+      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
+      <Flavor>0.6.1p1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>htseq/0.6.1p1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>htseq</Name>
+      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
+      <Flavor>0.5.4p5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>htseq/0.5.4p5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>pnetcdf</Name>
@@ -2497,58 +2705,6 @@
         <HandleKey>pnetcdf/4.2</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biopieces</Name>
-      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>biopieces/1.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>WRF</Name>
-      <Description />
-      <Flavor>WRF</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>WRF/WRF</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>WRF</Name>
-      <Description />
-      <Flavor>intel</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>WRF/intel</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>WRF</Name>
-      <Description />
-      <Flavor>pgi</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>WRF/pgi</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2564,15 +2720,15 @@
       <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>biopieces</Name>
+      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
+        <HandleKey>biopieces/1.0</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8:openmpi/1.6</Context>
     </LocalSoftware>
@@ -2592,158 +2748,15 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>NCO</Name>
+      <Name>phdf5</Name>
       <Description />
-      <Flavor>4.4</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
+        <HandleKey>phdf5/1.8</HandleKey>
       </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3071,19 +3084,6 @@
       <Context>compiler/pgi/13</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>sickle</Name>
-      <Description>A windowed adaptive trimming tool for FASTQ files using quality</Description>
-      <Flavor>1.210</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>sickle/1.210</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>gromacs</Name>
@@ -3106,6 +3106,45 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>scan-for-matches/1.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>2.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/2.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>1.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>bowtie</Name>
+      <Description>Ultrafast, memory-efficient short read aligner</Description>
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>bowtie/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3229,39 +3268,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>1.1</Flavor>
+      <Name>sickle</Name>
+      <Description>A windowed adaptive trimming tool for FASTQ files using quality</Description>
+      <Flavor>1.210</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>bowtie/1.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>bowtie</Name>
-      <Description>Ultrafast, memory-efficient short read aligner</Description>
-      <Flavor>2.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>bowtie/2.2</HandleKey>
+        <HandleKey>sickle/1.210</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
