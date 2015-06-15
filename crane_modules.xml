@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2015-06-09T21:59:53Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2015-06-15T22:23:23Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -163,11 +163,11 @@
       <Domain>system</Domain>
       <Name>python</Name>
       <Description />
-      <Flavor>3.3</Flavor>
+      <Flavor>3.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>python/3.3</HandleKey>
+        <HandleKey>python/3.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -181,6 +181,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>python/2.7</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>python</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>python/3.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
