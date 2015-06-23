@@ -13,7 +13,7 @@ whatis("Keywords: Biology, Genomics, High-throughput Sequencing")
 whatis("Description: HTSeq - Analysing high-throughput sequencing data with Python")
 whatis("URL: https://pypi.python.org/pypi/HTSeq")
 
-prepend_path{"PATH"             ,"/util/opt/anaconda/2.0/envs/htseq-0.6.1p1/bin",priority=100}
+prepend_path{"PATH"             ,"/util/opt/anaconda/2.2/envs/htseq-0.6.1p1/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"     ,"htseq-0.6.1p1")
 prereq("python/2.7")
 family("anaconda")

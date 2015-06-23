@@ -12,6 +12,6 @@ whatis("Keywords: Biology, Genomics, FASTA")
 whatis("Description: Pyfasta - fast, memory-efficient, pythonic (and command-line) access to fasta sequence files.")
 whatis("URL: https://pypi.python.org/pypi/pyfasta")
 
-prepend_path{"PATH"		,"/util/opt/anaconda/2.0/envs/pyfasta-0.5.2/bin",priority=100}
+prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/pyfasta-0.5.2/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"pyfasta-0.5.2")
 family("anaconda")
