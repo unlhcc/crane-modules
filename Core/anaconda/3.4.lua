@@ -24,8 +24,10 @@ prepend_path("PATH",                "/util/opt/anaconda3/2.0/bin")
 prepend_path("MANPATH",             "/util/opt/anaconda3/2.0/share/man")
 
 append_path("CONDA_ENVS_PATH", "~/.conda/envs")
-local group_conda_env = os.getenv("CONDA_GROUP_ENV")
-append_path("CONDA_ENVS_PATH", group_conda_env .. "/3")
-append_path("CONDA_ENVS_PATH", "/util/opt/anaconda3/2.0.1/envs")
+local group_conda_env = pathJoin(os.getenv("CONDA_GROUP_ENV"),"3") or ""
+if isDir(group_conda_env) then
+  append_path("CONDA_ENVS_PATH",group_conda_env)
+end
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda3/2.0/envs")
 
 family("python")

@@ -20,7 +20,14 @@ whatis("Category: system, development")
 whatis("Keywords: System, Development, Python")
 whatis("URL: http://www.python.org/")
 
-prepend_path("PATH",                "/util/opt/anaconda/2.0/bin")
-prepend_path("MANPATH",             "/util/opt/anaconda/2.0/share/man")
+prepend_path("PATH",                "/util/opt/anaconda/2.2/bin")
+prepend_path("MANPATH",             "/util/opt/anaconda/2.2/share/man")
+
+append_path("CONDA_ENVS_PATH", "~/.conda/envs")
+local group_conda_env = pathJoin(os.getenv("CONDA_GROUP_ENV"),"2") or ""
+if isDir(group_conda_env) then
+  append_path("CONDA_ENVS_PATH",group_conda_env)
+end
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/2.2/envs")
 
 family("python")
