@@ -20,5 +20,6 @@ whatis("Description: JAGS is Just Another Gibbs Sampler.")
 
 prepend_path("PATH",              "/util/opt/jags/3.4/intel/15/bin")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/jags/3.4/intel/15/lib")
+prepend_path("MANPATH",   "/util/opt/jags/3.4/intel/15/share/man")
 
 prereq("intel-mkl/15")
