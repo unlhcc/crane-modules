@@ -1,7 +1,6 @@
 help (
 [[
 This module loads tax2tree, which depends on Python 2.7. 
-PYTHONPATH has been prepended to include the tax2tree library.
 Version 1.0
 ]])
 
@@ -12,7 +11,8 @@ whatis("Keywords: Biology, Genomics, Bioinformatics")
 whatis("Description: tax2tree - Tools for decorating taxonomy information on to a phylogenetic tree.")
 whatis("URL: http://tax2tree.sourceforge.net")
 
-prepend_path("PATH"		,"/util/opt/tax2tree/1.0/bin")
-prepend_path("PYTHONPATH"       ,"/util/opt/tax2tree/1.0/lib/python2.7/site-packages")
+prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/tax2tree-1.0/bin",priority=100}
+pushenv("CONDA_DEFAULT_ENV"	,"tax2tree-1.0")
 
 prereq("python/2.7")
+family("anaconda")

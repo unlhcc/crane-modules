@@ -1,7 +1,6 @@
 help (
 [[
 This module loads cutadapt, which depends on Python 2.7. 
-PYTHONPATH has been prepended to include the cutadapt library.
 PATH has been prepended to include the cutadapt program.
 Version 1.4
 ]])
@@ -13,7 +12,7 @@ whatis("Keywords: Biology, Genomics, Sequencing")
 whatis("Description: Cutadapt removes adapter sequences from DNA high-throughput sequencing data.")
 whatis("URL: http://code.google.com/p/cutadapt")
 
-prepend_path("PATH"		,"/util/opt/cutadapt/1.4/gcc/4.4/bin")
-prepend_path("PYTHONPATH"       ,"/util/opt/cutadapt/1.4/gcc/4.4/lib/python2.7/site-packages")
-
+prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/cutadapt-1.4.2/bin",priority=100}
+pushenv("CONDA_DEFAULT_ENV"	,"cutadapt-1.4.2")
 prereq("python/2.7")
+family("anaconda")
