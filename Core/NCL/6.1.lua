@@ -37,8 +37,9 @@ whatis("URL: http://ngwww.ucar.edu/")
 
 --#load("udunits2/2.1","szip/2.1","netcdf/4.3","hdf5/1.8","hdf4/4.2")
 
-prepend_path("PATH","/util/opt/NCL/6.1/bin")
-prepend_path("MANPATH","/util/opt/NCL/6.1/man")
+prepend_path("PATH",             "/util/opt/NCL/6.1/bin")
+prepend_path("LD_LIBRARY_PATH",  "/util/opt/NCL/6.1/lib")
+prepend_path("MANPATH",          "/util/opt/NCL/6.1/man")
 
 setenv("NCARG_ROOT","/util/opt/NCL/6.1")
 setenv("NCARG_INC","/util/opt/NCL/6.1/include")
