@@ -15,7 +15,7 @@ whatis("Keywords: Biology, Genomics, Assembly, QIIME, sequencing")
 whatis("URL: http://qiime.org")
 whatis("Description: QIIME is an open source software package for comparison and analysis of microbial communities, primarily based on high-throughput amplicon sequencing data (such as SSU rRNA) generated on a variety of platforms, but also supporting analysis of other types of data (such as shotgun metagenomic data).")
 
-setenv("QIIME_CONFIG_FP", "/util/opt/anaconda/2.0/envs/qiime-1.8.0/qiime_config")
+setenv("QIIME_CONFIG_FP", "/util/opt/anaconda/2.2/envs/qiime-1.8.0/qiime_config")
 prepend_path("PATH",            "/util/opt/qiime/1.8/gcc/4.4/deps/blast-2.2.22/bin")
 prepend_path("PATH",            "/util/opt/qiime/1.8/gcc/4.4/deps/cd-hit-3.1.1")
 prepend_path("PATH",            "/util/opt/qiime/1.8/gcc/4.4/deps/cdbfasta-0.99")
@@ -39,6 +39,6 @@ setenv("SOURCETRACKER_PATH","/util/opt/qiime/1.8/gcc/4.4/deps/sourcetracker-0.9.
 load("compiler/gcc/4.8","openmpi/1.6","python/2.7","R/3.0","bwa/0.7","clearcut/1.0","muscle/3.8","pplacer/1.1","parsinsert/1.04","mafft/7.149","usearch/5.2")
 
 pushenv("CONDA_DEFAULT_ENV","qiime-1.8.0")
-prepend_path{"PATH","/util/opt/anaconda/2.0/envs/qiime-1.8.0/bin",priority=100}
+prepend_path{"PATH","/util/opt/anaconda/2.2/envs/qiime-1.8.0/bin",priority=100}
 
 family("anaconda")
