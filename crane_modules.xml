@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2015-09-18T16:01:06Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2015-09-25T17:10:07Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -1118,7 +1118,7 @@
         <HandleType>module</HandleType>
         <HandleKey>fftw3/3.3</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>compiler/intel/13:openmpi/1.8.3</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1144,7 +1144,46 @@
         <HandleType>module</HandleType>
         <HandleKey>fftw3/3.3</HandleKey>
       </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
       <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2603,17 +2642,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>gromacs</Name>
-      <Description />
-      <Flavor>4.6</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>rmblast</Name>
+      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
+      <Flavor>2.28</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gromacs/4.6</HandleKey>
+        <HandleKey>rmblast/2.28</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3553,19 +3592,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>fastx_toolkit</Name>
-      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
-      <Flavor>0.0.14</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>mathematics</Domain>
       <Name>jags</Name>
       <Description>JAGS is Just Another Gibbs Sampler.</Description>
@@ -3591,6 +3617,19 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>gromacs</Name>
+      <Description />
+      <Flavor>4.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gromacs/4.6</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>cap3</Name>
@@ -3602,19 +3641,6 @@
         <HandleKey>cap3/122107</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>rmblast</Name>
-      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
-      <Flavor>2.28</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>rmblast/2.28</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3671,6 +3697,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>parsinsert</Name>
+      <Description>ParsInsert efficiently produces both a phylogenetic tree and taxonomic classification for sequences for microbial community sequence analysis. This is a C++ implementation of the Parsimonious Insertion algorithm</Description>
+      <Flavor>1.04</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>parsinsert/1.04</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>vcftools</Name>
       <Description>VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.</Description>
       <Flavor>0.1</Flavor>
@@ -3696,19 +3735,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>parsinsert</Name>
-      <Description>ParsInsert efficiently produces both a phylogenetic tree and taxonomic classification for sequences for microbial community sequence analysis. This is a C++ implementation of the Parsimonious Insertion algorithm</Description>
-      <Flavor>1.04</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>parsinsert/1.04</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>unknown</Domain>
       <Name>settarg</Name>
       <Description />
@@ -3717,6 +3743,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>settarg/settarg</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>soapdenovo2</Name>
+      <Description>soapdenovo2 - novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes</Description>
+      <Flavor>r240</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>soapdenovo2/r240</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3736,13 +3775,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>soapdenovo2</Name>
-      <Description>soapdenovo2 - novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes</Description>
-      <Flavor>r240</Flavor>
+      <Name>fastx_toolkit</Name>
+      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
+      <Flavor>0.0.14</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>soapdenovo2/r240</HandleKey>
+        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
