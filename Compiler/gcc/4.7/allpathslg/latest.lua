@@ -13,7 +13,4 @@ whatis("Category: biology, genomics")
 whatis("Keywords: Biology, Genomics, Sequencing")
 whatis("URL: http://www.broadinstitute.org/software/allpaths-lg/blog")
  
-prepend_path("PATH",                "/util/opt/BCRF/allpathslg/lastest/gcc/4.7/bin")
-~
-~
-~
+prepend_path("PATH",                "/util/opt/BCRF/allpathslg/latest/gcc/4.7/bin")
