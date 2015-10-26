@@ -15,5 +15,5 @@ whatis("Keywords: System, Library")
 whatis("URL: https://github.com/pachterlab/kallisto")
 
 prepend_path("PATH",                "/util/opt/kallisto/0.42/gcc/4.8/bin/")
-
+prereq("hdf5/1.8","zlib/1.2","szip/2.1")
 family("kallisto")
