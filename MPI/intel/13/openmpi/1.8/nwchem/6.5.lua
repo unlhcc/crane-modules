@@ -2,7 +2,8 @@ local help_message = [[
 NWChem 6.5
 
 This module loads the nwchem environment, built with the intel 13
-compilers.
+compilers. Please copy /util/opt/nwchem/6.5/.nwchemrc to your $HOME
+before running nwchem.
 
 ]]
 
