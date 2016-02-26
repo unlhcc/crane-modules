@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-02-24T19:25:42Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-02-26T19:12:11Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -641,14 +641,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>genemarks</Name>
-      <Description>GeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Implications for finding sequence motifs in regulatory regions</Description>
-      <Flavor>2.5p</Flavor>
+      <Domain>perl</Domain>
+      <Name>perl</Name>
+      <Description>The Perl Programming Language</Description>
+      <Flavor>5.22</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>genemarks/2.5p</HandleKey>
+        <HandleKey>perl/5.22</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1591,6 +1591,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>phobius</Name>
+      <Description>Phobius is a combined transmembrane topology and signal peptide predictor.</Description>
+      <Flavor>1.01</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phobius/1.01</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>salmon</Name>
       <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
       <Flavor>0.6</Flavor>
@@ -1604,13 +1617,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>phobius</Name>
-      <Description>Phobius is a combined transmembrane topology and signal peptide predictor.</Description>
-      <Flavor>1.01</Flavor>
+      <Name>tagcleaner</Name>
+      <Description>The TagCleaner tool can be used to automatically detect and efficiently remove tag sequences (e.g. WTA tags) from genomic and metagenomic datasets. It is easily configurable and provides a user-friendly interface.</Description>
+      <Flavor>0.16</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phobius/1.01</HandleKey>
+        <HandleKey>tagcleaner/0.16</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1643,13 +1656,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>tagcleaner</Name>
-      <Description>The TagCleaner tool can be used to automatically detect and efficiently remove tag sequences (e.g. WTA tags) from genomic and metagenomic datasets. It is easily configurable and provides a user-friendly interface.</Description>
-      <Flavor>0.16</Flavor>
+      <Name>genemark-es</Name>
+      <Description>GeneMark-ES.</Description>
+      <Flavor>2.3f</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tagcleaner/0.16</HandleKey>
+        <HandleKey>genemark-es/2.3f</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1732,28 +1745,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>mvapich2</Name>
-      <Description />
-      <Flavor>1.9</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mvapich2/1.9</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>genemark-es</Name>
-      <Description>GeneMark-ES.</Description>
-      <Flavor>2.3f</Flavor>
+      <Name>cd-hit</Name>
+      <Description>cd-hit is a very widely used program for clustering and comparing protein or nucleotide sequences.</Description>
+      <Flavor>4.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>genemark-es/2.3f</HandleKey>
+        <HandleKey>cd-hit/4.6</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1767,6 +1767,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>mongodb-client/3.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trimmomatic</Name>
+      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
+      <Flavor>0.33</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trimmomatic/0.33</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1825,13 +1838,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>trimmomatic</Name>
-      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
-      <Flavor>0.33</Flavor>
+      <Name>tmhmm</Name>
+      <Description>TMHMM 2.0 predicts transmembrane helices in proteins.</Description>
+      <Flavor>2.0c</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trimmomatic/0.33</HandleKey>
+        <HandleKey>tmhmm/2.0c</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1849,19 +1862,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>tmhmm</Name>
-      <Description>TMHMM 2.0 predicts transmembrane helices in proteins.</Description>
-      <Flavor>2.0c</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tmhmm/2.0c</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>unknown</Domain>
       <Name>lmdb</Name>
@@ -1873,32 +1873,6 @@
         <HandleKey>lmdb/0.9</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>hmmer</Name>
-      <Description>HMMER biosequence analysis using profile hidden Markov models</Description>
-      <Flavor>3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hmmer/3.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>hmmer</Name>
-      <Description>HMMER biosequence analysis using profile hidden Markov models</Description>
-      <Flavor>3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hmmer/3.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1942,6 +1916,32 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>hmmer</Name>
+      <Description>HMMER biosequence analysis using profile hidden Markov models</Description>
+      <Flavor>3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hmmer/3.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>hmmer</Name>
+      <Description>HMMER biosequence analysis using profile hidden Markov models</Description>
+      <Flavor>3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hmmer/3.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>signalp</Name>
       <Description>signalp  predicts  the presence and location of signal peptide cleavage sites in amino acid sequences from different  organisms:  Gram-positive bacteria,  Gram-negative  bacteria, and eukaryotes.</Description>
       <Flavor>4.1</Flavor>
@@ -1966,17 +1966,30 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>prodigal</Name>
+      <Description>Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program developed at Oak Ridge National Laboratory and the University of Tennessee.</Description>
+      <Flavor>2.60</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
+        <HandleKey>prodigal/2.60</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>genotyping</Domain>
+      <Name>CNVnator</Name>
+      <Description>CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing.</Description>
+      <Flavor>0.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>CNVnator/0.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2019,19 +2032,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>genotyping</Domain>
-      <Name>CNVnator</Name>
-      <Description>CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing.</Description>
-      <Flavor>0.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>CNVnator/0.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>phylip</Name>
       <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
@@ -2042,6 +2042,19 @@
         <HandleKey>phylip/3.696</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>mugsy</Name>
+      <Description />
+      <Flavor>v1r2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mugsy/v1r2.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2136,32 +2149,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>fastx_toolkit</Name>
-      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
-      <Flavor>0.0.14</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>rsem</Name>
-      <Description>RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.</Description>
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>rsem/1.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>bioinforomatics</Domain>
       <Name>pandaseq</Name>
       <Description>PANDASEQ is a program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.</Description>
@@ -2176,13 +2163,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>tabix</Name>
-      <Description>Tabix indexes a TAB-delimited genome position file in.tab.bgz and creates an index file</Description>
-      <Flavor>0.2</Flavor>
+      <Name>rsem</Name>
+      <Description>RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.</Description>
+      <Flavor>1.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tabix/0.2</HandleKey>
+        <HandleKey>rsem/1.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2202,15 +2189,41 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>prodigal</Name>
-      <Description>Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program developed at Oak Ridge National Laboratory and the University of Tennessee.</Description>
-      <Flavor>2.60</Flavor>
+      <Name>tabix</Name>
+      <Description>Tabix indexes a TAB-delimited genome position file in.tab.bgz and creates an index file</Description>
+      <Flavor>0.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>prodigal/2.60</HandleKey>
+        <HandleKey>tabix/0.2</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmx/3.7</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>rmblast</Name>
+      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
+      <Flavor>2.28</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>rmblast/2.28</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2616,17 +2629,160 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>rmblast</Name>
-      <Description>RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite. The primary difference between this distribution and the NCBI distribution is the addition of a new program &apos;rmblastn&apos; for use with RepeatMasker and RepeatModeler.</Description>
-      <Flavor>2.28</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>rmblast/2.28</HandleKey>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.4</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2655,162 +2811,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.4</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>bcftools</Name>
@@ -2835,6 +2835,19 @@
         <HandleKey>bcftools/1.2</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2967,6 +2980,383 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>biopieces</Name>
+      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
+      <Flavor>1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>biopieces/1.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>maq</Name>
+      <Description>maq - Mapping and Assembly with Quality.</Description>
+      <Flavor>0.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>maq/0.7</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>gromacs</Name>
+      <Description />
+      <Flavor>4.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gromacs/4.6</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pnetcdf</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>pnetcdf/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>cap3</Name>
+      <Description>CAP3: A DNA Sequence Assembly Program</Description>
+      <Flavor>122107</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cap3/122107</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mathematica/9.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>velvet</Name>
+      <Description>Velvet - Sequence assembler for very short reads</Description>
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>velvet/1.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tophat</Name>
+      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tophat/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tophat</Name>
+      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tophat/2.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>transdecoder</Name>
+      <Description>TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.</Description>
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>transdecoder/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>statistics</Domain>
+      <Name>openbugs</Name>
+      <Description>BUGS is a software package for performing Bayesian inference Using Gibbs Sampling.</Description>
+      <Flavor>3.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openbugs/3.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>GSL</Name>
+      <Description />
+      <Flavor>1.16</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>GSL/1.16</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>GSL</Name>
+      <Description />
+      <Flavor>1.16</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>GSL/1.16</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>samtools</Name>
+      <Description>SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format.</Description>
+      <Flavor>0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>samtools/0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>samtools</Name>
+      <Description>SAM Tools - a generic tool for the sam format alignments.</Description>
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>samtools/1.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>samtools</Name>
+      <Description>SAM Tools - a generic tool for the sam format alignments.</Description>
+      <Flavor>1.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>samtools/1.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>parsinsert</Name>
+      <Description>ParsInsert efficiently produces both a phylogenetic tree and taxonomic classification for sequences for microbial community sequence analysis. This is a C++ implementation of the Parsimonious Insertion algorithm</Description>
+      <Flavor>1.04</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>parsinsert/1.04</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>picard</Name>
+      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
+      <Flavor>1.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>picard/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>augustus</Name>
+      <Description>AUGUSTUS is a program that predicts genes in eukaryotic genomic sequences.</Description>
+      <Flavor>3.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>augustus/3.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>augustus</Name>
+      <Description>AUGUSTUS is a program that predicts genes in eukaryotic genomic sequences.</Description>
+      <Flavor>3.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>augustus/3.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>jamm</Name>
+      <Description>JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq, DNase-Seq..etc.) that can integrate replicates and assign peak boundaries accurately.</Description>
+      <Flavor>1.0.7r2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>jamm/1.0.7r2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ray/2.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>ray</Name>
+      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
+      <Flavor>2.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ray/2.3</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>6.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cuda/6.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>7.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cuda/7.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>6.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cuda/6.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>15</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/15</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>13</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/13</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>12</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/12</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>szip</Name>
@@ -3082,383 +3472,6 @@
         <HandleKey>szip/2.1</HandleKey>
       </Handle>
       <Context>compiler/intel/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>maq</Name>
-      <Description>maq - Mapping and Assembly with Quality.</Description>
-      <Flavor>0.7</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>maq/0.7</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biopieces</Name>
-      <Description>The Biopieces are a collection of bioinformatics tools that can be pieced together in a very easy and flexible manner to perform both simple and complex tasks.</Description>
-      <Flavor>1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>biopieces/1.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>gromacs</Name>
-      <Description />
-      <Flavor>4.6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>gromacs/4.6</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>pnetcdf</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>pnetcdf/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
-      <Description />
-      <Flavor>9.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mathematica/9.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>velvet</Name>
-      <Description>Velvet - Sequence assembler for very short reads</Description>
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>velvet/1.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cap3</Name>
-      <Description>CAP3: A DNA Sequence Assembly Program</Description>
-      <Flavor>122107</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cap3/122107</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>tophat</Name>
-      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tophat/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>tophat</Name>
-      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tophat/2.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>statistics</Domain>
-      <Name>openbugs</Name>
-      <Description>BUGS is a software package for performing Bayesian inference Using Gibbs Sampling.</Description>
-      <Flavor>3.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openbugs/3.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>GSL</Name>
-      <Description />
-      <Flavor>1.16</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>GSL/1.16</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>GSL</Name>
-      <Description />
-      <Flavor>1.16</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>GSL/1.16</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>transdecoder</Name>
-      <Description>TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.</Description>
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>transdecoder/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>samtools</Name>
-      <Description>SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format.</Description>
-      <Flavor>0.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>samtools/0.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>samtools</Name>
-      <Description>SAM Tools - a generic tool for the sam format alignments.</Description>
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>samtools/1.2</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>samtools</Name>
-      <Description>SAM Tools - a generic tool for the sam format alignments.</Description>
-      <Flavor>1.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>samtools/1.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>picard</Name>
-      <Description>A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. </Description>
-      <Flavor>1.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>picard/1.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>augustus</Name>
-      <Description>AUGUSTUS is a program that predicts genes in eukaryotic genomic sequences.</Description>
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>augustus/3.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>augustus</Name>
-      <Description>AUGUSTUS is a program that predicts genes in eukaryotic genomic sequences.</Description>
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>augustus/3.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>mugsy</Name>
-      <Description />
-      <Flavor>v1r2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mugsy/v1r2.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>ray</Name>
-      <Description>Ray -- Parallel genome assemblies for parallel DNA sequencing.</Description>
-      <Flavor>2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ray/2.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>6.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/6.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>7.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/7.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>6.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/6.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>15</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/15</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>13</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/13</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>12</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/12</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmx</Name>
-      <Description />
-      <Flavor>3.7</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3593,13 +3606,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>idba</Name>
-      <Description>IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinfomatics.</Description>
-      <Flavor>1.1</Flavor>
+      <Name>scan-for-matches</Name>
+      <Description>scan_for_matches is a utility written in C for locating patterns in DNA or protein FASTA files.</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>idba/1.1</HandleKey>
+        <HandleKey>scan-for-matches/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3696,6 +3709,19 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>idba</Name>
+      <Description>IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinfomatics.</Description>
+      <Flavor>1.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>idba/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
       <Domain>system</Domain>
       <Name>maven</Name>
       <Description>Apache Maven is a software project management and comprehension tool.</Description>
@@ -3710,26 +3736,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>scan-for-matches</Name>
-      <Description>scan_for_matches is a utility written in C for locating patterns in DNA or protein FASTA files.</Description>
-      <Flavor>1.0</Flavor>
+      <Name>biosamtools</Name>
+      <Description />
+      <Flavor>1.38</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>scan-for-matches/1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cd-hit</Name>
-      <Description>cd-hit is a very widely used program for clustering and comparing protein or nucleotide sequences.</Description>
-      <Flavor>4.6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cd-hit/4.6</HandleKey>
+        <HandleKey>biosamtools/1.38</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3745,6 +3758,45 @@
         <HandleKey>fftw2/2.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>mvapich2</Name>
+      <Description />
+      <Flavor>1.9</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mvapich2/1.9</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>ruby</Name>
+      <Description />
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ruby/2.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>rnammer</Name>
+      <Description>RNAmmer predicts 5s/8s, 16s/18s, and 23s/28s ribosomal RNA in full genome sequences.</Description>
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>rnammer/1.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3800,40 +3852,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>ruby</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ruby/2.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>rnammer</Name>
-      <Description>RNAmmer predicts 5s/8s, 16s/18s, and 23s/28s ribosomal RNA in full genome sequences.</Description>
-      <Flavor>1.2</Flavor>
+      <Name>genemarks</Name>
+      <Description>GeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Implications for finding sequence motifs in regulatory regions</Description>
+      <Flavor>2.5p</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>rnammer/1.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>parsinsert</Name>
-      <Description>ParsInsert efficiently produces both a phylogenetic tree and taxonomic classification for sequences for microbial community sequence analysis. This is a C++ implementation of the Parsimonious Insertion algorithm</Description>
-      <Flavor>1.04</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>parsinsert/1.04</HandleKey>
+        <HandleKey>genemarks/2.5p</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3849,32 +3875,6 @@
         <HandleKey>pesmf/5.2</HandleKey>
       </Handle>
       <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cufflinks</Name>
-      <Description>cufflinks - Transcript assembly, differential expression, and differential regulation for RNA-Seq</Description>
-      <Flavor>2.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cufflinks/2.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>cufflinks</Name>
-      <Description>cufflinks - Transcript assembly, differential expression, and differential regulation for RNA-Seq</Description>
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cufflinks/2.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -4178,13 +4178,26 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>biosamtools</Name>
-      <Description />
-      <Flavor>1.38</Flavor>
+      <Name>cufflinks</Name>
+      <Description>cufflinks - Transcript assembly, differential expression, and differential regulation for RNA-Seq</Description>
+      <Flavor>2.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>biosamtools/1.38</HandleKey>
+        <HandleKey>cufflinks/2.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>cufflinks</Name>
+      <Description>cufflinks - Transcript assembly, differential expression, and differential regulation for RNA-Seq</Description>
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cufflinks/2.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -4204,13 +4217,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>jamm</Name>
-      <Description>JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq, DNase-Seq..etc.) that can integrate replicates and assign peak boundaries accurately.</Description>
-      <Flavor>1.0.7r2</Flavor>
+      <Name>fastx_toolkit</Name>
+      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
+      <Flavor>0.0.14</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>jamm/1.0.7r2</HandleKey>
+        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
