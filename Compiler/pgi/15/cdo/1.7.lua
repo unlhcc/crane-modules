@@ -14,7 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://code.zmaw.de/projects/cdo")
 
-prepend_path("PATH",                "/util/opt/cdo/1.7/intel/15/bin")
+prepend_path("PATH",                "/util/opt/cdo/1.7/pgi/15/bin")
 
 family("cdo")
 
