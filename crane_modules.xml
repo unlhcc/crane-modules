@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-03-14T15:49:17Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-03-14T15:57:59Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -3718,7 +3718,7 @@
         <HandleType>module</HandleType>
         <HandleKey>udunits2/2.1</HandleKey>
       </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>compiler/pgi/14</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -3731,7 +3731,7 @@
         <HandleType>module</HandleType>
         <HandleKey>udunits2/2.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/14</Context>
+      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -3771,6 +3771,19 @@
         <HandleKey>udunits2/2.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>udunits2</Name>
+      <Description />
+      <Flavor>2.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>udunits2/2.2</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
