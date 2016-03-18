@@ -17,5 +17,6 @@ whatis("URL: http://www.ruby-lang.org")
 prepend_path("PATH",                "/util/opt/ruby/2.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/ruby/2.1/gcc/4.4/lib")
 prepend_path("MANPATH",             "/util/opt/ruby/2.1/gcc/4.4/share/man")
+prepend_path("PKG_CONFIG_PATH",     "/util/opt/ruby/2.1/gcc/4.4/lib/pkgconfig")
 
 family("ruby")
