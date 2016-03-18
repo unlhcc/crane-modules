@@ -19,5 +19,5 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw3/3.3/openmpi/1.8/intel/13/li
 prepend_path("LIBRARY_PATH",	    "/util/opt/fftw3/3.3/openmpi/1.8/intel/13/lib")
 prepend_path("MANPATH",             "/util/opt/fftw3/3.3/openmpi/1.8/intel/13/share/man")
 setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/openmpi/1.8/intel/13/include")
-
+prepend_path("CPATH",        "/util/opt/fftw3/3.3/openmpi/1.8/intel/13/include")
 family("fftw3")

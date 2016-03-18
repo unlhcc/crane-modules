@@ -18,5 +18,7 @@ prepend_path("PATH",                "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/lib")
 prepend_path("MANPATH",             "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/share")
 prepend_path("INCLUDE",             "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/lib")
+prepend_path("CPATH",             "/util/opt/hdf5/1.8/openmpi/1.8/pgi/15/include")
 
 family("phdf5")
