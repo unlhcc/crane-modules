@@ -15,4 +15,5 @@ whatis("URL: https://github.com/LMDB/lmdb")
 prepend_path("PATH",			"/util/opt/lmdb/0.9/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",		"/util/opt/lmdb/0.9/gcc/4.4/lib")
 prepend_path("INCLUDE",			"/util/opt/lmdb/0.9/gcc/4.4/include")
-
+prepend_path("LIBRARY_PATH",         "/util/opt/lmdb/0.9/gcc/4.4/lib")
+prepend_path("CPATH",                 "/util/opt/lmdb/0.9/gcc/4.4/include")

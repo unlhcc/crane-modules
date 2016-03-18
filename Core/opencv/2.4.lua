@@ -14,6 +14,8 @@ whatis("URL: http://opencv.org/")
 
 prepend_path("PATH",			"/util/opt/opencv/2.4/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",		"/util/opt/opencv/2.4/gcc/4.4/lib")
+prepend_path("LIBRARY_PATH",         "/util/opt/opencv/2.4/gcc/4.4/lib")
 prepend_path("INCLUDE",			"/util/opt/opencv/2.4/gcc/4.4/include")
+prepend_path("CPATH",                 "/util/opt/opencv/2.4/gcc/4.4/include")
 
 family("opencv")

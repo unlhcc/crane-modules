@@ -15,4 +15,4 @@ whatis("URL: http://caffe.berkeleyvision.org/")
 prepend_path("PATH",			"/util/opt/caffe/1.0/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",		"/util/opt/caffe/1.0/gcc/4.4/lib")
 prepend_path("INCLUDE",			"/util/opt/caffe/1.0/gcc/4.4/include")
-
+prepend_path("CPATH",                 "/util/opt/caffe/1.0/gcc/4.4/include")

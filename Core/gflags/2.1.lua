@@ -14,5 +14,6 @@ whatis("URL: https://github.com/gflags/gflags")
 
 prepend_path("PATH",			"/util/opt/gflags/2.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",		"/util/opt/gflags/2.1/gcc/4.4/lib")
-prepend_path("INCLUDE",			"/util/opt/gflags/2.1/gcc/4.4/include")
-
+prepend_path("LIBRARY_PATH",         "/util/opt/gflags/2.1/gcc/4.4/lib")
+prepend_path("INCLUDE",                 "/util/opt/gflags/2.1/gcc/4.4/include")
+prepend_path("CPATH",			"/util/opt/gflags/2.1/gcc/4.4/include")
