@@ -18,6 +18,7 @@ load("intel-mkl/13")
 prepend_path("PATH",                "/util/opt/R/3.1/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/R/3.1/gcc/4.4/lib64")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/R/3.1/gcc/4.4/lib64/R/lib")
+prepend_path("LIBRARY_PATH",        "/util/opt/R/3.1/gcc/4.4/lib64/R/lib")
 prepend_path("MANPATH",             "/util/opt/R/3.1/gcc/4.4/share/man/man1")
 prepend_path("PKG_CONFIG_PATH",     "/util/opt/R/3.1/gcc/4.4/lib64/pkgconfig")
 

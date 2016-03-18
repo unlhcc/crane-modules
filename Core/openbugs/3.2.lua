@@ -17,3 +17,4 @@ whatis("URL: http://www.openbugs.net")
 
 prepend_path("PATH"       ,"/util/opt/openbugs/3.2/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH", "/util/opt/openbugs/3.2/gcc/4.4/lib")
+prepend_path("LIBRARY_PATH", "/util/opt/openbugs/3.2/gcc/4.4/lib")
