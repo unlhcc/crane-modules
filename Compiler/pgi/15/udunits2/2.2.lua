@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/udunits/2.2/pgi/15/share")
 prepend_path("INCLUDE",             "/util/opt/udunits/2.2/pgi/15/include")
 
 family("udunits2")
+
+prepend_path("CPATH",             "/util/opt/udunits/2.2/pgi/15/include")

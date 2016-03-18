@@ -21,3 +21,5 @@ prepend_path("MANPATH",             "/util/opt/netcdf/4.3/gcc/4.8/share/man")
 prepend_path("INCLUDE",             "/util/opt/netcdf/4.3/gcc/4.8/include")
 
 family("netcdf")
+
+prepend_path("CPATH",             "/util/opt/netcdf/4.3/gcc/4.8/include")

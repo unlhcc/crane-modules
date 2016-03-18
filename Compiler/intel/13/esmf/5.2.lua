@@ -22,3 +22,5 @@ setenv("ESMF_NOMPI_LIB", "/util/opt/ESMF/5.2/intel/13/lib/libO/Linux.intel.64.mp
 setenv("ESMF_NOMPI_MOD", "/util/opt/ESMF/5.2/intel/13/mod/modO/Linux.intel.64.mpiuni.default")
 
 family("esmf")
+
+prepend_path("CPATH",             "/util/opt/ESMF/5.2/intel/13/include")

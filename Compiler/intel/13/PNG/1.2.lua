@@ -21,3 +21,5 @@ prepend_path("INCLUDE",             "/util/opt/PNG/1.2/intel/13/include")
 setenv("LIBPNG", "/util/opt/PNG/1.2/intel/13") 
 
 family("libpng")
+
+prepend_path("CPATH",             "/util/opt/PNG/1.2/intel/13/include")

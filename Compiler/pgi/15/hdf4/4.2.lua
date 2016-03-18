@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/hdf4/4.2/pgi/15/share/man")
 prepend_path("INCLUDE",             "/util/opt/hdf4/4.2/pgi/15/include")
 
 family("hdf4")
+
+prepend_path("CPATH",             "/util/opt/hdf4/4.2/pgi/15/include")

@@ -21,3 +21,5 @@ setenv("BOOST_INCLUDE",     "/util/opt/boost/1.59/gcc/4.9/include")
 -- Add boost to the LD_LIBRARY_PATH, LIBRARY_PATH
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/boost/1.59/gcc/4.9/lib")
 prepend_path("LIBRARY_PATH",      "/util/opt/boost/1.59/gcc/4.9/lib")
+
+prepend_path("CPATH",      "/util/opt/boost/1.59/gcc/4.9/include")

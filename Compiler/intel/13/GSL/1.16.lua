@@ -21,3 +21,5 @@ prepend_path("INCLUDE",             "/util/opt/GSL/1.16/intel/13/include")
 setenv("GSL", "/util/opt/GSL/1.16/intel/13") 
 
 family("gsl")
+
+prepend_path("CPATH",             "/util/opt/GSL/1.16/intel/13/include")

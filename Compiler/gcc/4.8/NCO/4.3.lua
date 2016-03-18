@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/NCO/4.3/gcc/4.8/share/man")
 prepend_path("INCLUDE",             "/util/opt/NCO/4.3/gcc/4.8/include")
 
 family("NCO")
+
+prepend_path("CPATH",             "/util/opt/NCO/4.3/gcc/4.8/include")

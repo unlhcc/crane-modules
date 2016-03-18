@@ -23,3 +23,5 @@ setenv("GRIBAPI_INCLUDE",           "/util/opt/grib-api/1.14/intel/15/include")
 setenv("GRIBAPI_LIB",               "/util/opt/grib-api/1.14/intel/15/lib")
 
 family("gribapi")
+
+prepend_path("CPATH",             "/util/opt/grib-api/1.14/intel/15/include")

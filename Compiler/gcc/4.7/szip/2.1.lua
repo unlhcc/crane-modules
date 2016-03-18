@@ -19,3 +19,5 @@ prepend_path("INCLUDE",             "/util/opt/szip/2.1/gcc/4.7/include")
 
 family("szip")
 
+
+prepend_path("CPATH",             "/util/opt/szip/2.1/gcc/4.7/include")

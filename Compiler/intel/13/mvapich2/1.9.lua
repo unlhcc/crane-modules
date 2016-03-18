@@ -33,3 +33,5 @@ prepend_path("INCLUDE",             "/util/opt/mvapich2/1.9/intel/13/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel_13/mvapich_1_9")
 
 family("mpi")
+
+prepend_path("CPATH",             "/util/opt/mvapich2/1.9/intel/13/include")

@@ -26,3 +26,5 @@ prepend_path("INCLUDE",             "/util/opt/mpich2/1.5/gcc/4.7/include")
 prepend_path("MODULEPATH",	    "/util/opt/modulefiles/MPI/gcc/4.7/mpich2/1.5")
 
 family("mpi")
+
+prepend_path("CPATH",             "/util/opt/mpich2/1.5/gcc/4.7/include")

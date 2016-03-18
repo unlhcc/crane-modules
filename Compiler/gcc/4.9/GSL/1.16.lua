@@ -19,5 +19,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/GSL/1.16/gcc/4.9/lib")
 prepend_path("MANPATH",             "/util/opt/GSL/1.16/gcc/4.9/share")
 setenv("GSL_INCLUDE",             "/util/opt/GSL/1.16/gcc/4.9/include")
 setenv("GSL", "/util/opt/GSL/1.16/gcc/4.9") 
+prepend_path("CPATH",                "/util/opt/GSL/1.16/gcc/4.9/include")
 
 family("gsl")

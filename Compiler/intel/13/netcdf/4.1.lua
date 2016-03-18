@@ -25,3 +25,5 @@ setenv("NETCDF_INCLUDE","/util/opt/netcdf/4.1/intel/13/include")
 setenv("NETCDF_LIB",	"/util/opt/netcdf/4.1/intel/13/lib")
 
 family("netcdf")
+
+prepend_path("CPATH",             "/util/opt/netcdf/4.1/intel/13/include")

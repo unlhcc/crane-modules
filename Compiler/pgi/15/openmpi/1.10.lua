@@ -26,3 +26,5 @@ prepend_path("INCLUDE",             "/util/opt/openmpi/1.10/pgi/15/include")
 prepend_path("MODULEPATH",	    "/util/opt/modulefiles/MPI/pgi/15/openmpi/1.10")
 
 family("mpi")
+
+prepend_path("CPATH",             "/util/opt/openmpi/1.10/pgi/15/include")

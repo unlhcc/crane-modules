@@ -20,3 +20,5 @@ prepend_path("INCLUDE",             "/util/opt/zlib/1.2/intel/15/include")
 
 family("zlib")
 
+
+prepend_path("CPATH",             "/util/opt/zlib/1.2/intel/15/include")

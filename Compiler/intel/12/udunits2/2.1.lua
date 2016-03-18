@@ -20,3 +20,5 @@ prepend_path("MANPATH",             "/util/opt/udunits/2.1/intel/12/share")
 prepend_path("INCLUDE",             "/util/opt/udunits/2.1/intel/12/include")
 
 family("udunits2")
+
+prepend_path("CPATH",             "/util/opt/udunits/2.1/intel/12/include")
