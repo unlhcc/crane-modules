@@ -22,3 +22,5 @@ setenv("GSL", "/util/opt/GSL/1.16/gcc/4.9")
 prepend_path("CPATH",                "/util/opt/GSL/1.16/gcc/4.9/include")
 
 family("gsl")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/GSL/1.16/gcc/4.9/lib")

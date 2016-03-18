@@ -18,3 +18,5 @@ prepend_path("PATH",                    "/util/opt/root/6.06.00/gcc/4.9/bin")
 prepend_path("LD_LIBRARY_PATH",         "/util/opt/root/6.06.00/gcc/4.9/lib")
 setenv("ROOTSYS",                       "/util/opt/root/6.06.00/gcc/4.9/")
 
+
+prepend_path("LIBRARY_PATH",         "/util/opt/root/6.06.00/gcc/4.9/lib")

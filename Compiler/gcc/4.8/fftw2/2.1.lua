@@ -18,5 +18,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw2/2.1/gcc/4.8/lib")
 prepend_path("LIBRARY_PATH",     "/util/opt/fftw2/2.1/gcc/4.8/lib")
 prepend_path("MANPATH",             "/util/opt/fftw2/2.1/gcc/4.8/info")
 setenv("FFTW2_INCLUDE",             "/util/opt/fftw2/2.1/gcc/4.8/include")
+prepend_path("CPATH",     "/util/opt/fftw2/2.1/gcc/4.8/include")
 
 family("fftw2")

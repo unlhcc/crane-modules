@@ -22,3 +22,4 @@ family("zlib")
 
 
 prepend_path("CPATH",             "/util/opt/zlib/1.2/gcc/4.8/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/gcc/4.8/lib")

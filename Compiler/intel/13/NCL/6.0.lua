@@ -48,3 +48,4 @@ setenv("NCARG_LIB","/util/opt/NCL/6.0/intel/13/lib")
 setenv("NCARG_BIN","/util/opt/NCL/6.0/intel/13/bin")
 
 prepend_path("CPATH",             "/util/opt/NCL/6.0/intel/13/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/NCL/6.0/intel/13/lib")

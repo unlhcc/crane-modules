@@ -20,3 +20,5 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/lib")
 prepend_path("MANPATH",             "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/share/man/man1")
 
 
+
+prepend_path("LIBRARY_PATH",     "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/lib")

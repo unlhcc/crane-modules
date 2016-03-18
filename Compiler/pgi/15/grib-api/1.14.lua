@@ -25,3 +25,4 @@ setenv("GRIBAPI_LIB",               "/util/opt/grib-api/1.14/pgi/15/lib")
 family("gribapi")
 
 prepend_path("CPATH",             "/util/opt/grib-api/1.14/pgi/15/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/grib-api/1.14/pgi/15/lib")

@@ -21,3 +21,4 @@ family("szip")
 
 
 prepend_path("CPATH",             "/util/opt/szip/2.1/intel/12/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/szip/2.1/intel/12/lib")

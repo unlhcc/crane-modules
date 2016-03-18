@@ -22,3 +22,4 @@ prepend_path("INCLUDE",             "/util/opt/udunits/2.2/pgi/14/include")
 family("udunits2")
 
 prepend_path("CPATH",             "/util/opt/udunits/2.2/pgi/14/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/udunits/2.2/pgi/14/lib")

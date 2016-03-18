@@ -23,3 +23,4 @@ setenv("GSL", "/util/opt/GSL/1.16/intel/13")
 family("gsl")
 
 prepend_path("CPATH",             "/util/opt/GSL/1.16/intel/13/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/GSL/1.16/intel/13/lib")

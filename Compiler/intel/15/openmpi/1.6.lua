@@ -28,3 +28,4 @@ prepend_path("MODULEPATH",          "/util/opt/modulefiles/MPI/intel/15/openmpi/
 family("mpi")
 
 prepend_path("CPATH",             "/util/opt/openmpi/1.6/intel/15/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/1.6/intel/15/lib")

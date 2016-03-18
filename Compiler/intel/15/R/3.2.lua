@@ -21,3 +21,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/R/3.2/intel/15/lib64/R/lib")
 prepend_path("MANPATH",             "/util/opt/R/3.2/intel/15/share/man/man1")
 
 family("R")
+
+prepend_path("LIBRARY_PATH",     "/util/opt/R/3.2/intel/15/lib64")
+prepend_path("LIBRARY_PATH",     "/util/opt/R/3.2/intel/15/lib64/R/lib")
