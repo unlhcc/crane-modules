@@ -25,7 +25,6 @@ prepend_path("MANPATH",             "/util/comp/gcc/4.7/man")
 prepend_path("INCLUDE",             "/util/comp/gcc/4.7/include")
 prepend_path("CPATH",             "/util/comp/gcc/4.7/include")
 prepend_path("PKG_CONFIG_PATH",     "/util/comp/gcc/4.7/lib/pkgconfig")
-prepend_path("PKG_CONFIG_PATH",     "/util/comp/gcc/4.7/lib64/pkgconfig")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/gcc/4.7")
 setenv(      "GCC_LIB",             "/util/comp/gcc/4.7/lib64")
 
