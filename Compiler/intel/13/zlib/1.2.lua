@@ -23,3 +23,4 @@ family("zlib")
 
 prepend_path("CPATH",             "/util/opt/zlib/1.2/intel/13/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/intel/13/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/zlib/1.2/intel/13/lib/pkgconfig")

@@ -29,3 +29,4 @@ family("mpi")
 
 prepend_path("CPATH",             "/util/opt/mpich2/1.5/gcc/4.7/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/mpich2/1.5/gcc/4.7/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/mpich2/1.5/gcc/4.7/lib/pkgconfig")

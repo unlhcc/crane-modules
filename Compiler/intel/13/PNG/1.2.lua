@@ -24,3 +24,4 @@ family("libpng")
 
 prepend_path("CPATH",             "/util/opt/PNG/1.2/intel/13/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/PNG/1.2/intel/13/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/PNG/1.2/intel/13/lib/pkgconfig")

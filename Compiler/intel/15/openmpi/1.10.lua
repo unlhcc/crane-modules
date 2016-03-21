@@ -29,3 +29,4 @@ family("mpi")
 
 prepend_path("CPATH",             "/util/opt/openmpi/1.10/intel/15/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/1.10/intel/15/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/openmpi/1.10/intel/15/lib/pkgconfig")

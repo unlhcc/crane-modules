@@ -26,3 +26,4 @@ family("gribapi")
 
 prepend_path("CPATH",             "/util/opt/grib-api/1.14/intel/15/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/grib-api/1.14/intel/15/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/grib-api/1.14/intel/15/lib/pkgconfig")

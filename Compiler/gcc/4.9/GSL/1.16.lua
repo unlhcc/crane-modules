@@ -24,3 +24,4 @@ prepend_path("CPATH",                "/util/opt/GSL/1.16/gcc/4.9/include")
 family("gsl")
 
 prepend_path("LIBRARY_PATH",     "/util/opt/GSL/1.16/gcc/4.9/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/GSL/1.16/gcc/4.9/lib/pkgconfig")

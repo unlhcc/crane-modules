@@ -22,3 +22,4 @@ prepend_path("MANPATH",             "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/share/m
 
 
 prepend_path("LIBRARY_PATH",     "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/BCRF/pandaseq/2.9/gcc/4.9/lib/pkgconfig")

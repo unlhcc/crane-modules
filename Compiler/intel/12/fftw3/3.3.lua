@@ -22,3 +22,5 @@ prepend_path("CPATH",     "/util/opt/fftw3/3.3/intel/12/include")
 setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/intel/12/include")
 
 family("fftw3")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/fftw3/3.3/intel/12/lib/pkgconfig")
