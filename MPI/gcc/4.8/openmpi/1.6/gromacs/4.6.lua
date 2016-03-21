@@ -26,3 +26,5 @@ prepend_path("LD_LIBRARY_PATH","/util/opt/gromacs/4.6/lib")
 prepend_path("MANPATH","/util/opt/gromacs/4.6/share/man")
 
 family("gromacs")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/gromacs/4.6/lib/pkgconfig")

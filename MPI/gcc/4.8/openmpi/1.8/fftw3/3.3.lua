@@ -22,3 +22,5 @@ setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/openmpi/1.8/gcc/4.8/inc
 prepend_path("CPATH",     "/util/opt/fftw3/3.3/openmpi/1.8/gcc/4.8/include")
 
 family("fftw3")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/fftw3/3.3/openmpi/1.8/gcc/4.8/lib/pkgconfig")

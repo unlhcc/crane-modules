@@ -49,3 +49,5 @@ prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/grib_api-1.9.16/lib")
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/esmf/lib/lib0/Linux.intel.64.openmpi.default")
 
 family("LIS")
+
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/LIS/dependencies/netcdf-4.3.0/lib/pkgconfig")
