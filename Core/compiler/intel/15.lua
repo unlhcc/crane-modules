@@ -21,7 +21,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/15/lib/intel64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/15/lib/intel64")
 prepend_path("MANPATH",             "/util/comp/intel/15/man/en_US")
 prepend_path("INCLUDE",             "/util/comp/intel/15/include")
-prepend_path("CPATH",             "/util/comp/intel/15/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel/15")
 
 setenv("CC",	"icc")
