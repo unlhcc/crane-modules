@@ -13,4 +13,6 @@ whatis("URL: https://github.com/kundajelab/TF_chipseq_pipeline")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/r-spp-1.11/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"r-spp-1.11")
+setenv("SPP_NODUPS",            "/util/opt/phantompeakqualtools/2.0/run_spp_nodups.R")
+setenv("SPP",                   "/util/opt/phantompeakqualtools/2.0/run_spp.R")
 family("anaconda")
