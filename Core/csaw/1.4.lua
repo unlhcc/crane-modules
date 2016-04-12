@@ -13,3 +13,4 @@ whatis("URL: https://bioconductor.org/packages/csaw")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/csaw-1.4.1/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"csaw-1.4.1")
+family("anaconda")
