@@ -8,6 +8,7 @@ whatis("Name: MATLAB r2015b")
 whatis("Keywords: Application, Engineering, Math")
 
 local WORK = os.getenv("WORK")
-setenv("MATLAB_PREFDIR", WORK .. "/.matlab")
+--setenv("MATLAB_PREFDIR", WORK .. "/.matlab")
+setenv("MATLAB_PREFDIR", "/tmp")
 
 prepend_path("PATH","/util/opt/matlab/r2015b/bin")
