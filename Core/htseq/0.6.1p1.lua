@@ -14,6 +14,7 @@ whatis("Description: HTSeq - Analysing high-throughput sequencing data with Pyth
 whatis("URL: https://pypi.python.org/pypi/HTSeq")
 
 prepend_path{"PATH"             ,"/util/opt/anaconda/2.2/envs/htseq-0.6.1p1/bin",priority=100}
+prepend_path("PYTHONPATH"	,"/util/opt/anaconda/2.2/envs/htseq-0.6.1p1/bin")
 pushenv("CONDA_DEFAULT_ENV"     ,"htseq-0.6.1p1")
 prereq("python/2.7")
 family("anaconda")
