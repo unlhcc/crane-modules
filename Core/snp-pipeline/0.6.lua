@@ -14,3 +14,5 @@ whatis("URL: http://snp-pipeline.readthedocs.io")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/snp-pipeline-0.6.1/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"snp-pipeline-0.6.1")
+pushenv("CLASSPATH",		"/util/opt/anaconda/2.2.0/envs/snp-pipeline-0.6.1/share/varscan-2.4.1-0/VarScan.jar")
+setenv("PYTHON_EGG_CACHE",pathJoin(os.getenv("WORK"),".python-eggs"))
