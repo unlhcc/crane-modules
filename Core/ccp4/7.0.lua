@@ -1,0 +1,42 @@
+local help_message = [[
+CCP4 v7.0
+]]
+
+help(help_message,"\n")
+
+whatis("Name: CCP4")
+whatis("Version: 7.0")
+whatis("Keywords: Application, Biology")
+
+prepend_path("PATH", "/util/opt/ccp4/7.0/etc")
+prepend_path("PATH", "/util/opt/ccp4/7.0/bin")
+prepend_path("MANPATH", "/util/opt/ccp4/7.0/share/man")
+setenv("CBIN", "/util/opt/ccp4/7.0/bin")
+setenv("CCP4_HELPDIR", "/util/opt/ccp4/7.0/help/")
+setenv("CCP4I_TCLTK", "/util/opt/ccp4/7.0/bin")
+setenv("CCP4I_TOP", "/util/opt/ccp4/7.0/share/ccp4i")
+setenv("CCP4_MASTER"," /util/opt/ccp4")
+setenv("CCP4_OPEN", "UNKNOWN")
+setenv("CCP4_SCR", "/tmp")
+setenv("CCP4", "/util/opt/ccp4/7.0")
+setenv("CETC", "/util/opt/ccp4/7.0/etc")
+setenv("CEXAM", "/util/opt/ccp4/7.0/examples")
+setenv("CHTML", "/util/opt/ccp4/7.0/html")
+setenv("CINCL", "/util/opt/ccp4/7.0/include")
+setenv("CLIBD_MON", "/util/opt/ccp4/7.0/lib/data/monomers/")
+setenv("CLIBD", "/util/opt/ccp4/7.0/lib/data")
+setenv("CLIB", "/util/opt/ccp4/7.0/lib")
+setenv("CRANK", "/util/opt/ccp4/7.0/share/ccp4i/crank")
+setenv("GFORTRAN_UNBUFFERED_PRECONNECTED", "Y")
+setenv("MMCIFDIC", "/util/opt/ccp4/7.0/lib/ccp4/cif_mmdic.lib")
+
+set_alias("ccp4", 'pushd $CCP4>/dev/null')
+set_alias("xtal", 'pushd $CCP4_MASTER>/dev/null')
+set_alias("cbin", 'pushd $CBIN>/dev/null')
+set_alias("cetc", 'pushd $CETC>/dev/null')
+set_alias("cincl", 'pushd $CINCL>/dev/null')
+set_alias("clib", 'pushd $CLIB>/dev/null')
+set_alias("clibd", 'pushd $CLIBD>/dev/null')
+set_alias("cbin", 'pushd $CBIN>/dev/null')
+set_alias("cexam", 'pushd $CEXAM>/dev/null')
+set_alias("chtml", 'pushd $CHTML>/dev/null')
