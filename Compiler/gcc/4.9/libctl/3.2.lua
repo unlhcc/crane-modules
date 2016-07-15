@@ -19,7 +19,7 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/libctl/3.2/gcc/4.9/lib")
 prepend_path("MANPATH",             "/util/opt/libctl/3.2/gcc/4.9/share/man")
 prepend_path("INCLUDE",             "/util/opt/libctl/3.2/gcc/4.9/include")
 
-family("netcdf")
+family("libctl")
 
 prepend_path("CPATH",               "/util/opt/libctl/3.2/gcc/4.9/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/libctl/3.2/gcc/4.9/lib")

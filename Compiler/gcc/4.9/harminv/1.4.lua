@@ -20,7 +20,7 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/harminv/1.4/gcc/4.9/lib")
 prepend_path("MANPATH",             "/util/opt/harminv/1.4/gcc/4.9/share/man")
 prepend_path("INCLUDE",             "/util/opt/harminv/1.4/gcc/4.9/include")
 
-family("netcdf")
+family("harminv")
 
 prepend_path("CPATH",               "/util/opt/harminv/1.4/gcc/4.9/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/harminv/1.4/gcc/4.9/lib")
