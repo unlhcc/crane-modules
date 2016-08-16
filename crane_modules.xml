@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-08-16T17:18:07Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-08-16T21:59:15Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -1318,6 +1318,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>quast</Name>
+      <Description>QUAST. the QUality ASsessment Tool for genome assemblies.</Description>
+      <Flavor>4.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>quast/4.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>breakdancer</Name>
       <Description>BreakDancer is a Perl/C++ package that provides genome-wide detection of structural variants from next generation paired-end sequencing reads.</Description>
       <Flavor>1.4</Flavor>
@@ -1357,13 +1370,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>quast</Name>
-      <Description>QUAST. the QUality ASsessment Tool for genome assemblies.</Description>
+      <Name>signalp</Name>
+      <Description>signalp  predicts  the presence and location of signal peptide cleavage sites in amino acid sequences from different  organisms:  Gram-positive bacteria,  Gram-negative  bacteria, and eukaryotes.</Description>
       <Flavor>4.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>quast/4.1</HandleKey>
+        <HandleKey>signalp/4.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1396,13 +1409,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>signalp</Name>
-      <Description>signalp  predicts  the presence and location of signal peptide cleavage sites in amino acid sequences from different  organisms:  Gram-positive bacteria,  Gram-negative  bacteria, and eukaryotes.</Description>
-      <Flavor>4.1</Flavor>
+      <Name>metaphlan</Name>
+      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
+      <Flavor>1.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>signalp/4.1</HandleKey>
+        <HandleKey>metaphlan/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1473,14 +1486,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>metaphlan</Name>
-      <Description>MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.</Description>
-      <Flavor>1.7</Flavor>
+      <Domain>unknown</Domain>
+      <Name>gnuplot</Name>
+      <Description>Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.</Description>
+      <Flavor>4.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>metaphlan/1.7</HandleKey>
+        <HandleKey>gnuplot/4.6</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1512,14 +1525,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>gnuplot</Name>
-      <Description>Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.</Description>
-      <Flavor>4.6</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>mugsy</Name>
+      <Description />
+      <Flavor>v1r2.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gnuplot/4.6</HandleKey>
+        <HandleKey>mugsy/v1r2.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1604,19 +1617,6 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>mugsy</Name>
-      <Description />
-      <Flavor>v1r2.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mugsy/v1r2.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
       <Name>cap3</Name>
       <Description>CAP3: A DNA Sequence Assembly Program</Description>
       <Flavor>122107</Flavor>
@@ -1624,6 +1624,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>cap3/122107</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tmhmm</Name>
+      <Description>TMHMM 2.0 predicts transmembrane helices in proteins.</Description>
+      <Flavor>2.0c</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tmhmm/2.0c</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1759,29 +1772,29 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>tmhmm</Name>
-      <Description>TMHMM 2.0 predicts transmembrane helices in proteins.</Description>
-      <Flavor>2.0c</Flavor>
+      <Domain>perl</Domain>
+      <Name>perl</Name>
+      <Description>The Perl Programming Language</Description>
+      <Flavor>5.22</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tmhmm/2.0c</HandleKey>
+        <HandleKey>perl/5.22</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>life sciences</Domain>
-      <Name>transrate</Name>
-      <Description>transrate - Quality assessment and comparison of transcriptome assemblies</Description>
-      <Flavor>0.1</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>flash</Name>
+      <Description>FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments. FLASH is designed to merge pairs of reads when the original DNA fragments are shorter than twice the length of reads. The resulting longer reads can significantly improve genome assemblies. They can also improve transcriptome assembly when FLASH is used to merge RNA-seq data.</Description>
+      <Flavor>1.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>transrate/0.1</HandleKey>
+        <HandleKey>flash/1.2</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1811,19 +1824,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>genotyping</Domain>
-      <Name>CNVnator</Name>
-      <Description>CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing.</Description>
-      <Flavor>0.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>CNVnator/0.3</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>csaw</Name>
       <Description>Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control.</Description>
@@ -1832,6 +1832,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>csaw/1.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trim_galore</Name>
+      <Description>Trim sequences</Description>
+      <Flavor>0.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>trim_galore/0.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1890,19 +1903,6 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>trim_galore</Name>
-      <Description>Trim sequences</Description>
-      <Flavor>0.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trim_galore/0.4</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
       <Name>idba</Name>
       <Description>IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinfomatics.</Description>
       <Flavor>1.1</Flavor>
@@ -1942,6 +1942,19 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
+      <Name>prinseq-lite</Name>
+      <Description>PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data.</Description>
+      <Flavor>0.20</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>prinseq-lite/0.20</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
       <Name>blast-legacy</Name>
       <Description>NCBI BLAST sequence alignment package. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches.</Description>
       <Flavor>2.2.26</Flavor>
@@ -1962,19 +1975,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>repeatmasker/4.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>prinseq-lite</Name>
-      <Description>PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data.</Description>
-      <Flavor>0.20</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>prinseq-lite/0.20</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2014,6 +2014,32 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>pplacer/1.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tophat</Name>
+      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tophat/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>tophat</Name>
+      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
+      <Flavor>2.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tophat/2.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2111,26 +2137,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>tophat</Name>
-      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
-      <Flavor>2.0</Flavor>
+      <Name>biosamtools</Name>
+      <Description />
+      <Flavor>1.38</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tophat/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>tophat</Name>
-      <Description>TopHat2 is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</Description>
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tophat/2.1</HandleKey>
+        <HandleKey>biosamtools/1.38</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2214,14 +2227,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>biosamtools</Name>
-      <Description />
-      <Flavor>1.38</Flavor>
+      <Domain>life sciences</Domain>
+      <Name>transrate</Name>
+      <Description>transrate - Quality assessment and comparison of transcriptome assemblies</Description>
+      <Flavor>0.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>biosamtools/1.38</HandleKey>
+        <HandleKey>transrate/0.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2253,14 +2266,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>perl</Domain>
-      <Name>perl</Name>
-      <Description>The Perl Programming Language</Description>
-      <Flavor>5.22</Flavor>
+      <Domain>computational biology</Domain>
+      <Name>xpclr</Name>
+      <Description>detecting selective sweeps via the differentiation of two populations</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>perl/5.22</HandleKey>
+        <HandleKey>xpclr/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2279,16 +2292,16 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>xpclr</Name>
-      <Description>detecting selective sweeps via the differentiation of two populations</Description>
-      <Flavor>1.0</Flavor>
+      <Domain>genotyping</Domain>
+      <Name>CNVnator</Name>
+      <Description>CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing.</Description>
+      <Flavor>0.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>xpclr/1.0</HandleKey>
+        <HandleKey>CNVnator/0.3</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2319,15 +2332,15 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>phylip</Name>
-      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
-      <Flavor>3.696</Flavor>
+      <Name>phobius</Name>
+      <Description>Phobius is a combined transmembrane topology and signal peptide predictor.</Description>
+      <Flavor>1.01</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phylip/3.696</HandleKey>
+        <HandleKey>phobius/1.01</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2540,13 +2553,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>phobius</Name>
-      <Description>Phobius is a combined transmembrane topology and signal peptide predictor.</Description>
-      <Flavor>1.01</Flavor>
+      <Name>vcftools</Name>
+      <Description>VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.</Description>
+      <Flavor>0.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phobius/1.01</HandleKey>
+        <HandleKey>vcftools/0.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2696,13 +2709,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>vcftools</Name>
-      <Description>VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.</Description>
-      <Flavor>0.1</Flavor>
+      <Name>RAPSearch2</Name>
+      <Description>RAPSearch2 is a tool for fast protein similarity searches.</Description>
+      <Flavor>2.19</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>vcftools/0.1</HandleKey>
+        <HandleKey>RAPSearch2/2.19</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2720,17 +2733,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>RAPSearch2</Name>
-      <Description>RAPSearch2 is a tool for fast protein similarity searches.</Description>
-      <Flavor>2.19</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>libxml2</Name>
+      <Description />
+      <Flavor>2.9</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>RAPSearch2/2.19</HandleKey>
+        <HandleKey>libxml2/2.9</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3021,15 +3034,15 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>trilinos</Name>
+      <Name>matio</Name>
       <Description />
-      <Flavor>12.6</Flavor>
+      <Flavor>1.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trilinos/12.6</HandleKey>
+        <HandleKey>matio/1.5</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3047,13 +3060,13 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>peridigm</Name>
+      <Name>trilinos</Name>
       <Description />
-      <Flavor>1.5</Flavor>
+      <Flavor>12.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>peridigm/1.5</HandleKey>
+        <HandleKey>trilinos/12.6</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9:openmpi/1.10</Context>
     </LocalSoftware>
@@ -3069,6 +3082,19 @@
         <HandleKey>tabix/0.2</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>peridigm</Name>
+      <Description />
+      <Flavor>1.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>peridigm/1.5</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3093,19 +3119,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>trinotate/r2013-11-10</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>transdecoder</Name>
-      <Description>TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.</Description>
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>transdecoder/2.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3671,15 +3684,15 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>flash</Name>
-      <Description>FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments. FLASH is designed to merge pairs of reads when the original DNA fragments are shorter than twice the length of reads. The resulting longer reads can significantly improve genome assemblies. They can also improve transcriptome assembly when FLASH is used to merge RNA-seq data.</Description>
-      <Flavor>1.2</Flavor>
+      <Name>transdecoder</Name>
+      <Description>TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.</Description>
+      <Flavor>2.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>flash/1.2</HandleKey>
+        <HandleKey>transdecoder/2.0</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -3708,15 +3721,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>matio</Name>
-      <Description />
-      <Flavor>1.5</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>phylip</Name>
+      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
+      <Flavor>3.696</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>matio/1.5</HandleKey>
+        <HandleKey>phylip/3.696</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
