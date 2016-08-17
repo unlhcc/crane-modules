@@ -26,4 +26,4 @@ prepend_path("PKG_CONFIG_PATH",     "/util/opt/libxslt/1.1/gcc/4.9/lib/pkgconfig
 prepend_path("LIBXSLT_LIBRARIES",   "/util/opt/libxslt/1.1/gcc/4.9/lib")
 prepend_path("LIBXSLT_INCLUDE_DIR", "/util/opt/libxslt/1.1/gcc/4.9/include")
 
-family("libxslt"")
+family("libxslt")
