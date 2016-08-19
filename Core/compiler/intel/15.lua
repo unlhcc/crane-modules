@@ -30,4 +30,10 @@ setenv("F77",	"ifort")
 setenv("CXX",	"icpc")
 setenv("INTEL_LICENSE_FILE",    "/util/comp/intel/15/licenses/USE_SERVER.lic")
 
+setenv("CFLAGS",         "-march=corei7-avx")
+setenv("FFLAGS",         "-march=corei7-avx")
+setenv("CXXFLAGS",       "-march=corei7-avx")
+setenv("F90FLAGS",       "-march=corei7-avx")
+setenv("FCFLAGS",        "-march=corei7-avx")
+
 family("compiler")
