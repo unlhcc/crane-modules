@@ -17,6 +17,9 @@ whatis("Description: Boost provides free peer-reviewed portable C++ source libra
 
 setenv("BOOST_DIR",	          "/util/opt/boost/1.54/gcc/4.9")
 setenv("BOOST_INCLUDE",           "/util/opt/boost/1.54/gcc/4.9/include")
+setenv("BOOST_ROOT",              "/util/opt/boost/1.54/gcc/4.9")
+setenv("BOOST_LIBRARYDIR",        "/util/opt/boost/1.54/gcc/4.9/lib")
+setenv("BOOST_INCLUDEDIR",        "/util/opt/boost/1.54/gcc/4.9/include")
 
 -- Add boost to the LD_LIBRARY_PATH, LIBRARY_PATH
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/boost/1.54/gcc/4.9/lib")
