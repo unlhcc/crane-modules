@@ -22,7 +22,7 @@ prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/16/lib/intel64")
 prepend_path("LD_LIBRARY_PATH",	    "/util/comp/intel/16/compilers_and_libraries/linux/mpi/lib64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/16/lib/intel64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/16/compilers_and_libraries/linux/mpi/lib64")
-prepend_path("MANPATH",             "/util/comp/intel/16/man/en_US")
+prepend_path("MANPATH",             "/util/comp/intel/16/man/common")
 prepend_path("INCLUDE",             "/util/comp/intel/16/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel/16")
 
