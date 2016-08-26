@@ -12,7 +12,7 @@ whatis("Keywords: Chemistry")
 whatis("URL: http://www.abinit.org/about")
 whatis("Description: ABINIT is a package whose main program allows one to find the total energy.")
 
-load("intel-mkl/13","netcdf/4.2","hdf5/1.8","zlib/1.2")
+load("intel-mkl/12","netcdf/4.2","hdf5/1.8","zlib/1.2")
 
 prepend_path("PATH",              "/util/opt/abinit/8.0/bin")
 
