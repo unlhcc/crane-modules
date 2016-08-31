@@ -13,6 +13,8 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://bitbucket.org/nygcresearch/treemix/wiki/Home")
 
+load("boost/1.55.0")
+
 prepend_path("PATH",                "/util/opt/treemix/1.12/gcc/4.4/bin")
 
 family("treemix")
