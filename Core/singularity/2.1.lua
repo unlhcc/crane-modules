@@ -14,3 +14,4 @@ whatis("Description: Application containers enabling mobility of compute.")
 whatis("URL: http://singularity.lbl.gov")
 
 prepend_path("PATH"       ,"/util/opt/singularity/2.1/gcc/4.4/bin")
+setenv("SINGULARITY_IMAGES"  ,"/work/HCC/SINGULARITY/IMAGES")
