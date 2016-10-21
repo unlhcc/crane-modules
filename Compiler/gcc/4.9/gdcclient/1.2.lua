@@ -16,5 +16,5 @@ whatis("URL: https://gdc.cancer.gov/access-data/gdc-data-transfer-tool")
 load("python/2.7","libxml2/2.9","libxslt/1.1")
 
 prepend_path("PATH",		"/util/opt/gdcclient/1.2/gcc/4.9/bin")
-prepend_path("PYTHONPATH",	"/util/opt/gdcclient/1.2/gcc/4.9/lib/python2.7/site-packages/"
+prepend_path("PYTHONPATH",	"/util/opt/gdcclient/1.2/gcc/4.9/lib/python2.7/site-packages/")
 
