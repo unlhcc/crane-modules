@@ -57,8 +57,8 @@ As root on Crane login under `/util/opt/modulefiles`, do a pull to update the pr
 Adding BCRF modules:
 -------------------
 
-The workflow is similar to above, except there is `bcrf` branch to add modules into that
-will then later get merged into the master branch.
+The workflow is similar to above, except there a separate branch for each package to be added
+will be created, and then later get merged into the master branch.
 
 If you don't have a copy of the repo, clone it first:
 
@@ -68,21 +68,29 @@ If you've already cloned it, do a pull to make sure you're up to date:
 
 `git pull`
 
-Next, switch to using the `bcrf` branch and do a pull do make sure
-it's up to date:
+Next, create a branch to add the new package module to.  Good practice is to name the branch
+with the package name and version; for example, `mypackage-1.0`.  Create the new branch via
+the `checkout` command:
 
-`git checkout bcrf`
-
-`git pull`
+`git checkout -b mypackage-1.0`
 
 Follow the instructions above for adding any new files, testing any changes,
 and running the helper script to update the XML file listings.  Then commit your changes
-to your local repo as above, and push the changes to the `bcrf` branch back up:
+to your local repo as above, and push the new branch back up:
 
-`git push origin bcrf`
+`git push origin mypackage-1.0`
 
 On the https://git.unl.edu/hcc/crane-modules page, create a Merge Request from
-the `bcrf` branch to the `master` branch.
+the `mypackage-1.0` branch to the `master` branch.
+
+Once the new branch has been merged, switch back to master and do a pull:
+
+`git checkout master`
+`git pull`
+
+Your local copy of the branch can then be safely deleted:
+
+`git branch -d mypackage-1.0`
 
 Once the Merge Request is done, the production files will get updated and the new
 module(s) should show up.
