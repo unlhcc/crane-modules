@@ -86,6 +86,7 @@ the `mypackage-1.0` branch to the `master` branch.
 Once the new branch has been merged, switch back to master and do a pull:
 
 `git checkout master`
+
 `git pull`
 
 Your local copy of the branch can then be safely deleted:
