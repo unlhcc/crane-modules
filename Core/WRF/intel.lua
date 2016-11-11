@@ -20,7 +20,7 @@ setenv("JASPERINC", "/util/opt/jasper/1.900.1/intel/13/include")
 setenv("JASPERLIB", "/util/opt/jasper/1.900.1/intel/13/lib")
 
 --Cindy asked for this software RT# 4029
-prepend_path("PATH",                "/util/opt/cdo/1.6/intel/13/bin")
+prepend_path("PATH",                "/util/opt/cdo/1.7/intel/13/bin")
 
 --Cindy asked for this software RT# 4259
 prepend_path("PATH",                "/util/opt/wgrib/1.8/intel/13/bin")
