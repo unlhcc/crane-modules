@@ -12,4 +12,4 @@ whatis("Keywords:  Biology, Genomics, Sequencing, FastQ, Quality Control")
 whatis("Description: SimRNA is a tool for simulations of RNA conformational dynamics")
 whatis("URL: ftp://ftp.genesilico.pl/pub/software/simrna/version_3.20/")
 
-prepend_path("PATH",    "/util/opt/simrna/3.20/SimRNA_64bitIntel_Linux")
+prepend_path("PATH",    "/util/opt/simrna/3.20/gcc/4.4/SimRNA_64bitIntel_Linux/")
