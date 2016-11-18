@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-11-18T21:07:46Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-11-18T21:10:59Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -605,11 +605,11 @@
       <Domain>System Environment/Base</Domain>
       <Name>boost</Name>
       <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
-      <Flavor>1.44</Flavor>
+      <Flavor>1.54</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>boost/1.44</HandleKey>
+        <HandleKey>boost/1.54</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -618,11 +618,11 @@
       <Domain>System Environment/Base</Domain>
       <Name>boost</Name>
       <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
-      <Flavor>1.54</Flavor>
+      <Flavor>1.44</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>boost/1.54</HandleKey>
+        <HandleKey>boost/1.44</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -707,13 +707,13 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>last</Name>
+      <Name>geos</Name>
       <Description />
-      <Flavor>1.0</Flavor>
+      <Flavor>3.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>last/1.0</HandleKey>
+        <HandleKey>geos/3.5</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -1732,19 +1732,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>proj</Name>
-      <Description />
-      <Flavor>4.9</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>proj/4.9</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>trinotate</Name>
@@ -1769,6 +1756,19 @@
         <HandleKey>trinotate/r2013-11-10</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>matio</Name>
+      <Description />
+      <Flavor>1.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>matio/1.5</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1823,6 +1823,19 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>proj</Name>
+      <Description />
+      <Flavor>4.9</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>proj/4.9</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>bayespeak</Name>
@@ -1834,19 +1847,6 @@
         <HandleKey>bayespeak/1.24.0</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>geos</Name>
-      <Description />
-      <Flavor>3.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>geos/3.5</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1888,15 +1888,15 @@
       <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>phylip</Name>
-      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
-      <Flavor>3.696</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>last</Name>
+      <Description />
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phylip/3.696</HandleKey>
+        <HandleKey>last/1.0</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
@@ -1927,17 +1927,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>peridigm</Name>
-      <Description />
-      <Flavor>1.5</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>phylip</Name>
+      <Description>PHYLIP (the PHYLogeny Inference Package) is a package of programs for inferring phylogenies (evolutionary trees).</Description>
+      <Flavor>3.696</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>peridigm/1.5</HandleKey>
+        <HandleKey>phylip/3.696</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2007,15 +2007,15 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>matio</Name>
+      <Name>peridigm</Name>
       <Description />
       <Flavor>1.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>matio/1.5</HandleKey>
+        <HandleKey>peridigm/1.5</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2045,42 +2045,16 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
+      <Domain>biology</Domain>
+      <Name>allpathslg</Name>
       <Description />
-      <Flavor>2014.1</Flavor>
+      <Flavor>latest</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>atk/2014.1</HandleKey>
+        <HandleKey>allpathslg/latest</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
-      <Description />
-      <Flavor>2015.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>atk/2015.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
-      <Description />
-      <Flavor>13.8.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>atk/13.8.2</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -4801,16 +4775,42 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>biology</Domain>
-      <Name>allpathslg</Name>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
       <Description />
-      <Flavor>latest</Flavor>
+      <Flavor>2014.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>allpathslg/latest</HandleKey>
+        <HandleKey>atk/2014.1</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
+      <Description />
+      <Flavor>2015.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>atk/2015.1</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
+      <Description />
+      <Flavor>13.8.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>atk/13.8.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -5343,7 +5343,7 @@
         <HandleType>module</HandleType>
         <HandleKey>NCO/4.4</HandleKey>
       </Handle>
-      <Context>compiler/intel/16</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -5395,7 +5395,7 @@
         <HandleType>module</HandleType>
         <HandleKey>NCO/4.4</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/intel/16</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -5857,6 +5857,19 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/2.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
       <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
@@ -5883,6 +5896,19 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/2.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/5.4</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
       <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
@@ -5890,6 +5916,19 @@
         <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
       <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/2.0</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -5922,11 +5961,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.6</Flavor>
+      <Flavor>1.10</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.6</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
@@ -6000,13 +6039,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>2.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/2.0</HandleKey>
       </Handle>
-      <Context>compiler/gcc/5.4</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6032,7 +6071,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>compiler/pgi/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6044,6 +6083,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
+      <Flavor>1.10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
       <Context>compiler/pgi/13</Context>
     </LocalSoftware>
@@ -6078,13 +6130,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
+        <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/pgi/13</Context>
+      <Context>compiler/gcc/5.4</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6110,7 +6162,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>compiler/gcc/5.4</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6123,7 +6175,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/5.4</Context>
+      <Context>compiler/gcc/4.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6169,11 +6221,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10</Flavor>
+      <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
+        <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
@@ -6208,13 +6260,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
+        <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8</Context>
+      <Context>compiler/pgi/15</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -6234,11 +6286,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>1.10</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
       <Context>compiler/pgi/15</Context>
     </LocalSoftware>
@@ -6260,19 +6312,6 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmpi</Name>
-      <Description />
       <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
@@ -6280,6 +6319,19 @@
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
       <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
+      <Flavor>1.10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.10</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
