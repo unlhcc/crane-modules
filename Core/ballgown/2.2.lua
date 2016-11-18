@@ -13,5 +13,4 @@ whatis("URL: https://github.com/alyssafrazee/ballgown")
 
 prepend_path{"PATH"             ,"/util/opt/BCRF/conda-envs/bioconductor-ballgown-2.2.0/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"     ,"bioconductor-ballgown-2.2.0")
-prereq("R/3.3")
 family("anaconda")
