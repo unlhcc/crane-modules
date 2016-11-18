@@ -1,5 +1,5 @@
 local help_message = [[
-OpenMPI Compilers 2.0.0
+OpenMPI Compilers 2.0.2
 
 This module loads the OpenMPI environment, built with the GNU 
 compilers.  By loading this module, the following commands
@@ -14,7 +14,7 @@ mpiCC/mpicxx	(C++ source)
 help(help_message,"\n")
 
 whatis("Name: OpenMPI")
-whatis("Version: 2.0.0")
+whatis("Version: 2.0.2")
 whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.open-mpi.org")
