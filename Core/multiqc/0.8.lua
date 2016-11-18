@@ -1,4 +1,5 @@
 help (
+[[
 This module loads multiqc
 PATH has been prepended to include the multiqc program.
 Version 0.8
