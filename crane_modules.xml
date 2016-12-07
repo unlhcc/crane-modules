@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-12-07T17:02:27Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-12-07T17:14:30Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -745,53 +745,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>8.0</Flavor>
+      <Domain>network</Domain>
+      <Name>curl</Name>
+      <Description />
+      <Flavor>7.50</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cuda/8.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>6.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/6.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>6.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/6.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>cuda</Name>
-      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
-      <Flavor>7.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cuda/7.5</HandleKey>
+        <HandleKey>curl/7.50</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -833,6 +794,19 @@
         <HandleKey>libctl/3.2</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>libctl</Name>
+      <Description />
+      <Flavor>3.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>libctl/3.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/6.1</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1836,134 +1810,43 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmx</Name>
-      <Description />
-      <Flavor>3.7</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trimmomatic</Name>
+      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
+      <Flavor>0.33</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
+        <HandleKey>trimmomatic/0.33</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinotate</Name>
+      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
+      <Flavor>2.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
+        <HandleKey>trinotate/2.0</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12:openmpi/1.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>trinotate</Name>
+      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
+      <Flavor>r2013-11-10</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
+        <HandleKey>trinotate/r2013-11-10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/13:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/intel/15:openmpi/1.10</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/14:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/15:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>phdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>phdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -3437,26 +3320,13 @@
     <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
-      <Name>htseq</Name>
-      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
-      <Flavor>0.5.4p5</Flavor>
+      <Name>xpclr</Name>
+      <Description>detecting selective sweeps via the differentiation of two populations</Description>
+      <Flavor>1.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>htseq/0.5.4p5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>htseq</Name>
-      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
-      <Flavor>0.6.1p1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>htseq/0.6.1p1</HandleKey>
+        <HandleKey>xpclr/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -3773,17 +3643,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>network</Domain>
-      <Name>curl</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>LIS</Name>
       <Description />
-      <Flavor>7.50</Flavor>
+      <Flavor>7.0r</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>curl/7.50</HandleKey>
+        <HandleKey>LIS/7.0r</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -4943,17 +4813,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trimmomatic</Name>
-      <Description>Trimmomatic: A flexible read trimming tool for Illumina NGS data.</Description>
-      <Flavor>0.33</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>trimmomatic/0.33</HandleKey>
+        <HandleKey>openmx/3.7</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -5009,19 +4879,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utilities</Domain>
-      <Name>autoconf</Name>
-      <Description>Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.</Description>
-      <Flavor>2.69</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>autoconf/2.69</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>soapdenovo2</Name>
       <Description>soapdenovo2 - novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes</Description>
@@ -5030,6 +4887,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>soapdenovo2/r240</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Utilities</Domain>
+      <Name>autoconf</Name>
+      <Description>Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.</Description>
+      <Flavor>2.69</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>autoconf/2.69</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5257,6 +5127,136 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.8:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/14:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/15:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>phdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>phdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>biology</Domain>
+      <Name>mafft</Name>
+      <Description>Multiple alignment program for amino acid or nucleotide sequences</Description>
+      <Flavor>7.149</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mafft/7.149</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
       <Name>NCO</Name>
       <Description />
       <Flavor>4.4</Flavor>
@@ -5464,45 +5464,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>biology</Domain>
-      <Name>mafft</Name>
-      <Description>Multiple alignment program for amino acid or nucleotide sequences</Description>
-      <Flavor>7.149</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mafft/7.149</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinotate</Name>
-      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinotate/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>trinotate</Name>
-      <Description>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms.</Description>
-      <Flavor>r2013-11-10</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>trinotate/r2013-11-10</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>Applications</Domain>
       <Name>sas</Name>
       <Description>SAS is a software suite developed by SAS Institute for advanced analytics, business intelligence, data management, and predictive analytics.</Description>
@@ -5528,17 +5489,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>pesmf</Name>
-      <Description />
-      <Flavor>5.2</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>fastx_toolkit</Name>
+      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
+      <Flavor>0.0.14</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>pesmf/5.2</HandleKey>
+        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -5736,28 +5697,54 @@
       <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>fastx_toolkit</Name>
-      <Description>FASTX Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</Description>
-      <Flavor>0.0.14</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>pesmf</Name>
+      <Description />
+      <Flavor>5.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>fastx_toolkit/0.0.14</HandleKey>
+        <HandleKey>pesmf/5.2</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>java</Name>
+      <Description>Java JDK.</Description>
+      <Flavor>1.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>java/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>xpclr</Name>
-      <Description>detecting selective sweeps via the differentiation of two populations</Description>
-      <Flavor>1.0</Flavor>
+      <Domain>system</Domain>
+      <Name>java</Name>
+      <Description>Java JDK.</Description>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>xpclr/1.0</HandleKey>
+        <HandleKey>java/1.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>java</Name>
+      <Description>Java JDK.</Description>
+      <Flavor>1.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>java/1.6</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -5840,17 +5827,30 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>LIS</Name>
-      <Description />
-      <Flavor>7.0r</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>htseq</Name>
+      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
+      <Flavor>0.5.4p5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>LIS/7.0r</HandleKey>
+        <HandleKey>htseq/0.5.4p5</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>htseq</Name>
+      <Description>HTSeq - Analysing high-throughput sequencing data with Python</Description>
+      <Flavor>0.6.1p1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>htseq/0.6.1p1</HandleKey>
+      </Handle>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -6595,40 +6595,53 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>java</Name>
-      <Description>Java JDK.</Description>
-      <Flavor>1.7</Flavor>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>8.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>java/1.7</HandleKey>
+        <HandleKey>cuda/8.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>java</Name>
-      <Description>Java JDK.</Description>
-      <Flavor>1.8</Flavor>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>6.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>java/1.8</HandleKey>
+        <HandleKey>cuda/6.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>java</Name>
-      <Description>Java JDK.</Description>
-      <Flavor>1.6</Flavor>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>6.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>java/1.6</HandleKey>
+        <HandleKey>cuda/6.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>7.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cuda/7.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
