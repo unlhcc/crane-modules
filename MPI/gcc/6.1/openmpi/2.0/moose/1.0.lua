@@ -12,6 +12,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://mooseframework.org/")
 
+load("petsc/3.6")
 
 prepend_path("PATH",                "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/scripts")
 prepend_path("PATH",                "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/gui")
