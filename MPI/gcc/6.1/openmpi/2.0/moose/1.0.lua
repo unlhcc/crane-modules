@@ -14,6 +14,9 @@ whatis("URL: http://mooseframework.org/")
 
 load("petsc/3.6")
 
+setenv("MOOSE_DIR", "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose")
+setenv("FRAMEWORK_DIR", "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/framework")
+
 prepend_path("PATH",                "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/scripts")
 prepend_path("PATH",                "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/gui")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/moose/1.0/openmpi/2.0/gcc/6.1/moose/framework")
