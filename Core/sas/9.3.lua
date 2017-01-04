@@ -23,4 +23,4 @@ setenv("SASV9_OPTIONS",	"-FILELOCKS NONE")
 -- X11 forwarding still works.  The next line setting HOME to $WORK will break forwarding otherwise.
 setenv("XAUTHORITY",pathJoin(os.getenv("HOME"),".Xauthority"))
 
-pushenv("HOME",	"$WORK")
+pushenv("HOME",	os.getenv("WORK"))
