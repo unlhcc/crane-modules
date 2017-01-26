@@ -21,6 +21,7 @@ whatis("URL: http://www.open-mpi.org")
 
 prepend_path("PATH",                "/util/opt/openmpi/1.8/pgi/12/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/1.8/pgi/12/lib")
+prepend_path("LD_LIBRARY_PATH",     "/usr/lib64/psm2-compat")
 prepend_path("MANPATH",             "/util/opt/openmpi/1.8/pgi/12/share/man")
 prepend_path("INCLUDE",             "/util/opt/openmpi/1.8/pgi/12/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/MPI/pgi/12/openmpi/1.8")
