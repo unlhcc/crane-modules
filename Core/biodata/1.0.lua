@@ -15,11 +15,13 @@ will run the bowtie2 command utilizing the default Horse (Equus caballus) index.
 The major environment variables are:
 
 $DATA             Main database directory
+$BLAST            Main BLAST database directory
 $KEGG             KEGG database main entry point (requires license)
 $PANTHER          PANTHER database main entry point (latest)
 $IPR              InterProScan database main entry point (latest)
 $GENOMES          Directory containing all available genomes (multiple sources, builds possible)
 $INDICES          Directory containing indices for bowtie, bowtie2, bwa for all available genomes
+$UNIPROT          Directory containing latest release of full UniProt database
 
 You can alsways check what's available by, e.g.
 
@@ -136,6 +138,7 @@ local bowtie2 = pathJoin(indices, "bowtie2")
 local bowtie = pathJoin(indices, "bowtie")
 local bwa = pathJoin(indices, "bwa")
 local blast = pathJoin(data, "BLAST")
+local uniprot_root = pathJoin(data, "uniprot")
 local kegg = pathJoin(data, "kegg")
 local ipr_root = pathJoin(data, "interproscan")
 local panther_root = pathJoin(data, "panther")
@@ -154,8 +157,15 @@ pushenv("INDICES_BWA", bwa)
 -- Most recent versions of major databases (where appropiate)
 local panther_latest = "9.0"
 local ipr_latest = "5"
+local uniprot_latest = "2017_1"
 pushenv("IPR", pathJoin(ipr_root, ipr_latest))
 pushenv("PANTHER", pathJoin(panther_root, panther_latest))
+pushenv("UNIPROT", pathJoin(uniprot_root, uniprot_latest))
+pushenv("UNIPROT_KB", pathJoin(uniprot_root, uniprot_latest, "knowledgebase"))
+pushenv("UNIPROT_UNIREF", pathJoin(uniprot_root, uniprot_latest, "uniref"))
+pushenv("UNIPROT_UNIREF100", pathJoin(uniprot_root, uniprot_latest, "uniref100/uniref100.fasta"))
+pushenv("UNIPROT_UNIREF90", pathJoin(uniprot_root, uniprot_latest, "uniref/uniref90/uniref90.fasta"))
+pushenv("UNIPROT_UNIREF50", pathJoin(uniprot_root, uniprot_latest, "uniref50/uniref50.fasta"))
 
 
 -- Genome databases and indices
@@ -669,6 +679,6 @@ pushenv ("FAIDX_ZEA_MAYS_ENSEMBL_AGPV3", pathJoin(genomes, "Zea_mays", "Ensembl"
 
 if (mode() == "load") then
         LmodMessage("Static data resources for bioinformatics 1.0.")
-        LmodMessage("     Contact bcrf-support@unl.edu for questions/support.")
+        LmodMessage("     Contact the Bioinformatics Core Research Facility (bcrf-support@unl.edu) for questions/support.")
 end
 
