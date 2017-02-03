@@ -158,14 +158,15 @@ pushenv("INDICES_BWA", bwa)
 local panther_latest = "9.0"
 local ipr_latest = "5"
 local uniprot_latest = "2017_1"
+local uniref_root = pathJoin(uniprot_root, uniprot_latest, "uniref")
 pushenv("IPR", pathJoin(ipr_root, ipr_latest))
 pushenv("PANTHER", pathJoin(panther_root, panther_latest))
 pushenv("UNIPROT", pathJoin(uniprot_root, uniprot_latest))
 pushenv("UNIPROT_KB", pathJoin(uniprot_root, uniprot_latest, "knowledgebase"))
-pushenv("UNIPROT_UNIREF", pathJoin(uniprot_root, uniprot_latest, "uniref"))
-pushenv("UNIPROT_UNIREF100", pathJoin(uniprot_root, uniprot_latest, "uniref100/uniref100.fasta"))
-pushenv("UNIPROT_UNIREF90", pathJoin(uniprot_root, uniprot_latest, "uniref/uniref90/uniref90.fasta"))
-pushenv("UNIPROT_UNIREF50", pathJoin(uniprot_root, uniprot_latest, "uniref50/uniref50.fasta"))
+pushenv("UNIPROT_UNIREF", uniref_root)
+pushenv("UNIPROT_UNIREF100", pathJoin(uniref_root, "uniref100/uniref100.fasta"))
+pushenv("UNIPROT_UNIREF90", pathJoin(uniref_root, "uniref90/uniref90.fasta"))
+pushenv("UNIPROT_UNIREF50", pathJoin(uniref_root, "uniref50/uniref50.fasta"))
 
 
 -- Genome databases and indices
