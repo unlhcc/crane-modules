@@ -12,5 +12,6 @@ whatis("Description:  EMBOSS is a free Open Source software analysis package spe
 whatis("URL: http://emboss.sourceforge.net/what/")
 
 prepend_path{"PATH"             ,"/util/opt/BCRF/conda-envs/emboss-6.5.7/bin",priority=100}
+prepend_path("LD_LIBRARY_PATH",   "/util/opt/BCRF/conda-envs/emboss-6.5.7/share/EMBOSS/acd")
 pushenv("CONDA_DEFAULT_ENV"     ,"emboss-6.5.7")
 family("anaconda")
