@@ -14,6 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.fftw.org/index.html")
 
+setenv("LAMMPS_POTENTIALS",         "/util/opt/lammps/potentials")
 prepend_path("PATH",                "/util/opt/lammps/30Oct2014/gcc/4.8/bin/")
 
 family("lammps")

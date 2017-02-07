@@ -14,6 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://lammps.sandia.gov/")
 
+setenv("LAMMPS_POTENTIALS",         "/util/opt/lammps/potentials")
 prepend_path("PATH",                "/util/opt/lammps/15May2015/gcc/4.9/bin")
 
 family("lammps")
