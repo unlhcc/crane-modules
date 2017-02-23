@@ -5,7 +5,7 @@ Version 2.1
 
 ]])
 
-whatis("Name: GEM")
+whatis("Name: biom-format")
 whatis("Version: 2.1")
 whatis("Category: computational biology, sequencing")
 whatis("Keywords: Biology, Genomics, Sequencing")
@@ -13,4 +13,4 @@ whatis("Description: The BIOM file format (canonically pronounced biome) is desi
 whatis("URL: http://biom-format.org")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/biom-format-2.1.5/bin",priority=100}
-pushenv("CONDA_DEFAULT_ENV"	,"biom-format-2.1")
+pushenv("CONDA_DEFAULT_ENV"	,"biom-format-2.1.5")
