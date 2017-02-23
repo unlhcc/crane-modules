@@ -13,4 +13,4 @@ whatis("Description: MEGAHIT: An ultra-fast single-node solution for large and c
 whatis("URL: https://github.com/voutcn/megahit")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/megahit-1.1.1/bin",priority=100}
-pushenv("CONDA_DEFAULT_ENV"	,"megahit-1.1")
+pushenv("CONDA_DEFAULT_ENV"	,"megahit-1.1.1")
