@@ -12,4 +12,4 @@ whatis("Description: Khmer is tools for in-memory nucleotide sequence k-mer coun
 whatis("URL: https://github.com/dib-lab/khmer")
 
 pushenv("CONDA_DEFAULT_ENV","khmer-2.0")
-prepend_path{"PATH","/util/opt/anaconda3/2.0.1/envs/khmer-2.0/bin",priority=100}
+prepend_path{"PATH","/util/opt/anaconda3/2.0/envs/khmer-2.0/bin",priority=100}
