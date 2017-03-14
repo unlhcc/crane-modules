@@ -12,5 +12,5 @@ whatis("Keywords: Biology, Phylogeny")
 whatis("Description: BEAST is a cross-platform program for Bayesian analysis of molecular sequences using MCMC.")
 whatis("URL: http://beast.bio.ed.ac.uk")
 
-prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/beast-1.8.2/bin",priority=100}
-pushenv("CONDA_DEFAULT_ENV"	,"beast-1.8.2")
+prepend_path{"PATH"		,"/util/opt/anaconda/2.2/envs/beast-1.8.4/bin",priority=100}
+pushenv("CONDA_DEFAULT_ENV"	,"beast-1.8.4")
