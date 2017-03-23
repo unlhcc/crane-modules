@@ -5,7 +5,7 @@ Version 2.9.0
 ]])
 
 whatis("Name: Picard")
-whatis("Version: 1.0")
+whatis("Version: 2.9.0")
 whatis("Category: computational biology, genomics")
 whatis("Keywords: Biology, Genomics, Alignment, Sequencing, File processing")
 whatis("URL: http://broadinstitute.github.io/picard/")
