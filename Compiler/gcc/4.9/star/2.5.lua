@@ -8,7 +8,7 @@ Version 2.5
 )
 
 whatis("Name: STAR")
-whatis("Version: 2.5.2a")
+whatis("Version: 2.5.3a")
 whatis("Category: biology, genomics")
 whatis("Keywords: Biology, Genomics")
 whatis("URL: https://github.com/alexdobin/STAR")
