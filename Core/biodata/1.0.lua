@@ -139,6 +139,7 @@ local bowtie = pathJoin(indices, "bowtie")
 local bwa = pathJoin(indices, "bwa")
 local blast = pathJoin(data, "BLAST")
 local uniprot_root = pathJoin(data, "uniprot")
+local metaphlan_root = pathJoin(data, "metaphlan")
 local kegg = pathJoin(data, "kegg")
 local ipr_root = pathJoin(data, "interproscan")
 local panther_root = pathJoin(data, "panther")
@@ -157,8 +158,10 @@ pushenv("INDICES_BWA", bwa)
 -- Most recent versions of major databases (where appropiate)
 local panther_latest = "9.0"
 local ipr_latest = "5"
-local uniprot_latest = "2017_1"
+local metaphlan_latest = "2.6"
+local uniprot_latest = "2017_3"
 local uniref_root = pathJoin(uniprot_root, uniprot_latest, "uniref")
+local metaphlan_latest_root = pathJoin(metaphlan_root, metaphlan_latest)
 pushenv("IPR", pathJoin(ipr_root, ipr_latest))
 pushenv("PANTHER", pathJoin(panther_root, panther_latest))
 pushenv("UNIPROT", pathJoin(uniprot_root, uniprot_latest))
@@ -167,6 +170,9 @@ pushenv("UNIPROT_UNIREF", uniref_root)
 pushenv("UNIPROT_UNIREF100", pathJoin(uniref_root, "uniref100/uniref100.fasta"))
 pushenv("UNIPROT_UNIREF90", pathJoin(uniref_root, "uniref90/uniref90.fasta"))
 pushenv("UNIPROT_UNIREF50", pathJoin(uniref_root, "uniref50/uniref50.fasta"))
+pushenv("METAPHLAN", metaphlan_latest_root)
+pushenv("METAPHLAN_BLAST", pathJoin(metaphlan_latest_root, "blastdb/mpa"))
+pushenv("METAPHLAN_BOWTIE", pathJoin(metaphlan_latest_root, "bowtie2db/mpa"))
 
 
 -- Genome databases and indices
