@@ -1,5 +1,5 @@
 local help_message = [[
-Python 3.4
+Python 3.6
 
 This module loads the Anaconda Python environment. 
 See https://store.continuum.io/cshop/anaconda.
@@ -15,14 +15,14 @@ BioPython
 help(help_message,"\n")
 
 whatis("Name: Python")
-whatis("Version: 3.4")
+whatis("Version: 3.6")
 whatis("Category: system, development")
 whatis("Keywords: System, Development, Python")
 whatis("URL: http://www.python.org/")
 
 prepend_path("PATH",                "/util/opt/anaconda/4.3/bin")
 prepend_path("MANPATH",             "/util/opt/anaconda/4.3/share/man")
-prepend_path{"PATH",                "/util/opt/anaconda/4.3/envs/python-3.4/bin",priority=100}
+prepend_path{"PATH",                "/util/opt/anaconda/4.3/envs/python-3.6/bin",priority=100}
 
 local username = os.getenv("USER") or ""
 if username ~= "root" then
@@ -35,5 +35,5 @@ if username ~= "root" then
 append_path("CONDA_ENVS_PATH", "/util/opt/anaconda3/2.0/envs")
 end
 
-pushenv("CONDA_DEFAULT_ENV", "python-3.4")
+pushenv("CONDA_DEFAULT_ENV", "python-3.6")
 family("python")
