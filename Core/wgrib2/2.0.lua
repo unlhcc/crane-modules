@@ -11,6 +11,8 @@ whatis("Category: file processing")
 whatis("Description: wgrib2 is more like four drawers of kitchen utensils as well as the microwave and blender.")
 whatis("URL: http://www.cpc.ncep.noaa.gov/products/wesley/wgrib2/")
 
+setenv("CC",                        "gcc")
+setenv("FC",                        "gfortran")
 prepend_path("PATH",                "/util/opt/wgrib2/2.0/gcc/4.4/bin/")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/wgrib2/2.0/gcc/4.4/lib")
 prepend_path("INCLUDE",             "/util/opt/wgrib2/2.0/gcc/4.4/include")
