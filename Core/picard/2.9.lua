@@ -4,6 +4,10 @@ This module loads Picard.
 Version 2.9.0
 ]])
 
+if mode() == "load" then
+  LmodMessage("Usage: picard <program name> -h")
+end
+
 whatis("Name: Picard")
 whatis("Version: 2.9.0")
 whatis("Category: computational biology, genomics")

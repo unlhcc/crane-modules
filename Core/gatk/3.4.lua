@@ -22,6 +22,10 @@ Version 3.4-46
 
 ]])
 
+if mode() == "load" then
+  LmodMessage("Usage: java -Xms256m -Xmx1G -jar $GATK -h")
+end
+
 whatis("Name: gatk")
 whatis("Version: 3.4-46")
 whatis("Category: computational biology, genomics")
