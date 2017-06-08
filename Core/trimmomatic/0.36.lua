@@ -6,6 +6,10 @@ How to run: 'trimmomatic --help'
 Version 0.36
 ]])
 
+if mode() == "load" then
+  LmodMessage("Usage: trimmomatic -h")
+end
+
 whatis("Name: Trimmomatic")
 whatis("Version: 0.36")
 whatis("Category: computational biology, genomics")
