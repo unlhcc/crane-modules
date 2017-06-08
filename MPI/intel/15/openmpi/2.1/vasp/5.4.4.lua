@@ -15,5 +15,6 @@ whatis("Keywords: Applications, Chemistry")
 whatis("URL: https://www.vasp.at/")
 
 prepend_path("PATH","/util/opt/vasp/5.4.4/bin")
+prepend_path("LD_LIBRARY_PATH","/util/comp/intel/15/mkl/lib/intel64")
 
 family("vasp")
