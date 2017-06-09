@@ -16,5 +16,6 @@ whatis("URL: https://www.vasp.at/ https://github.com/henniggroup/VASPsol")
 
 prepend_path("PATH","/util/opt/vasp/5.4/bin-solvation")
 prepend_path("LD_LIBRARY_PATH","/util/comp/intel/15/mkl/lib/intel64")
+prereq("compiler/intel/15","openmpi/2.1","intel-mkl/15")
 
 family("vasp")
