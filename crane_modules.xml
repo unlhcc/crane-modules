@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-06-13T16:08:53Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-06-22T21:07:03Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -3886,6 +3886,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>gmap/2017.05.08</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>gmap</Name>
+      <Description>GMAP: A Genomic Mapping and Alignment Program for mRNA and EST Sequences, and GSNAP: Genomic Short-read Nucleotide Alignment Program.</Description>
+      <Flavor>2015.12.31</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gmap/2015.12.31</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
