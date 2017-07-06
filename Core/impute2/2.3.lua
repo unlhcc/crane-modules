@@ -13,5 +13,3 @@ whatis("URL: http://mathgen.stats.ox.ac.uk/impute/impute_v2.html")
 
 pushenv("CONDA_DEFAULT_ENV","impute2-2.3.2")
 prepend_path{"PATH","/util/opt/anaconda/4.3/envs/impute2-2.3.2/bin",priority=100}
-
-family("anaconda")
