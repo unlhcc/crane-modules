@@ -12,4 +12,3 @@ whatis("Description: SNPTEST is a program for the analysis of single SNP associa
 whatis("URL: https://mathgen.stats.ox.ac.uk/genetics_software/snptest/snptest.html")
 
 prepend_path("PATH","/util/opt/snptest/2.5/gcc/4.4/")
-family("snptest")
