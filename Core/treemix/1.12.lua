@@ -9,12 +9,10 @@ help(help_message,"\n")
 
 whatis("Name: TreeMix")
 whatis("Version: 1.12")
-whatis("Category: library, runtime support")
-whatis("Keywords: System, Library")
-whatis("URL: https://bitbucket.org/nygcresearch/treemix/wiki/Home")
+whatis("Category: computational biology, genomics")
+whatis("Keywords: Genomics, Population, Allele Frequencies")
+whatis("Description: TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations.")
+whatis("URL: TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations.")
 
 load("boost/1.55.0")
-
-prepend_path("PATH",                "/util/opt/treemix/1.12/gcc/4.4/bin")
-
-family("treemix")
+prepend_path("PATH","/util/opt/treemix/1.12/gcc/4.4/bin")
