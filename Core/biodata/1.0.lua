@@ -22,6 +22,7 @@ $IPR              InterProScan database main entry point (latest)
 $GENOMES          Directory containing all available genomes (multiple sources, builds possible)
 $INDICES          Directory containing indices for bowtie, bowtie2, bwa for all available genomes
 $UNIPROT          Directory containing latest release of full UniProt database
+$TAXONOMY         Directory containing latest release of NCBO Taxonomy database
 
 You can alsways check what's available by, e.g.
 
@@ -143,6 +144,7 @@ local metaphlan_root = pathJoin(data, "metaphlan")
 local kegg = pathJoin(data, "kegg")
 local ipr_root = pathJoin(data, "interproscan")
 local panther_root = pathJoin(data, "panther")
+local taxon_root = pathJoin(data, "taxonomy")
 
 
 pushenv("DATA", data)
@@ -173,6 +175,9 @@ pushenv("UNIPROT_UNIREF50", pathJoin(uniref_root, "uniref50/uniref50.fasta"))
 pushenv("METAPHLAN", metaphlan_latest_root)
 pushenv("METAPHLAN_BLAST", pathJoin(metaphlan_latest_root, "blastdb/mpa"))
 pushenv("METAPHLAN_BOWTIE", pathJoin(metaphlan_latest_root, "bowtie2db/mpa"))
+pushenv("TAXONOMY", taxon_root)
+pushenv("TAXONOMY_NAMES", pathJoin(taxon_root, "names.dmp"))
+pushenv("TAXONOMY_NODES", pathJoin(taxon_root, "nodes.dmp"))
 
 
 -- Genome databases and indices
