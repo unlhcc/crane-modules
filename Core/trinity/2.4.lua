@@ -12,6 +12,7 @@ whatis("Keywords: Assembly, RNA-Seq")
 whatis("URL: https://github.com/trinityrnaseq/trinityrnaseq/wiki")
 whatis("Description: Trinity assembles transcript sequences from Illumina RNA-Seq data.")
 
+load("bowtie/2.2")
 pushenv("CONDA_DEFAULT_ENV","trinity-2.4.0")
 prepend_path{"PATH","/util/opt/anaconda/4.3/envs/trinity-2.4.0/bin",priority=100}
 
