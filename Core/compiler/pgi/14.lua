@@ -24,6 +24,13 @@ prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2014/linux86-64/14/libso")
 prepend_path("MANPATH",             "/util/comp/pgi/2014/linux86-64/14/man")
 prepend_path("INCLUDE",             "/util/comp/pgi/2014/linux86-64/14/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/pgi/14")
+
+setenv("CFLAGS",        "-tp=sandybridge")
+setenv("FFLAGS",        "-tp=sandybridge")
+setenv("CXXFLAGS",        "-tp=sandybridge")
+setenv("F90FLAGS",        "-tp=sandybridge")
+setenv("FCFLAGS",        "-tp=sandybridge")
+
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
 setenv("F90",	"pgf90")

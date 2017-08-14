@@ -22,6 +22,13 @@ prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2015/linux86-64/15/lib")
 prepend_path("MANPATH",             "/util/comp/pgi/2015/linux86-64/15/man")
 prepend_path("INCLUDE",             "/util/comp/pgi/2015/linux86-64/15/include")
 prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/pgi/15")
+
+setenv("CFLAGS",        "-tp=sandybridge")
+setenv("FFLAGS",        "-tp=sandybridge")
+setenv("CXXFLAGS",        "-tp=sandybridge")
+setenv("F90FLAGS",        "-tp=sandybridge")
+setenv("FCFLAGS",        "-tp=sandybridge")
+
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
 setenv("F90",	"pgf90")
