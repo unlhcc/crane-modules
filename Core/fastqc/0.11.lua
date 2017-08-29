@@ -2,13 +2,15 @@ help (
 [[
 This module loads fastqc. This module makes available the fastqc executables. Documentation for fastqc is available online at the publisher\'s website: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 
-Version 0.11.3
+Version 0.11.5
 ]])
 
 whatis("Name: fastqc")
-whatis("Version: 0.11.3")
+whatis("Version: 0.11.5")
 whatis("Category: computational biology, genomics")
 whatis("Keywords:  Biology, Genomics, Sequencing, FastQ, Quality Control")
 whatis("Description: fastqc - A Quality Control application for FastQ files")
 whatis("URL: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/")
-prepend_path("PATH",    "/util/opt/BCRF/fastqc/0.11")
+
+pushenv("CONDA_DEFAULT_ENV","fastqc-0.11.5")
+prepend_path{"PATH","/util/opt/anaconda/4.3/envs/fastqc-0.11.5/bin",priority=100}
