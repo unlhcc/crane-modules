@@ -14,3 +14,4 @@ whatis("URL: http://cistrome.dfci.harvard.edu/BETA/")
 
 pushenv("CONDA_DEFAULT_ENV","beta-1.0.7")
 prepend_path{"PATH","/util/opt/anaconda/4.3/envs/beta-1.0.7/bin",priority=100}
+setenv("PYTHON_EGG_CACHE",pathJoin(os.getenv("WORK"),".python-eggs"))
