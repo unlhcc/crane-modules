@@ -2,3 +2,4 @@
 hide-version anaconda/2.7
 hide-version anaconda/3.3
 hide-version anaconda/3.4
+hide-version dmtcp/2.5
