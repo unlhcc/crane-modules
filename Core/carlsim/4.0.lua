@@ -17,6 +17,8 @@ prepend_path("LIBRARY_PATH",       "/util/opt/carlsim/4.0/gcc/4.4/lib")
 prepend_path("CPATH",     "/util/opt/carlsim/4.0/gcc/4.4/include")
 
 setenv("CARLSIM4_INSTALL_DIR"	     ,"/util/opt/carlsim/4.0/gcc/4.4")
+setenv("ME_LIB_DIR"		     ,"/util/opt/carlsim/4.0/gcc/4.4")
+
 if isloaded("cuda") then
 	setenv("CUDA_PATH",os.getenv("CUDA_HOME"))
 end
