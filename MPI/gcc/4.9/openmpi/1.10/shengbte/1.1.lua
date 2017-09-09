@@ -10,7 +10,10 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.shengbte.org/home")
 
-load("intel-mkl/15","spglib/1.9")
+load("intel-mkl/15","python/2.7","spglib/1.9")
+
+prepend_path("PYTHONPATH",          "/util/opt/thirdorder/1.0/gcc/4.9/thirdorder")
+prepend_path("PATH",                "/util/opt/thirdorder/1.0/gcc/4.9/thirdorder")
 prepend_path("PATH",                "/util/opt/shengbte/1.1/gcc/4.9/openmpi/1.10/bin/")
 
 family("shengbte")
