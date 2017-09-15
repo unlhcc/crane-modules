@@ -10,5 +10,5 @@ whatis("Keywords:  Biology, Genomics, Alignment, Assembly")
 whatis("URL: https://github.com/genome/pindel")
 
 
-prepend_path("PATH"       ,"/util/opt/pindel/0.2/gcc/4.4/pindel")
-
+prepend_path("PATH"       ,"/util/opt/anaconda/4.3.14/envs/pindel-0.2.5b8/bin")
+setenv("CONDA_DEFAULT_ENV", "pindel-0.2.5b8")
