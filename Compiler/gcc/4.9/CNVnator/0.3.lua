@@ -15,4 +15,4 @@ whatis("Description: CNVnator: an approach to discover, genotype, and characteri
 
 
 prepend_path("PATH",                    "/util/opt/CNVnator/0.3/gcc/4.9/bin")
-
+prereq("root/6.06")
