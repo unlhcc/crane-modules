@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-10-05T21:18:46Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-10-06T16:08:13Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -8301,7 +8301,7 @@
       <Domain>computational biology</Domain>
       <Name>salmon</Name>
       <Description>Highly-accurate &amp; wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments.</Description>
-      <Flavor>0.8.0</Flavor>
+      <Flavor>0.8.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
