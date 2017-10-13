@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-10-06T17:53:16Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-10-13T20:14:10Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -8795,11 +8795,24 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>0.12.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/0.12</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
       <Flavor>1.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/1.0</HandleKey>
+        <HandleKey>tensorflow/py35/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -8812,7 +8825,20 @@
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/0.12</HandleKey>
+        <HandleKey>tensorflow/py35/0.12</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.0.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
