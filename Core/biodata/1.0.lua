@@ -161,7 +161,7 @@ pushenv("INDICES_BWA", bwa)
 local panther_latest = "9.0"
 local ipr_latest = "5"
 local metaphlan_latest = "2.6"
-local uniprot_latest = "2017_3"
+local uniprot_latest = "latest"
 local uniref_root = pathJoin(uniprot_root, uniprot_latest, "uniref")
 local metaphlan_latest_root = pathJoin(metaphlan_root, metaphlan_latest)
 pushenv("IPR", pathJoin(ipr_root, ipr_latest))
@@ -720,6 +720,14 @@ pushenv ("BOWTIE2_ZEA_MAYS_ENSEMBL_AGPV3", pathJoin(bowtie2, "Zea_mays", "Ensemb
 pushenv ("BWA_ZEA_MAYS_ENSEMBL_AGPV3", pathJoin(bwa, "Zea_mays", "Ensembl", "AGPv3", _b))
 pushenv ("PICARD_ZEA_MAYS_ENSEMBL_AGPV3", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv3", _w, _p))
 pushenv ("FAIDX_ZEA_MAYS_ENSEMBL_AGPV3", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv3", _w, _s))
+pushenv ("ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4"))
+pushenv ("GENOME_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _f))
+pushenv ("CHR_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _c))
+pushenv ("BOWTIE_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(bowtie, "Zea_mays", "Ensembl", "AGPv4", _b))
+pushenv ("BOWTIE2_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(bowtie2, "Zea_mays", "Ensembl", "AGPv4", _b))
+pushenv ("BWA_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(bwa, "Zea_mays", "Ensembl", "AGPv4", _b))
+pushenv ("PICARD_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _p))
+pushenv ("FAIDX_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _s))
 
 if (mode() == "load") then
         LmodMessage("Static data resources for bioinformatics 1.0.")
