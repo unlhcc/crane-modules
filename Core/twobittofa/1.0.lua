@@ -8,8 +8,7 @@ Version 1.0
 
 whatis("Name: twoBitToFa")
 whatis("Version: 1.0")
-whatis("Description: This is a bioinformatics, freely downloadable command-line software
-(linux.x86_64) provided by the UCSC")
+whatis("Description: This is a bioinformatics, freely downloadable command-line software (linux.x86_64) provided by the UCSC")
 whatis("URL: https://hcc-rt.unl.edu/Ticket/Display.html?id=16468")
 
 prepend_path("PATH",			"/util/opt/twoBitToFa/1.0/gcc/4.4/bin")
