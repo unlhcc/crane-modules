@@ -728,6 +728,10 @@ pushenv ("BOWTIE2_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(bowtie2, "Zea_mays", "Ensemb
 pushenv ("BWA_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(bwa, "Zea_mays", "Ensembl", "AGPv4", _b))
 pushenv ("PICARD_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _p))
 pushenv ("FAIDX_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _s))
+pushenv("GENOME_BACTERIAL", pathJoin(genomes, "all_complete_bacterial_genome.fasta"))
+pushenv("BOWTIE2_BACTERIAL", pathJoin(bowtie2, "all_complete_bacterial_genome"))
+pushenv("FAIDX_BACTERIAL", pathJoin(genomes, "all_complete_bacterial_genome.fasta.fai"))
+pushenv("BLAST_BACTERIAL", pathJoin(blast, "genomic_bacterial"))
 
 if (mode() == "load") then
         LmodMessage("Static data resources for bioinformatics 1.0.")
