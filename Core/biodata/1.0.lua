@@ -730,6 +730,7 @@ pushenv ("PICARD_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl
 pushenv ("FAIDX_ZEA_MAYS_ENSEMBL_AGPV4", pathJoin(genomes, "Zea_mays", "Ensembl", "AGPv4", _w, _s))
 pushenv("GENOME_BACTERIAL", pathJoin(genomes, "all_complete_bacterial_genome.fasta"))
 pushenv("BOWTIE2_BACTERIAL", pathJoin(bowtie2, "all_complete_bacterial_genome"))
+pushenv("BWA_BACTERIAL", pathJoin(bwa, "all_complete_bacterial_genome"))
 pushenv("FAIDX_BACTERIAL", pathJoin(genomes, "all_complete_bacterial_genome.fasta.fai"))
 pushenv("BLAST_BACTERIAL", pathJoin(blast, "genomic_bacterial"))
 
