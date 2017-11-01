@@ -1,6 +1,6 @@
 help(
 [[
-This module loads gdc-client.
+This module loads gdcclient.
 Version 1.3.0
 ]]
 )
