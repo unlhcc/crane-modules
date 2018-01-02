@@ -13,8 +13,7 @@ whatis("Keywords: Biology, Genomics, Quality Control, Utility, Sequencing, Genot
 whatis("URL: https://www.mdc-berlin.de/8551903/en/")
 whatis("Description: miRDeep2 is a completely overhauled tool which discovers microRNA genes by analyzing sequenced RNAs.")
 
+prepend_path{"PATH","/util/opt/anaconda/4.3/envs/miRDeep-2.0.0/bin",priority=100}
+pushenv("CONDA_DEFAULT_ENV","miRDeep-2.0.0")
+family("anaconda")
 
-prepend_path("PATH",              "/util/opt/miRDeep/2.0/gcc/4.4/bin")
-prepend_path("LD_LIBRARY_PATH",   "/util/opt/miRDeep/2.0/gcc/4.4/lib")
-prepend_path("INCLUDE",           "/util/opt/miRDeep/2.0/gcc/4.4/include")
-prepend_path("MANPATH",		  "/util/opt/miRDeep/2.0/gcc/4.4/share/man")
