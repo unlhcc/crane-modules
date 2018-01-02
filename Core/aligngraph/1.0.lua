@@ -12,7 +12,7 @@ whatis("Category: computational biology, genomics")
 whatis("Keywords: Biology, Genomics, Alignment")
 whatis("URL: https://github.com/baoe/AlignGraph")
 
-load("bowtie/2.2","pblat/2.0","blat/35x1","mummer/3.23")
+load("bowtie/2.2","pblat/2.0","blat/34","mummer/3.23")
 
 prepend_path("PATH",              "/util/opt/AlignGraph/AlignGraph")
 prepend_path("PATH",              "/util/opt/AlignGraph/Eval-AlignGraph")
