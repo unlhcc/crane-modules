@@ -14,7 +14,7 @@ help(help_message,"\n")
 whatis("Name: LS-DYNA")
 whatis("Keywords: Application, Engineering")
 
-load("compiler/intel/13","openmpi/1.10")
+load("compiler/intel/16","openmpi/1.10")
 
 setenv("LSTC_LICENSE", "network")
 setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
