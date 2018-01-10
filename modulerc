@@ -4,3 +4,5 @@ hide-version anaconda/3.3
 hide-version anaconda/3.4
 hide-version dmtcp/2.5
 hide-version qiime/2.0
+hide-version singularity/2.2
+hide-version singularity/2.3
