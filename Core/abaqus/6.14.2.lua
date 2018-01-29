@@ -17,3 +17,4 @@ whatis("URL: http://www.simulia.com")
 
 prepend_path("PATH","/util/opt/abaqus/Commands")
 unsetenv("SLURM_GTIDS")
+setenv("LD_PRELOAD", "/util/opt/abaqus/LD_PRELOAD/libsched.so")
