@@ -1,4 +1,4 @@
-lcal help_message = [[
+local help_message = [[
 TIPP stands for Taxonomic identification and phylogenetic profiling, and so is a method for the following problems:
 
 Taxonomic identification:
