@@ -22,8 +22,9 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://github.com/smirarab/sepp/blob/master/tutorial/tipp-tutorial.md")
 
-load("anaconda/4.3","blast/2.6")
+load("python/2.7","blast/2.4")
+
 prepend_path("PATH",              "/util/opt/sepp/1.0/gcc/4.4/bin")
-prepend_path("PYTHONPATH",        "/util/opt/sepp/1.0/gcc/4.4/lib/python3.6/site-packages/")
+prepend_path("PYTHONPATH",        "/util/opt/sepp/1.0/gcc/4.4/lib/python2.7/site-packages")
 prepend_path("REFERENCE",         "/util/opt/sepp/references/tipp")
-prepend_path("BLAST",             "/util/opt/anaconda/4.3/envs/blast-2.6.0/bin/blastn")
+prepend_path("BLAST",             "/util/opt/blast/2.4/bin/blastn")
