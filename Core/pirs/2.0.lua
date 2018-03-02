@@ -11,5 +11,5 @@ whatis("Category: computational biology, genomics")
 whatis("Keywords:  Biology, Genomics, Sequencing, FastQ, Quality Control")
 whatis("URL: https://github.com/galaxy001/pirs")
 
-prepend_path("PATH"		,"/util/opt/anaconda/4.3.14/envs/pirs-2.0.2/bin")
+prepend_path("PATH"		,"/util/opt/anaconda/4.3/envs/pirs-2.0.2/bin")
 pushenv("CONDA_DEFAULT_ENV"	,"pirs-2.0.2")
