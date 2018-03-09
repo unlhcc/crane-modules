@@ -19,3 +19,4 @@ prepend_path{"PATH","/util/opt/BCRF/conda-envs/qiime2-2018.2/bin",priority=100}
 -- If the first run is on a worker, this will fail.  Setting this var tells it to cache to
 -- $WORK/.config instead.
 setenv("XDG_CONFIG_HOME",pathJoin(os.getenv("WORK"),".config"))
+execute {cmd="source /util/opt/BCRF/conda-envs/qiime2-2018.2/bin/tab-qiime",modeA={"load"}}
