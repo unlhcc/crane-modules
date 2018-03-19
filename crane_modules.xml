@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-03-19T21:33:21Z" UniqueID="localsoft4.crane.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-03-19T23:06:22Z" UniqueID="localsoft4.crane.tacc.xsede.org">
     <ResourceID>crane.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -9398,6 +9398,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>mono/4.6</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>mono</Name>
+      <Description>Mono is an open source implementation of Microsoft&apos;s .NET Framework based on the ECMA standards for C# and the Common Language Runtime.</Description>
+      <Flavor>5.10</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mono/5.10</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
