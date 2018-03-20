@@ -2,10 +2,12 @@ variables:
   WORK: "/tmp"
   LMOD_REDIRECT: "yes"
   XML_FILE: "crane_modules.xml"
+  MODULES_DIR: "/util/opt/modulefiles"
 
 stages:
   - test
   - updatexml
+  - deploy
 
 test:
   stage: test
@@ -24,19 +26,19 @@ test:
 updatexml:
   stage: updatexml
   image: unlhcc/crane-build-el6
-  except:
+  only:
     - master
   tags:
     - docker
   before_script:
     - ln -s $CI_PROJECT_DIR  /util/opt/modulefiles
-    - eval $(ssh-agent -s)
+    - eval $(ssh-agent -s) > /dev/null
     - mkdir -p ~/.ssh
     - chown 700 ~/.ssh
     - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
     - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
-    - git config user.name "Gitlab CI"
+    - git config user.name "HCC Gitlab CI"
     - git config user.email "hcc-support@unl.edu"
     - git remote add origin-push git@git.unl.edu:${CI_PROJECT_PATH}.git
     - git checkout $CI_COMMIT_REF_NAME
@@ -45,3 +47,24 @@ updatexml:
     - git add $XML_FILE    
     - git commit -m "Automated XML update [skip ci]"
     - git push origin-push $CI_COMMIT_REF_NAME || true
+
+deploy:
+  stage: deploy
+  environment:
+    name: crane_production
+    url: https://crane.unl.edu
+  image: unlhcc/crane-build-el6
+  only:
+    - master
+  tags:
+    - crane
+  before_script:
+    - eval $(ssh-agent -s) > /dev/null
+    - mkdir -p ~/.ssh
+    - chown 700 ~/.ssh
+    - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
+  script:
+    - cd $MODULES_DIR
+    - git pull origin master
