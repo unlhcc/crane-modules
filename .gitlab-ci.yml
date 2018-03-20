@@ -17,7 +17,7 @@ test:
   tags:
     - docker
   before_script:
-    - ln -s $CI_PROJECT_DIR  /util/opt/modulefiles
+    - ln -s $CI_PROJECT_DIR $MODULES_DIR
     - source /util/opt/lmod/lmod/init/profile
   script:
     - module av > /dev/null
@@ -31,7 +31,7 @@ updatexml:
   tags:
     - docker
   before_script:
-    - ln -s $CI_PROJECT_DIR  /util/opt/modulefiles
+    - ln -s $CI_PROJECT_DIR $MODULES_DIR
     - eval $(ssh-agent -s) > /dev/null
     - mkdir -p ~/.ssh
     - chown 700 ~/.ssh
@@ -43,7 +43,7 @@ updatexml:
     - git remote add origin-push git@git.unl.edu:${CI_PROJECT_PATH}.git
     - git checkout $CI_COMMIT_REF_NAME
   script:
-    - /util/opt/lmod/lmod/libexec/spider -o xmlSoftwarePage /util/opt/modulefiles/Core > $XML_FILE
+    - /util/opt/lmod/lmod/libexec/spider -o xmlSoftwarePage $MODULES_DIR/Core > $XML_FILE
     - git add $XML_FILE    
     - git commit -m "Automated XML update [skip ci]"
     - git push origin-push $CI_COMMIT_REF_NAME || true
