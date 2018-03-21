@@ -67,4 +67,6 @@ deploy:
     - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
   script:
     - cd $MODULES_DIR
-    - git pull origin master
+    - git checkout master
+    - git fetch
+    - git checkout $CI_COMMIT_SHA
