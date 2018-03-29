@@ -6,3 +6,4 @@ hide-version dmtcp/2.5
 hide-version qiime/2.0
 hide-version singularity/2.2
 hide-version singularity/2.3
+hide-version cudnn/v5
