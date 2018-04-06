@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-04-05T19:29:33Z" UniqueID="localsoft4.runner-45ffcae5-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-04-06T16:11:24Z" UniqueID="localsoft4.runner-45ffcae5-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-45ffcae5-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -6993,6 +6993,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>cmake/2.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>cmake</Name>
+      <Description />
+      <Flavor>3.11</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cmake/3.11</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
