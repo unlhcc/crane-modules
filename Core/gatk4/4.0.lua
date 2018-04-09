@@ -12,4 +12,5 @@ whatis("Description: GATK4: This toolkit offers a wide variety of tools with a p
 whatis("URL: https://software.broadinstitute.org/gatk/")
 
 prepend_path{"PATH", "/util/opt/anaconda/4.3/envs/gatk4-4.0.3.0/bin", priority=100}
+setenv("GATK_LOCAL_JAR", "/util/opt/anaconda/4.3/envs/gatk4-4.0.3.0/share/gatk4-4.0.3.0-0/gatk-package-4.0.3.0-local.jar")
 pushenv("CONDA_DEFAULT_ENV", "gatk4-4.0.3.0")
