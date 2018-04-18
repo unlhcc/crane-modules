@@ -19,6 +19,6 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/libxc/2.2/intel/13/lib")
 prepend_path("INCLUDE",             "/util/opt/libxc/2.2/intel/13/include")
 
 prepend_path("CPATH",               "/util/opt/libxc/2.2/intel/13/include")
-prepend_path("LIBRARY_PATH",        "/util/optlibxc/2.2/intel/13/lib")
+prepend_path("LIBRARY_PATH",        "/util/opt/libxc/2.2/intel/13/lib")
 
 family("libxc")
