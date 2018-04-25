@@ -10,7 +10,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://octopus-code.org/wiki/Main_Page")
 
-load("compiler/intel/13","GSL/1.16","fftw3/3.3")
+load("intel-mkl/13","GSL/1.16","fftw3/3.3")
 
 prepend_path("PATH",                "/util/opt/octopus/5.0/intel/13/openmpi/1.10/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/octopus/5.0/intel/13/openmpi/1.10/lib")
