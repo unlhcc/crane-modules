@@ -13,7 +13,7 @@ whatis("Description: IBM Aspera Command-Line Interface (the Aspera CLI) is a col
 
 pushenv("CONDA_DEFAULT_ENV", "aspera-cli-3.7.7")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/aspera-cli/envs/aspera-cli-3.7.7/bin")
-
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/aspera-cli/envs")
 pushenv("ASPERA_PUBLIC_KEY", "/util/opt/anaconda/deployed-conda-envs/packages/aspera-cli/envs/aspera-cli-3.7.7/etc/asperaweb_id_dsa.openssh")
 
 if mode() == "load" then

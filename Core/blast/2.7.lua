@@ -14,3 +14,4 @@ whatis("Description: NCBI BLAST+ sequence alignment package. The program compare
 
 pushenv("CONDA_DEFAULT_ENV", "blast-2.7.1")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/blast/envs/blast-2.7.1/bin")
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/blast/envs")

@@ -16,3 +16,4 @@ whatis("URL: https://github.com/genome/breakdancer")
 
 prepend_path("PATH"       ,"/util/opt/anaconda/deployed-conda-envs/packages/breakdancer/envs/breakdancer-1.4.5/bin")
 pushenv("CONDA_DEFAULT_ENV","breakdancer-1.4.5")
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/breakdancer/envs")

@@ -14,3 +14,4 @@ whatis("Description: APKiD is Android Application Identifier for Packers, Protec
 
 pushenv("CONDA_DEFAULT_ENV", "apkid-1.0.0")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/apkid/envs/apkid-1.0.0/bin")
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/apkid/envs")
