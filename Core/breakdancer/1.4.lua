@@ -14,8 +14,5 @@ whatis("Description: BreakDancer is a Perl/C++ package that provides genome-wide
 whatis("URL: https://github.com/genome/breakdancer")
 
 
-prepend_path("PATH"       ,"/util/opt/breakdancer/1.4/gcc/4.4/bin")
-prepend_path("PATH"	  ,"/util/opt/breakdancer/1.4/gcc/4.4/lib/breakdancer-max1.4.5")
-prepend_path("PERL5LIB"       ,"/util/opt/breakdancer/1.4/gcc/4.4/perl_lib/lib64/perl5")
-prepend_path("PERL5LIB"	      ,"/util/opt/breakdancer/1.4/gcc/4.4/perl_lib/share/perl5")
-
+prepend_path("PATH"       ,"/util/opt/anaconda/deployed-conda-envs/packages/breakdancer/envs/breakdancer-1.4.5/bin")
+pushenv("CONDA_DEFAULT_ENV","breakdancer-1.4.5")
