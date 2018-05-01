@@ -6,9 +6,9 @@ Version 1.0.0
 )
 whatis("Name: Graphlan")
 whatis("Version: 1.0.0")
-whatis("Category: ")
-whatis("Keywords: ")
-whatis("URL: UNKNOWN")
+whatis("Category: application")
+whatis("Keywords: computational biology, taxonomy")
+whatis("URL: https://bitbucket.org/nsegata/graphlan/wiki/Home")
 whatis("Description: GraPhlAn is a software tool for producing high-quality circular representations of taxonomic and phylogenetic trees. It focuses on concise, integrative, informative, and publication-ready representations of phylogenetically- and taxonomically-driven investigation.")
 
 pushenv("CONDA_DEFAULT_ENV", "graphlan-1.0.0")
