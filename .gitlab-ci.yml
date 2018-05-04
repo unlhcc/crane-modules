@@ -9,7 +9,7 @@ stages:
   - updatexml
   - deploy
 
-test:
+test-modules:
   stage: test
   image: unlhcc/crane-build-el6
   except:
@@ -22,6 +22,16 @@ test:
   script:
     - module av > /dev/null
     - module spider > /dev/null
+
+test-paths:
+  stage: test
+  image: unlhcc/crane-build-el6
+  except:
+    - master
+  tags:
+    - crane
+  script:
+    - scripts/test_changed_modules.sh
 
 updatexml:
   stage: updatexml
