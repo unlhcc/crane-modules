@@ -13,9 +13,12 @@ echo "$fetchOut" | INFO
 NOTICE  "Finding changed modules according to git..."
 # Get a list of any changed module files
 declare -a moduleList
-for entry in $(git diff  --name-only master HEAD Core/*.lua Compiler/*.lua MPI/*.lua);
+for entry in $(git diff --name-only master HEAD -- Core/ Compiler/ MPI/);
 do
-  moduleList+=("$entry")
+  if [[ $entry = *.lua ]]
+  then
+    moduleList+=("$entry")
+  fi
 done
 
 # Exit cleanly if nothing's changed
