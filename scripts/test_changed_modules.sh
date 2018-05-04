@@ -15,7 +15,7 @@ NOTICE  "Finding changed modules according to git..."
 declare -a moduleList
 for entry in $(git diff --name-only master HEAD -- Core/ Compiler/ MPI/);
 do
-  if [[ $entry = *.lua ]]
+  if [[ -f $entry && $entry = *.lua ]]
   then
     moduleList+=("$entry")
   fi
