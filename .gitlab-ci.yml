@@ -29,7 +29,7 @@ test-paths:
   except:
     - master
   tags:
-    - crane
+    - crane-test
   script:
     - scripts/test_changed_modules.sh
 
