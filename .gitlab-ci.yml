@@ -36,6 +36,7 @@ test-paths:
 updatexml:
   stage: updatexml
   image: unlhcc/crane-build-el6
+  allow_failure: yes
   only:
     - master
   tags:
