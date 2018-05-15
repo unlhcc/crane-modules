@@ -19,14 +19,17 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://www.open-mpi.org")
 
-prepend_path("PATH",                "/util/opt/openmpi/2.0/pgi/12/bin")
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/2.0/pgi/12/lib")
-prepend_path("MANPATH",             "/util/opt/openmpi/2.0/pgi/12/share/man")
-prepend_path("INCLUDE",             "/util/opt/openmpi/2.0/pgi/12/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/MPI/pgi/12/openmpi/2.0")
+prepend_path("PATH",                "/util/opt/openmpi/2.0/pgi/13/bin")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/2.0/pgi/13/lib")
+prepend_path("MANPATH",             "/util/opt/openmpi/2.0/pgi/13/share/man")
+prepend_path("INCLUDE",             "/util/opt/openmpi/2.0/pgi/13/include")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"MPI","pgi","13","openmpi","2.0")
+prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 
-prepend_path("CPATH",             "/util/opt/openmpi/2.0/pgi/12/include")
-prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/2.0/pgi/12/lib")
-prepend_path("PKG_CONFIG_PATH",        "/util/opt/openmpi/2.0/pgi/12/lib/pkgconfig")
+prepend_path("CPATH",             "/util/opt/openmpi/2.0/pgi/13/include")
+prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/2.0/pgi/13/lib")
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/openmpi/2.0/pgi/13/lib/pkgconfig")
