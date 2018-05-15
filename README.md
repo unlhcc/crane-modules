@@ -34,9 +34,11 @@ It's a good idea to test out the new/edited modules before committing them.
 To do this, change the directory Lmod is using from the system-wide one to your
 local repo:
 
-`module unuse /util/opt/modulefiles/Core`
-
-`module use ~/crane-modules/Core`
+```
+module unuse /util/opt/modulefiles/Core
+module use ~/crane-modules/Core
+export MODULEPATH_ROOT=~/crane-modules
+```
 
 Now you can test out any changes local to your account.
 
