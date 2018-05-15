@@ -23,7 +23,10 @@ prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2014/linux86-64/14/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2014/linux86-64/14/libso")
 prepend_path("MANPATH",             "/util/comp/pgi/2014/linux86-64/14/man")
 prepend_path("INCLUDE",             "/util/comp/pgi/2014/linux86-64/14/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/pgi/14")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","pgi","14")
+prepend_path("MODULEPATH",          mdir)
 
 setenv("CFLAGS",        "-tp=sandybridge")
 setenv("FFLAGS",        "-tp=sandybridge")

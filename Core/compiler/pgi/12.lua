@@ -23,7 +23,11 @@ prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2012/linux86-64/12/lib")
 prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2012/linux86-64/12/libso")
 prepend_path("MANPATH",             "/util/comp/pgi/2012/linux86-64/12/man")
 prepend_path("INCLUDE",             "/util/comp/pgi/2012/linux86-64/12/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/pgi/12")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","pgi","12")
+prepend_path("MODULEPATH",          mdir)
+
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
 setenv("F90",	"pgf90")

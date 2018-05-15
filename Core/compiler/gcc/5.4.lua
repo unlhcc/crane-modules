@@ -25,8 +25,11 @@ prepend_path("MANPATH",             "/util/comp/gcc/5.4/share/man")
 prepend_path("INCLUDE",             "/util/comp/gcc/5.4/include")
 prepend_path("PKG_CONFIG_PATH",     "/util/comp/gcc/5.4/lib/pkgconfig")
 prepend_path("PKG_CONFIG_PATH",     "/util/comp/gcc/5.4/lib64/pkgconfig")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/gcc/5.4")
 setenv(      "GCC_LIB",             "/util/comp/gcc/5.4/lib64")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","gcc","5.4")
+prepend_path("MODULEPATH",          mdir)
 
 setenv("CC",	"gcc")
 setenv("FC",	"gfortran")
