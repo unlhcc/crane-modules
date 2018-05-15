@@ -24,7 +24,10 @@ prepend_path("LIBRARY_PATH",     "/util/comp/intel/18/lib/intel64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/18/compilers_and_libraries/linux/mpi/lib64")
 prepend_path("MANPATH",             "/util/comp/intel/18/man/common")
 prepend_path("INCLUDE",             "/util/comp/intel/18/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel/18")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","intel","18")
+prepend_path("MODULEPATH",          mdir)
 
 setenv("CC",	"icc")
 setenv("FC",	"ifort")
