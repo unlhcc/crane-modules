@@ -30,7 +30,10 @@ prepend_path("PATH",                "/util/opt/mvapich2/1.9/intel/13/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/mvapich2/1.9/intel/13/lib")
 prepend_path("MANPATH",             "/util/opt/mvapich2/1.9/intel/13/share/man")
 prepend_path("INCLUDE",             "/util/opt/mvapich2/1.9/intel/13/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/intel_13/mvapich_1_9")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"MPI","intel","13","mvapich","1.9")
+prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 

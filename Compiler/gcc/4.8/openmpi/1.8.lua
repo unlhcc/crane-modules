@@ -24,7 +24,10 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/openmpi/1.8/gcc/4.8/lib")
 prepend_path("LD_LIBRARY_PATH",     "/usr/lib64/psm2-compat")
 prepend_path("MANPATH",             "/util/opt/openmpi/1.8/gcc/4.8/share/man")
 prepend_path("INCLUDE",             "/util/opt/openmpi/1.8/gcc/4.8/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/MPI/gcc/4.8/openmpi/1.8")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"MPI","gcc","4.8","openmpi","1.8")
+prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 
