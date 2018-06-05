@@ -1,18 +1,17 @@
-local help_message = [[
-R 3.4
-
-This module loads the Microsoft R Open environment.
-
+help(
+[[
+This module loads Mro.
+Version 3.4.4
 ]]
-
-help(help_message,"\n")
-
-whatis("Name: R")
-whatis("Version: 3.4")
+)
+whatis("Name: Mro")
+whatis("Version: 3.4.4")
 whatis("Category: mathematics, statistics")
 whatis("Keywords: Mathematics, Statistics")
-whatis("URL: http://www.r-project.org/")
+whatis("URL: https://mran.microsoft.com/open")
+whatis("Description: Microsoft R Open is the enhanced distribution of R from Microsoft Corporation.")
 
-prepend_path("PATH",    "/util/opt/MRO/3.4/bin")
-prepend_path("MANPATH",	"/util/opt/MRO/3.4/lib64/microsoft-r/3.4/share/man")
+pushenv("CONDA_DEFAULT_ENV", "mro-3.4.4")
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/mro/envs")
+prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/mro/envs/mro-3.4.4/bin")
 family("R")
