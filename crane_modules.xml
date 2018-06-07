@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-06-07T18:07:13Z" UniqueID="localsoft4.runner-b557f845-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-06-07T20:49:00Z" UniqueID="localsoft4.runner-b557f845-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-b557f845-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -2529,11 +2529,24 @@
       <Domain>machine learning</Domain>
       <Name>sonnet-gpu</Name>
       <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
-      <Flavor>1.19</Flavor>
+      <Flavor>1.23</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>sonnet-gpu/py36/1.19</HandleKey>
+        <HandleKey>sonnet-gpu/py27/1.23</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>sonnet-gpu</Name>
+      <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
+      <Flavor>1.23</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>sonnet-gpu/py35/1.23</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2547,6 +2560,32 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>sonnet-gpu/py27/1.19</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>sonnet-gpu</Name>
+      <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
+      <Flavor>1.19</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>sonnet-gpu/py36/1.19</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>sonnet-gpu</Name>
+      <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
+      <Flavor>1.23</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>sonnet-gpu/py36/1.23</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
