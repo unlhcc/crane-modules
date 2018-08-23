@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-08-20T17:15:45Z" UniqueID="localsoft4.runner-b557f845-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-08-23T19:33:18Z" UniqueID="localsoft4.runner-b557f845-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-b557f845-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -4466,6 +4466,19 @@
       <Domain>Chemistry</Domain>
       <Name>atk</Name>
       <Description />
+      <Flavor>13.8.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>atk/13.8.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
+      <Description />
       <Flavor>2015.1</Flavor>
       <Default>no</Default>
       <Handle>
@@ -4479,11 +4492,11 @@
       <Domain>Chemistry</Domain>
       <Name>atk</Name>
       <Description />
-      <Flavor>13.8.2</Flavor>
+      <Flavor>2016.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>atk/13.8.2</HandleKey>
+        <HandleKey>atk/2016.3</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7:mpich2/1.5</Context>
     </LocalSoftware>
