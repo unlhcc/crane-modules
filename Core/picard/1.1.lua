@@ -32,5 +32,5 @@ whatis("URL: http://broadinstitute.github.io/picard/")
 whatis("Description: A set of Java command line tools for manipulating high-throughput sequencing data (HTS) data and formats. ")
 
 pushenv("PICARD"        , pathJoin(picard, "picard.jar"))
-pushenv("PICARD_RUN"    , "java -Xms512m -Xmx2g -jar $PICARD")
+pushenv("PICARD_RUN"    , "java -Xms512m -Xmx2g -jar "..picard.."/picard.jar")
 pushenv("EXAMPLES"      , "/util/opt/BCRF/gatk/3.4/resources")
