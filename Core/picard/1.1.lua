@@ -22,6 +22,11 @@ Version 1.139
 
 ]])
 
+if mode() == "load" then
+  LmodMessage("Usage: $PICARD_RUN <program name> -h")
+  LmodMessage("Increase Java heap space to 10GBs: java -Xms512m -Xmx10g $PICARD <program name>")
+end
+
 local picard = "/util/opt/BCRF/picard/1.1"
 
 whatis("Name: picard")
