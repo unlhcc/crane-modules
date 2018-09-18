@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-09-18T18:35:07Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-09-18T20:57:24Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-2210a532-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -3641,6 +3641,19 @@
         <HandleKey>boost/1.55</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>System Environment/Base</Domain>
+      <Name>boost</Name>
+      <Description>Boost provides free peer-reviewed portable C++ source libraries.</Description>
+      <Flavor>1.66</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>boost/1.66</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/8.2</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
