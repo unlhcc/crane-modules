@@ -1,6 +1,6 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-09-18T20:57:24Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
-    <ResourceID>runner-2210a532-project-432-concurrent-0.tacc.xsede.org</ResourceID>
+  <RPSoftwareList Timestamp="2018-10-04T20:30:57Z" UniqueID="localsoft4.runner-ca46ac4d-project-432-concurrent-0.tacc.xsede.org">
+    <ResourceID>runner-ca46ac4d-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
       <Type>library</Type>
@@ -5955,6 +5955,19 @@
         <HandleKey>siesta/4.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>siesta</Name>
+      <Description />
+      <Flavor>4.1.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>siesta/4.1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15:openmpi/1.10</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
