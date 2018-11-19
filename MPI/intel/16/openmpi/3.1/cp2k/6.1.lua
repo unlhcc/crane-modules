@@ -1,7 +1,7 @@
 local help_message = [[
 CP2K 6.1
 
-This module loads the CP2K environment, built with the GCC
+This module loads the CP2K environment, built with the Intel
 compilers.
 
 ]]
