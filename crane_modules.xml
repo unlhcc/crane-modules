@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-11-19T17:16:04Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-11-26T23:05:29Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-2210a532-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -2911,6 +2911,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>cuda/9.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>cuda</Name>
+      <Description>NVIDIA CUDA Toolkit for Linux.</Description>
+      <Flavor>9.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cuda/9.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
