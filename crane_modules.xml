@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-11-26T23:05:29Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-11-27T18:03:19Z" UniqueID="localsoft4.runner-2210a532-project-432-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-2210a532-project-432-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -33,6 +33,19 @@
       <Domain>runtime support</Domain>
       <Name>lammps</Name>
       <Description />
+      <Flavor>10Feb2017</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lammps/10Feb2017</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15:openmpi/1.10</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
+      <Description />
       <Flavor>15MAY2015</Flavor>
       <Default>no</Default>
       <Handle>
@@ -52,7 +65,7 @@
         <HandleType>module</HandleType>
         <HandleKey>lammps/10Feb2017</HandleKey>
       </Handle>
-      <Context>compiler/intel/15:openmpi/1.10</Context>
+      <Context>compiler/gcc/6.1:openmpi/2.0</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -72,19 +85,6 @@
       <Domain>runtime support</Domain>
       <Name>lammps</Name>
       <Description />
-      <Flavor>10Feb2017</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lammps/10Feb2017</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/6.1:openmpi/2.0</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>lammps</Name>
-      <Description />
       <Flavor>10Aug2015</Flavor>
       <Default>no</Default>
       <Handle>
@@ -92,6 +92,19 @@
         <HandleKey>lammps/10Aug2015</HandleKey>
       </Handle>
       <Context>compiler/intel/15:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
+      <Description />
+      <Flavor>22Aug2018</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lammps/22Aug2018</HandleKey>
+      </Handle>
+      <Context>compiler/intel/16:openmpi/3.1</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
