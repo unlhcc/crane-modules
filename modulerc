@@ -7,3 +7,6 @@ hide-version qiime/2.0
 hide-version singularity/2.2
 hide-version singularity/2.3
 hide-version cudnn/v5
+hide-version tensorflow-gpu/py27/1.5
+hide-version tensorflow-gpu/py35/1.5
+hide-version tensorflow-gpu/py36/1.5
