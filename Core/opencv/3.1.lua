@@ -18,6 +18,7 @@ prepend_path("LIBRARY_PATH",         "/util/opt/opencv/3.1/gcc/4.4/lib")
 prepend_path("INCLUDE",			"/util/opt/opencv/3.1/gcc/4.4/include")
 prepend_path("CPATH",                 "/util/opt/opencv/3.1/gcc/4.4/include")
 prepend_path("PKG_CONFIG_PATH",       "/util/opt/opencv/3.1/gcc/4.4/lib/pkgconfig")
+setenv("OPENCV_DIR", "/util/opt/opencv/3.1/gcc/4.4")
 
 family("opencv")
 
