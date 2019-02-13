@@ -1,5 +1,5 @@
 local help_message = [[
-PGI Compilers 2016
+PGI Compilers 2018
 
 This module loads PGI Compiler variables.
 The command directory is added to PATH.
@@ -11,19 +11,19 @@ The man     directory is added to MANPATH.
 help(help_message,"\n")
 
 whatis("Name: PGI Compilers")
-whatis("Version: 16")
+whatis("Version: 18")
 whatis("Category: compiler")
 whatis("Keywords: System, compiler")
 whatis("URL: http://www.pgroup.com")
 
-prepend_path("PATH",                "/util/comp/pgi/2016/linux86-64/16/bin")
-prepend_path("LD_LIBRARY_PATH",     "/util/comp/pgi/2016/linux86-64/16/lib")
-prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2016/linux86-64/16/lib")
-prepend_path("MANPATH",             "/util/comp/pgi/2016/linux86-64/16/man")
-prepend_path("CPATH",             "/util/comp/pgi/2016/linux86-64/16/include")
+prepend_path("PATH",                "/util/comp/pgi/2018/linux86-64/18/bin")
+prepend_path("LD_LIBRARY_PATH",     "/util/comp/pgi/2018/linux86-64/18/lib")
+prepend_path("LIBRARY_PATH",     "/util/comp/pgi/2018/linux86-64/18/lib")
+prepend_path("MANPATH",             "/util/comp/pgi/2018/linux86-64/18/man")
+prepend_path("CPATH",             "/util/comp/pgi/2018/linux86-64/18/include")
 
 local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
-local mdir = pathJoin(mroot,"Compiler","pgi","16")
+local mdir = pathJoin(mroot,"Compiler","pgi","18")
 prepend_path("MODULEPATH",          mdir)
 
 setenv("CFLAGS",        "-tp=sandybridge")
