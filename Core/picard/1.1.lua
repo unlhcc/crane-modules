@@ -23,8 +23,11 @@ Version 1.139
 ]])
 
 if mode() == "load" then
+  LmodMessage("-------------------------| Help message for picard module |-------------------------------")
   LmodMessage("Usage: $PICARD_RUN <program name> -h")
-  LmodMessage("Increase Java heap space to 10GBs: java -Xms512m -Xmx10g -jar $PICARD <program name>")
+  LmodMessage("You can also pass -Xms or -Xmx arguments to control Java memory allocation.")
+  LmodMessage("For example, to increase Java heap space to 10GB, run: java -Xms512m -Xmx10g -jar $PICARD <program name>")
+  LmodMessage("------------------------------------------------------------------------------------------")
 end
 
 local picard = "/util/opt/BCRF/picard/1.1"
