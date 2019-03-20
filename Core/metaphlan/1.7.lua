@@ -13,9 +13,10 @@ whatis("Keywords: Biology, Taxonomy, High-throughput Sequencing")
 whatis("Description: MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data.")
 whatis("URL: http://huttenhower.sph.harvard.edu/metaphlan")
 
-prepend_path("PATH"		,"/util/opt/metaphlan/1.7")
+prepend_path("PATH"             ,"/util/opt/metaphlan/1.7")
 prepend_path("PATH"             ,"/util/opt/metaphlan/1.7/utils")
-prepend_path("PATH"             ,"/util/opt/metaphlan/1.7/scripts")
+prepend_path("PATH"             ,"/util/opt/metaphlan/1.7/conversion_scripts")
+prepend_path("PATH"             ,"/util/opt/metaphlan/1.7/plotting_scripts")
 
 setenv("METAPHLAN_BLAST_DB",	"/work/HCC/DATA/metaphlan/blastdb/mpa")
 setenv("METAPHLAN_BOWTIE2_DB",	"/work/HCC/DATA/metaphlan/bowtie2db/mpa")
