@@ -16,3 +16,5 @@ whatis("Description: COMSOL Multiphysics")
 
 prepend_path("PATH",              "/util/opt/comsol/5.4/comsol54/multiphysics/bin/")
 
+local work=os.getenv("WORK")
+prepend_path("_JAVA_OPTIONS", "-Duser.home=" .. work, " ")
