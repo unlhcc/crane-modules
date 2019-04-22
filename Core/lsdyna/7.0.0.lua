@@ -36,7 +36,7 @@ else
       if word == "reid" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
-      elseif word == "wittichlab" or word == "swanson" then
+      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "csong" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
       end
