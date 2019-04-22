@@ -18,7 +18,35 @@ whatis("Keywords: Application, Engineering")
 
 load("compiler/pgi/13","openmpi/1.6")
 
-setenv("LSTC_LICENSE", "network")
-setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
+--
+-- Logic to allow only certain HCC groups to use LS-DYNA
+--
+myUser = os.getenv("USER")
+tmpfile = "/tmp/"..myUser
+os.execute("/usr/bin/groups > "..tmpfile)
+local file,err = io.open(tmpfile, "r")
+if file==nil then
+    io.stderr:write("Couldn't open file: "..err)
+else
+  for line in file:lines() do
+    for word in line:gmatch("%w+") do
+      --
+      -- CHECK GROUP MEMBERSHIP
+      --
+      if word == "reid" or word == "mech950" then
+        setenv("LSTC_LICENSE", "network")
+        setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
+      elseif word == "wittichlab" or word == "swanson" then
+        setenv("LSTC_LICENSE", "network")
+        setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
+      end
+      -- io.stderr:write(word.."\n")
+    end
+  end
+  os.execute("/bin/rm "..tmpfile)
+end
+
+-- setenv("LSTC_LICENSE", "network")
+-- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
 prepend_path("PATH","/util/opt/lsdyna/r6.0.0/")
