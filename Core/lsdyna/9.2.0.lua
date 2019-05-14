@@ -37,6 +37,9 @@ else
       elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "csong" or word == "cematerials" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
+      elseif word == "bobaru" or word == "mnegahban" then --UNL Mechanical Engineering
+        setenv("LSTC_LICENSE", "network")
+        setenv("LSTC_LICENSE_SERVER", "10.138.31.208")
       end
       -- io.stderr:write(word.."\n")
     end
