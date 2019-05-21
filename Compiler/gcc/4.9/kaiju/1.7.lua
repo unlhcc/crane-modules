@@ -3,13 +3,20 @@ Kaiju is a program for the taxonomic classification of high-throughput sequencin
 
 Three environment variables have been defined that point to data sources that are required for the Kaiju program. These variables are:
 
-$KAIJU_DB    Reference database generated from the proGenomes database with 
-             additionally viral genomes from NCBI RefSeq. Broad phylogentic range, recommended
-             for environmental samples.
+$KAIJU_DB            Default reference database. Same as $KAIJU_DB_PROGENOMES. 
+$KAIJU_DB_REFSEQ     Completely assembled and annotated reference genomes of Archaea, 
+                     Bacteria, and viruses from the NCBI RefSeq database.
+$KAIJU_DB_PROGENOMES Representative set of genomes from the proGenomes database and viruses from the NCBI RefSeq database.
+                     Broad phylogentic range, recommended for environmental samples.
+$KAIJU_DB_VIRUSES    Only viruses from the NCBI RefSeq database.
+$KAIJU_DB_PLASMIDS   Plasmid sequences from the NCBI RefSeq database.
+$KAIJU_DB_NRPLUSEUK  Subset of NCBI BLAST nr database containing all proteins belonging to Archaea, 
+                     Bacteria and Viruses, with additionally include proteins from fungi and microbial eukaryotes.
+
 $NAMES       The names.dmp file from the NCBI Taxonomy database.
 $NODES       The nodes.dmp file from the NCBI Taxonomy database.
 
-Please not that $NAMES and $NODES are in sync with the $KAIJU_DB file - please do not replace with your own
+Please note that $NAMES and $NODES are in sync with the $KAIJU_DB file - please do not replace with your own
 NCBI Taxonomy files or the ones from the 'biodata' module.
 The above-mentioned database and files are updated by the Bioiformatics Core Facility and HCC on a quarterly basis.
 
@@ -34,7 +41,12 @@ local kaiju_data = "/work/HCC/BCRF/kaiju"
 
 pushenv ("NAMES", pathJoin(kaiju_data, "names.dmp"))
 pushenv ("NODES", pathJoin(kaiju_data, "nodes.dmp"))
-pushenv ("KAIJU_DB", pathJoin(kaiju_data, "kaiju_db.fmi")) 
+pushenv ("KAIJU_DB", pathJoin(kaiju_data, "kaiju_db_progenomes.fmi"))
+pushenv ("KAIJU_DB_PROGENOMES", pathJoin(kaiju_data, "kaiju_db_progenomes.fmi"))
+pushenv ("KAIJU_DB_REFSEQ", pathJoin(kaiju_data, "kaiju_db_refseq.fmi"))
+pushenv ("KAIJU_DB_VIRUSES", pathJoin(kaiju_data, "kaiju_db_viruses.fmi"))
+pushenv ("KAIJU_DB_PLASMIDS", pathJoin(kaiju_data, "kaiju_db_plasmids.fmi"))
+pushenv ("KAIJU_DB_NRPLUSEUK", pathJoin(kaiju_data, "kaiju_db_nreuk.fmi")) 
 prepend_path("PATH",		"/util/opt/BCRF/kaiju/1.7/gcc/4.9/bin")
 prepend_path("PATH",            "/util/opt/BCRF/kaiju/1.7/gcc/4.9/util")
 

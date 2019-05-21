@@ -38,3 +38,7 @@ pushenv ("KAIJU_DB", pathJoin(kaiju_data, "kaiju_db.fmi"))
 prepend_path("PATH",		"/util/opt/BCRF/kaiju/1.5/gcc/4.9/bin")
 prepend_path("PATH",            "/util/opt/BCRF/kaiju/1.5/gcc/4.9/util")
 
+if (mode() == "load") then
+        LmodMessage("Kaiju 1.5 is deprecated. Please use kaiju/1.7 instead.")
+        LmodMessage("     Kaiju 1.5 only has the ProGenomes database as reference, Kaiju 1.7 has a wider selection.")
+end

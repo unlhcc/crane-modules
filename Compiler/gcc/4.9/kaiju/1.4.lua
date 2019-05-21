@@ -12,3 +12,9 @@ whatis("URL: https://github.com/bioinformatics-centre/kaiju")
 
 prepend_path("PATH",		"/util/opt/kaiju/1.4/gcc/4.9/bin")
 
+# Kaiju 1.7 (and up) databases are kept up to date.
+if (mode() == "load") then
+        LmodMessage("Kaiju 1.5 is deprecated. Please use kaiju/1.7 instead.")
+        LmodMessage("     Kaiju 1.5 only has the ProGenomes database as reference, Kaiju 1.7 has a wider selection.")
+end
+
