@@ -21,3 +21,5 @@ prepend_path("MANPATH",             "/util/opt/petsc/3.10/openmpi/2.0/intel/16/s
 prepend_path("INCLUDE",             "/util/opt/petsc/3.10/openmpi/2.0/intel/16/include")
 prepend_path("CPATH",               "/util/opt/petsc/3.10/openmpi/2.0/intel/16/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/petsc/3.10/openmpi/2.0/intel/16/lib")
+
+prereq("intel-mkl/16")
