@@ -22,4 +22,4 @@ prepend_path("INCLUDE",             "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/in
 prepend_path("CPATH",               "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/lib")
 
-prereq("gcc-mkl/8.2")
+prereq("intel-mkl/19")
