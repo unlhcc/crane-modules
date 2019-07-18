@@ -12,6 +12,7 @@ $KAIJU_DB_VIRUSES    Only viruses from the NCBI RefSeq database.
 $KAIJU_DB_PLASMIDS   Plasmid sequences from the NCBI RefSeq database.
 $KAIJU_DB_NRPLUSEUK  Subset of NCBI BLAST nr database containing all proteins belonging to Archaea, 
                      Bacteria and Viruses, with additionally include proteins from fungi and microbial eukaryotes.
+$KAIJU_DB_FUNGI      Subset of NCBI RefSeq, containing all fungi assemblies.
 
 $NAMES       The names.dmp file from the NCBI Taxonomy database.
 $NODES       The nodes.dmp file from the NCBI Taxonomy database.
@@ -32,7 +33,7 @@ Please reach the full manual at https://github.com/bioinformatics-centre/kaiju f
 help(help_message,"\n")
 
 whatis("Name: Kaiju")
-whatis("Version: 1.7.0")
+whatis("Version: 1.7.2")
 whatis("Category: Bioinformatics, Metagenomics, Taxonomy")
 whatis("Keywords: Bioinformatics, Metagenomics, Taxonomy")
 whatis("URL: https://github.com/bioinformatics-centre/kaiju")
@@ -46,7 +47,8 @@ pushenv ("KAIJU_DB_PROGENOMES", pathJoin(kaiju_data, "kaiju_db_progenomes.fmi"))
 pushenv ("KAIJU_DB_REFSEQ", pathJoin(kaiju_data, "kaiju_db_refseq.fmi"))
 pushenv ("KAIJU_DB_VIRUSES", pathJoin(kaiju_data, "kaiju_db_viruses.fmi"))
 pushenv ("KAIJU_DB_PLASMIDS", pathJoin(kaiju_data, "kaiju_db_plasmids.fmi"))
-pushenv ("KAIJU_DB_NRPLUSEUK", pathJoin(kaiju_data, "kaiju_db_nreuk.fmi")) 
+pushenv ("KAIJU_DB_NRPLUSEUK", pathJoin(kaiju_data, "kaiju_db_nreuk.fmi"))
+pushenv ("KAIJU_DB_FUNGI", pathJoin(kaiju_data, "kaiju_db_fungi.fmi")) 
 prepend_path("PATH",		"/util/opt/BCRF/kaiju/1.7/gcc/4.9/bin")
 prepend_path("PATH",            "/util/opt/BCRF/kaiju/1.7/gcc/4.9/util")
 
