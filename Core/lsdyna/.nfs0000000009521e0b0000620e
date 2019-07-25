@@ -1,6 +1,6 @@
 local help_message = [[
 LS-DYNA (Finite Element Analysis Software)
-  Provided for and used by permission of Prof. John Reid
+  Provided for and used with permission of Prof. John Reid
 
 ## This is a special dev version, only MPI version available ##
 
@@ -14,7 +14,7 @@ help(help_message,"\n")
 whatis("Name: LS-DYNA")
 whatis("Keywords: Application, Engineering")
 
-load("compiler/intel/13","openmpi/1.8")
+load("compiler/intel/16","openmpi/1.10")
 
 --
 -- Logic to allow only certain HCC groups to use LS-DYNA
@@ -34,7 +34,7 @@ else
       if word == "reid" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
-      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "csong" or word == "cematerials" or word == "simlab" then
+      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "csong" or word == "cematerials" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
       elseif word == "bobaru" or word == "mnegahban" then --UNL Mechanical Engineering
@@ -50,4 +50,4 @@ end
 -- setenv("LSTC_LICENSE", "network")
 -- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
-prepend_path("PATH","/util/opt/lsdyna/r8.1.0/")
+prepend_path("PATH","/util/opt/lsdyna/r10.1/")
