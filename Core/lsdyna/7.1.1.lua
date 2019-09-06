@@ -38,13 +38,13 @@ else
       elseif word == "bobaru" or word == "mnegahban" then --UNL Mechanical Engineering
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.208")
+      elseif word == "cbbl" then
+        setenv("LSTC_LICENSE", "network")
+        setenv("LSTC_LICENSE_SERVER", "137.197.207.245")
       end
       -- io.stderr:write(word.."\n")
     end
   end
-      elseif word == "cbbl" then
-        setenv("LSTC_LICENSE", "network")
-        setenv("LSTC_LICENSE_SERVER", "137.197.207.245")
   os.execute("/bin/rm "..tmpfile)
 end
 
