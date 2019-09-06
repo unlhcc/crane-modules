@@ -43,11 +43,11 @@ else
       elseif word == "cbbl" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "137.197.207.245")
-      end
-      -- io.stderr:write(word.."\n")
       elseif word == "cbbl" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "137.197.207.245")
+      end
+      -- io.stderr:write(word.."\n")
     end
   end
   os.execute("/bin/rm "..tmpfile)
