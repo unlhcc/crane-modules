@@ -20,6 +20,7 @@ whatis("Category: library, mathematics")
 whatis("Keywords: Mathematics, Library")
 whatis("URL: https://norsys.com/netica_c_api.htm")
 
+prepend_path("LIBRARY_PATH",     "/util/opt/netica-c/5.04/gcc/9.1/lib")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/netica-c/5.04/gcc/9.1/lib")
 prepend_path("CPATH",             "/util/opt/netica-c/5.04/gcc/9.1/src")
 setenv("NETICA_HOME", "/util/opt/netica-c/5.04/gcc/9.1")
