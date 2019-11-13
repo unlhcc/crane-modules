@@ -8,7 +8,7 @@ root location of the Netica-C install. You can use this variable
 when compiling to include the 'NeticaEx.o' object file. For example,
 to compile 'mycode.c', do
 
-gcc $NETICA_HOME/lib/NeticaEx.o mycode.c -o mycode lm -lrt -lnetica -lpthread -lstdc++
+gcc $NETICA_HOME/lib/NeticaEx.o mycode.c -o mycode -lm -lrt -lnetica -lpthread -lstdc++
 
 ]]
 
