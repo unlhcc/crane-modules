@@ -14,7 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: Applications, Chemistry")
 whatis("URL: http://www.cp2k.org/download")
 
-load("intel-mkl/16")
+load("intel-mkl/15")
 prepend_path("PATH",             "/util/opt/cp2k/6.1/exe/Linux-x86-64-intelplumed")
 
 --PLUMED
