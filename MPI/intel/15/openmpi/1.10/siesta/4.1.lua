@@ -12,3 +12,4 @@ whatis("URL: https://web.pa.msu.edu/people/tomanek/SIESTA-installation.html")
 
 load("intel-mkl/15")
 prepend_path("PATH",                "/util/opt/siesta/4.1/intel/15/openmpi/1.10/bin/")
+prepend_path("PATH",                "/util/opt/siesta/4.1/intel/15/openmpi/1.10/bin_util/")
