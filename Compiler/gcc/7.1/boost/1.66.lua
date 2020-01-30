@@ -16,6 +16,7 @@ whatis("URL: http://www.boost.org")
 whatis("Description: Boost provides free peer-reviewed portable C++ source libraries.")
 
 setenv("BOOST_DIR",	    "/util/opt/boost/1.66/gcc/7.1")
+setenv("Boost_DIR",	    "/util/opt/boost/1.66/gcc/7.1")
 setenv("BOOST_INCLUDE",     "/util/opt/boost/1.66/gcc/7.1/include")
 
 -- Add boost to the LD_LIBRARY_PATH, LIBRARY_PATH
