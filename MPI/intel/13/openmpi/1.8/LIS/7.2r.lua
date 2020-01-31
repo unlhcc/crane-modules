@@ -38,6 +38,7 @@ prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/hdf5-1.8.12/lib")
 prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/hdf4.2r4/lib")
 prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/grib_api-1.9.16/lib")
 prepend_path("LD_LIBRARY_PATH","/util/opt/LIS/dependencies/esmf/lib/lib0/Linux.intel.64.openmpi.default")
+prepend_path("LD_LIBRARY_PATH","/util/opt/szip/2.1/intel/13/lib")
 
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/netcdf-4.3.0/lib")
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/jasper-1.900.1/lib")
@@ -47,6 +48,7 @@ prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/hdf5-1.8.12/lib")
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/hdf4.2r4/lib")
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/grib_api-1.9.16/lib")
 prepend_path("LIBRARY_PATH","/util/opt/LIS/dependencies/esmf/lib/lib0/Linux.intel.64.openmpi.default")
+prepend_path("LIBRARY_PATH","/util/opt/szip/2.1/intel/13/lib")
 
 family("LIS")
 
