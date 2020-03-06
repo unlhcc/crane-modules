@@ -16,5 +16,7 @@ whatis("Description: ANSYS offers a comprehensive software suite that spans the 
 whatis("URL: https://www.ansys.com")
 
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/Framework/bin/Linux64")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/fluent/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/ansys/bin")
 local work=os.getenv("WORK") or "/tmp"
 setenv("TEMP",  pathJoin(work,".ansys"))
