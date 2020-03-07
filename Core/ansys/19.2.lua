@@ -18,5 +18,13 @@ whatis("URL: https://www.ansys.com")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/Framework/bin/Linux64")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/fluent/bin")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/ansys/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/CFX/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/aisol/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/shared_files/licensing/lic_admin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/TurboGrid/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/aisol/bin/linx64")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/aisol/CommonFiles/linx64")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/AFD/bin")
+
 local work=os.getenv("WORK") or "/tmp"
 setenv("TEMP",  pathJoin(work,".ansys"))
