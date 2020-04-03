@@ -9,7 +9,7 @@ compilers.
 --help(help_message,"\n")
 
 whatis("Name: NUWRF")
-whatis("Version: NUWRF")
+whatis("Version: v7")
 whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: http://cloud.gsfc.nasa.gov/index.php?section=13")
