@@ -6,6 +6,8 @@ variables to access the toolkit binaries, libraries, include
 files, and available man pages, respectively.
 
 Version 8.0
+
+This module also includes cuDNN 5.1.10.
 ]]
 )
 
@@ -19,11 +21,7 @@ whatis("Description: NVIDIA CUDA Toolkit for Linux.")
 
 prepend_path("PATH",              "/util/opt/cuda/8.0/bin")
 prepend_path("LD_LIBRARY_PATH",   "/util/opt/cuda/8.0/lib64")
-prepend_path("LD_LIBRARY_PATH",   "/util/opt/cuda/8.0/lib")
-prepend_path("LD_LIBRARY_PATH",   "/usr/lib64/nvidia")
 prepend_path("LIBRARY_PATH",      "/util/opt/cuda/8.0/lib64")
-prepend_path("LIBRARY_PATH",      "/util/opt/cuda/8.0/lib")
-prepend_path("LIBRARY_PATH",      "/usr/lib64/nvidia")
 prepend_path("MANPATH",		  "/util/opt/cuda/8.0/doc/man")
 prepend_path("CPATH",		  "/util/opt/cuda/8.0/include")
 setenv("CUDA_HOME",		  "/util/opt/cuda/8.0")

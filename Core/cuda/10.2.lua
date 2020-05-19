@@ -6,6 +6,8 @@ variables to access the toolkit binaries, libraries, include
 files, and available man pages, respectively.
 
 Version 10.2
+
+This module also includes cuDNN 7.6.5.
 ]]
 )
 
