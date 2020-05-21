@@ -33,3 +33,4 @@ hide-version trinity/r2013-11-10
 hide-version trinity/r2014-04-13p1
 hide-version trinity/2.0
 hide-version trinity/2.1
+hide-version comsol/5.5
