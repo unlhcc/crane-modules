@@ -6,7 +6,7 @@ Lua module files for **crane.unl.edu**
 How to update:
 -------------
 
-The workflow is to create a new branch for each package to be added,
+The workflow is to create a new branch for each module file to be added/changed,
 which will then later get merged into the master branch.
 
 If you don't have a copy of the repo, clone it first:
@@ -16,11 +16,12 @@ If you don't have a copy of the repo, clone it first:
 If you've already cloned it, do a pull to make sure you're up to date:
 
 `git checkout master`
+
 `git pull`
 
-Next, create a branch to add the new package module to.  Good practice is to name the branch
-with the package name and version; for example, `mypackage-1.0`.  Create the new branch via
-the `checkout` command:
+Next, create a branch to add the new package module (or changes to an existing module) to.
+Good practice is to name the branch with the package name and version; for example, `mypackage-1.0`.
+Create the new branch via the `checkout` command:
 
 `git checkout -b mypackage-1.0`
 
