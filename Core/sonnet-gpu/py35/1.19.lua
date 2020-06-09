@@ -14,3 +14,5 @@ whatis("URL: https://deepmind.github.io")
 pushenv("CONDA_DEFAULT_ENV", "dm-sonnet-gpu-1.19-py35")
 append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/dm-sonnet-gpu/envs")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/dm-sonnet-gpu/envs/dm-sonnet-gpu-1.19-py35/bin")
+
+family("python")
