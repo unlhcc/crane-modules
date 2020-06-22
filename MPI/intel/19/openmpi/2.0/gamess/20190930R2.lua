@@ -1,10 +1,10 @@
 local help_message = [[
 GAMESS 20190930R2
 
-This module loads the gamess environment, built with the Intel 19
-compilers.
-Note: Please copy /util/opt/gamess/20190930R2/openmpi/2.0/intel/19/run-gamess-general.slurm
-to your working directory and create $WORK/scr before running gamess.
+This module loads the gamess environment, built with the Intel 19 compilers.
+Note: Please see https://github.com/unlhcc/job-examples/blob/master/gamess/run-gamess-general.slurm
+for example of submit job for gamess suitable for Crane. Depending on the version you use, 
+please change the module versions accordingly.
 
 ]]
 
