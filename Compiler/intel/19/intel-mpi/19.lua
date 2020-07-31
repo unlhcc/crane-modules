@@ -26,7 +26,7 @@ prepend_path("INCLUDE",             "/util/opt/intel-mpi/19/compilers_and_librar
 prepend_path("CPATH",               "/util/opt/intel-mpi/19/compilers_and_libraries/linux/mpi/intel64/include")
 
 local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
-local mdir = pathJoin(mroot,"MPI","intel-mpi","19")
+local mdir = pathJoin(mroot,"MPI","intel","19","intel-mpi","19")
 prepend_path("MODULEPATH",          mdir)
 
 setenv("CC",	"mpiicc")
