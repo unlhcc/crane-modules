@@ -35,7 +35,7 @@ setenv("FCFLAGS",        "-tp=sandybridge")
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
 setenv("F90",	"pgf90")
-setenv("F77",	"pgf77")
+setenv("F77",	"pgfortran")
 setenv("CPP",	"pgcc -E")
 setenv("CXX",	"pgc++")
 
