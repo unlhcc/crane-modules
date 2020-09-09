@@ -34,3 +34,5 @@ family("netcdfcxx4")
 prepend_path("CPATH",             "/util/opt/netcdf/4.7/pgi/20/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/netcdf/4.7/pgi/20/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/netcdf/4.7/pgi/20/lib/pkgconfig")
+
+load("hdf5/1.12","szip/2.1","zlib/1.2")
