@@ -21,5 +21,6 @@ prepend_path("INCLUDE",             "/util/opt/udunits/2.2.26/pgi/20/include")
 
 family("udunits2")
 
-prepend_path("CPATH",             "/util/opt/udunits/2.2.26/pgi/20/include")
-prepend_path("LIBRARY_PATH",     "/util/opt/udunits/2.2.26/pgi/20/lib")
+prepend_path("CPATH",           "/util/opt/udunits/2.2.26/pgi/20/include")
+prepend_path("LIBRARY_PATH",    "/util/opt/udunits/2.2.26/pgi/20/lib")
+setenv("UDUNITS2",              "/util/opt/udunits/2.2.26/pgi/20")
