@@ -20,7 +20,7 @@ prepend_path("INCLUDE",             "/util/opt/zlib/1.2.11/pgi/20/include")
 
 family("zlib")
 
-
 prepend_path("CPATH",             "/util/opt/zlib/1.2.11/pgi/20/include")
-prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2.11/pgi/20/lib")
-prepend_path("PKG_CONFIG_PATH",        "/util/opt/zlib/1.2.11/pgi/20/lib/pkgconfig")
+prepend_path("LIBRARY_PATH",      "/util/opt/zlib/1.2.11/pgi/20/lib")
+prepend_path("PKG_CONFIG_PATH",   "/util/opt/zlib/1.2.11/pgi/20/lib/pkgconfig")
+setenv("ZLIB",                    "/util/opt/zlib/1.2.11/pgi/20")
