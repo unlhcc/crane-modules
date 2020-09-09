@@ -22,5 +22,6 @@ prepend_path("INCLUDE",             "/util/opt/hdf5/1.12/pgi/20/include")
 load("szip/2.1","zlib/1.2")
 family("hdf5")
 
-prepend_path("CPATH",             "/util/opt/hdf5/1.12/pgi/20/include")
-prepend_path("LIBRARY_PATH",     "/util/opt/hdf5/1.12/pgi/20/lib")
+prepend_path("CPATH",           "/util/opt/hdf5/1.12/pgi/20/include")
+prepend_path("LIBRARY_PATH",    "/util/opt/hdf5/1.12/pgi/20/lib")
+setenv("HDF5",                  "/util/opt/hdf5/1.12/pgi/20")

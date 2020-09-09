@@ -19,6 +19,6 @@ prepend_path("INCLUDE",             "/util/opt/szip/2.1.1/pgi/20/include")
 
 family("szip")
 
-
-prepend_path("CPATH",             "/util/opt/szip/2.1.1/pgi/20/include")
-prepend_path("LIBRARY_PATH",     "/util/opt/szip/2.1.1/pgi/20/lib")
+prepend_path("CPATH",           "/util/opt/szip/2.1.1/pgi/20/include")
+prepend_path("LIBRARY_PATH",    "/util/opt/szip/2.1.1/pgi/20/lib")
+setenv("SZIP",                  "/util/opt/szip/2.1.1/pgi/20")
