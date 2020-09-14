@@ -10,7 +10,7 @@ The man     directory is added to MANPATH.
 
 help(help_message,"\n")
 
-whatis("Name: Intel Compilers")
+whatis("Name: Intel Compiler")
 whatis("Version: 20")
 whatis("Category: compiler")
 whatis("Keywords: System, compiler")
