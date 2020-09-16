@@ -21,7 +21,7 @@ whatis("URL: https://www.unidata.ucar.edu/software/netcdf/docs/index.html")
 
 prepend_path("NETCDF",              "/util/opt/netcdf/4.7/pgi/20")
 prepend_path("NCDIR",              "/util/opt/netcdf/4.7/pgi/20")
-prepend_path("PATH",                "/util/opt/netcdf/4.7/pgi/20/bin")
+prepend_path{"PATH",                "/util/opt/netcdf/4.7/pgi/20/bin",priority=100}
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/netcdf/4.7/pgi/20/lib")
 prepend_path("MANPATH",             "/util/opt/netcdf/4.7/pgi/20/share/man")
 prepend_path("INCLUDE",             "/util/opt/netcdf/4.7/pgi/20/include")
