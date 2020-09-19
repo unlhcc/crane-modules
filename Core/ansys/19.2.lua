@@ -25,6 +25,7 @@ prepend_path("PATH",  "/util/opt/ansys/19.2/v192/TurboGrid/bin")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/aisol/bin/linx64")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/aisol/CommonFiles/linx64")
 prepend_path("PATH",  "/util/opt/ansys/19.2/v192/AFD/bin")
+prepend_path("PATH",  "/util/opt/ansys/19.2/v192/icemcfd/linux64_amd/bin")
 
 local work=os.getenv("WORK") or "/tmp"
 setenv("TEMP",  pathJoin(work,".ansys"))
