@@ -34,3 +34,4 @@ hide-version trinity/r2014-04-13p1
 hide-version trinity/2.0
 hide-version trinity/2.1
 hide-version comsol/5.5
+hide-version matlab/r2020b
