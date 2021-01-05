@@ -33,7 +33,7 @@ else
       --
       if word == "reid" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
-        setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
+        setenv("LSTC_LICENSE_SERVER", "10.71.104.44")
       elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "skimlab" or word == "cematerials" or word == "simlab" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
@@ -51,6 +51,6 @@ else
 end
 
 -- setenv("LSTC_LICENSE", "network")
--- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
+-- setenv("LSTC_LICENSE_SERVER", "10.71.104.44")
 
 prepend_path("PATH","/util/opt/lsdyna/r10.1/")
