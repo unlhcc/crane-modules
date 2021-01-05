@@ -39,6 +39,7 @@ family("mpi")
 
 -- IMPI 18+ needs these libs, but they cause a slowdown for older versions.
 -- See https://help.hcc.unl.edu/a/tickets/26679
-prepend_path("PATH",                "/util/opt/libfabric/1.1.0/bin")
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/libfabric/1.1.0/lib")
+-- IMPI 19 needs FABRIC_1.1, which is in newer versions of libfabric
+prepend_path("PATH",                "/util/opt/libfabric/1.11/gcc/4.4/bin")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/libfabric/1.11/gcc/4.4/lib")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/dapl/2.1.7/lib/")
