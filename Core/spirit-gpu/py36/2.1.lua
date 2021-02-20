@@ -14,3 +14,5 @@ whatis("Description: Optimizations and Dynamics Framework for atomistic Spin sys
 pushenv("CONDA_DEFAULT_ENV", "spirit-gpu-2.1.1-py36")
 append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/spirit-gpu/envs")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/spirit-gpu/envs/spirit-gpu-2.1.1-py36/bin")
+
+family("python")
