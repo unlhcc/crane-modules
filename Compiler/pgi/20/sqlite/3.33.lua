@@ -14,6 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://www.sqlite.org/index.html")
 
+prepend_path("PATH",     "/util/opt/sqlite/3.33/pgi/20/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/sqlite/3.33/pgi/20/lib")
 prepend_path("MANPATH",             "/util/opt/sqlite/3.33/pgi/20/share/man")
 prepend_path("INCLUDE",             "/util/opt/sqlite/3.33/pgi/20/include")
