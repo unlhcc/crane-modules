@@ -17,7 +17,8 @@ load("fftw3/3.3","intel-mkl/18","hdf5/1.8","python/3.6")
 
 prepend_path("PATH","/util/opt/alps/2.3/openmpi/4.0/gcc/9.1/bin")
 prepend_path("LD_LIBRARY_PATH","/util/opt/alps/2.3/openmpi/4.0/gcc/9.1/lib")
-prepend_path("MANPATH","/util/opt/gromacs/2020.1/openmpi/4.0/gcc/9.1/share/man")
+prepend_path("LIBRARY_PATH","/util/opt/alps/2.3/openmpi/4.0/gcc/9.1/lib")
+
 setenv("ALPS_HOME", "/util/opt/alps/2.3/openmpi/4.0/gcc/9.1")
 setenv("ALPS_ROOT", "/util/opt/alps/2.3/openmpi/4.0/gcc/9.1")
 
